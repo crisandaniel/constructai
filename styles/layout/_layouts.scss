@@ -9,13 +9,21 @@
 .materials-strip {
   border-top: $border-subtle;
   border-bottom: $border-subtle;
-  padding: $space-3 $space-6;
+  padding: $space-3 $space-4;
   display: flex;
-  gap: $space-3;
+  gap: $space-2;
   align-items: center;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   background: $color-surface;
+  scrollbar-width: none; // hide scrollbar on mobile but keep scroll
+  &::-webkit-scrollbar { display: none; }
   @include custom-scrollbar;
+
+  @include respond-to(md) {
+    padding: $space-3 $space-6;
+    gap: $space-3;
+  }
 
   &__label { font-size: $font-size-xs; color: $color-dust; white-space: nowrap; flex-shrink: 0; }
 }
@@ -23,18 +31,28 @@
 // Materials grid
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1px;
   background: $color-border;
   border: $border-subtle;
   border-radius: $radius-xl;
   overflow: hidden;
+
+  @include respond-to(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to(lg) {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
 }
 
 // Section header
 .section {
-  &__header { margin-bottom: $space-8; }
-  &__title  { @include font-display($font-size-3xl, $font-weight-extrabold); margin-bottom: $space-2; }
+  &__header { margin-bottom: $space-6; @include respond-to(md) { margin-bottom: $space-8; } }
+  &__title  { @include font-display($font-size-2xl, $font-weight-extrabold); margin-bottom: $space-2;
+    @include respond-to(md) { font-size: $font-size-3xl; }
+  }
   &__subtitle { color: $color-dust; font-size: $font-size-sm; }
 }
 
@@ -42,8 +60,17 @@
 .footer {
   border-top: $border-subtle;
   background: $color-surface;
-  padding: $space-5 $space-6;
-  @include flex-between;
+  padding: $space-4 $space-4;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+  text-align: center;
+
+  @include respond-to(md) {
+    padding: $space-5 $space-6;
+    @include flex-between;
+    text-align: left;
+  }
 
   &__brand { @include font-display($font-size-sm, $font-weight-bold); }
   &__note  { font-size: $font-size-xs; color: $color-dust; }

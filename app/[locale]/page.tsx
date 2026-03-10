@@ -17,20 +17,20 @@ export default async function HomePage({ params: { locale } }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="max-w-app mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-app mx-auto px-4 py-12 md:px-6 md:py-24 grid md:grid-cols-2 gap-8 md:gap-16 items-center">
         <div>
           <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 text-gold px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase mb-6">
             <span className="animate-pulse-dot text-[0.4rem]">●</span>
             {t('badge')}
           </div>
-          <h1 className="font-syne font-extrabold text-5xl leading-none tracking-tight mb-6">
+          <h1 className="font-syne font-extrabold text-3xl sm:text-4xl md:text-5xl leading-none tracking-tight mb-4 md:mb-6">
             {t.rich('title', {
               highlight: (chunks) => (
                 <em className="not-italic text-gold">{chunks}</em>
               ),
             })}
           </h1>
-          <p className="text-dust text-lg leading-relaxed mb-8 max-w-md">{t('description')}</p>
+          <p className="text-dust text-base md:text-lg leading-relaxed mb-6 md:mb-8 max-w-md">{t('description')}</p>
           <div className="flex gap-3 flex-wrap">
             <Link href={`/${locale}/asistent`} className="btn btn--primary">{t('ctaPrimary')}</Link>
             <Link href={`/${locale}/asistent`} className="btn btn--secondary">{t('ctaSecondary')}</Link>
@@ -54,7 +54,7 @@ export default async function HomePage({ params: { locale } }: Props) {
       </section>
 
       {/* Knowledge base — client component handles filter strip + grid */}
-      <section className="max-w-app mx-auto px-6 py-16">
+      <section className="max-w-app mx-auto px-4 md:px-6 py-10 md:py-16">
         <div className="section__header">
           <h2 className="section__title">{tKb('title')}</h2>
           <p className="section__subtitle">{tKb('subtitle')}</p>
@@ -71,8 +71,8 @@ export default async function HomePage({ params: { locale } }: Props) {
 
       {/* CTA */}
       <section className="border-t border-subtle bg-surface">
-        <div className="max-w-app mx-auto px-6 py-20 text-center">
-          <h2 className="font-syne font-extrabold text-4xl mb-4">{tCta('title')}</h2>
+        <div className="max-w-app mx-auto px-4 md:px-6 py-12 md:py-20 text-center">
+          <h2 className="font-syne font-extrabold text-2xl md:text-4xl mb-4">{tCta('title')}</h2>
           <p className="text-dust mb-8 max-w-md mx-auto">{tCta('description')}</p>
           <Link href={`/${locale}/asistent`} className="btn btn--primary inline-flex">
             {tCta('button')}
