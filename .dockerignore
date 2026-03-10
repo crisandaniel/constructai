@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js build output
+.next
+out
+
+# Environment files — NICIODATĂ în imagine
+.env
+.env.*
+!.env.example
+
+# Development
+.git
+.gitignore
+README.md
+*.md
+
+# Scripts și date locale
+scripts
+data/pdfs
+data/generated
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

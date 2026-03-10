@@ -1,5 +1,5 @@
 import type { MaterialSpec } from '@/types'
-import { GENERATED_MATERIALS } from '../data/generated/materials-kb-2026-03-10'
+import { GENERATED_MATERIALS } from '@/lib/materials-kb-2026-03-10'
 
 export const MATERIALS_KB = GENERATED_MATERIALS as unknown as MaterialSpec[];
 

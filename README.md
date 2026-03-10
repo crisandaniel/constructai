@@ -78,3 +78,11 @@ styles/
 1. Create `lib/ai/providers/myprovider.ts` implementing `AIProvider`
 2. Add a `case` in `lib/ai/index.ts`
 3. Set `AI_PROVIDER=myprovider` in `.env.local`
+
+## Docker
+
+```
+export DOCKER_BUILDKIT=1
+docker build -t constructai .
+docker compose up
+```
