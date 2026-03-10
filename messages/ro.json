@@ -168,6 +168,7 @@
     "newChat": "Conversație nouă! Cu ce vă pot ajuta? 🏗️",
     "errorConnect": "⚠️ Eroare la conectare. Verificați cheia API și reîncercați.",
     "suggestions": [
+      "🏗️ Despre ce materiale ai informatii?",
       "🧱 Câtă cărămidă pentru 20m² perete?",
       "📐 Câtă șapă pentru 60m² pardoseală?",
       "🎨 Consum tencuială per mp?",

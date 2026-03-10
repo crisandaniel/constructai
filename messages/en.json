@@ -168,6 +168,7 @@
     "newChat": "New conversation! How can I help? 🏗️",
     "errorConnect": "⚠️ Connection error. Check your API key and try again.",
     "suggestions": [
+      "🏗️ Which materials do you know about?",
       "🧱 How many bricks for a 20m² wall?",
       "📐 How much screed for 60m² floor?",
       "🎨 Plaster consumption per m²?",

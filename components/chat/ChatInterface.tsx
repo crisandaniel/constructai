@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { useChatStore } from '@/lib/store'
 import { ChatMessage, TypingIndicator } from './ChatMessage'
 import { useAnalytics } from '@/hooks/useAnalytics'
+import { MATERIALS_KB } from '@/lib/materials-data'
 
 interface Props {
   initialMessage?: string
@@ -33,6 +34,35 @@ export function ChatInterface({ initialMessage, locale = 'ro' }: Props) {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, streamingText, isLoading])
 
+  // Keywords that trigger a local hardcoded response (no API call)
+  function getLocalResponse(msg: string): string | null {
+    const lower = msg.toLowerCase()
+    const isMaterialsQuery =
+      lower.includes('ce materiale') ||
+      lower.includes('ce produse') ||
+      lower.includes('ce stii') ||
+      lower.includes('ce știi') ||
+      lower.includes('lista materiale') ||
+      lower.includes('what materials') ||
+      lower.includes('what do you know')
+
+    if (!isMaterialsQuery) return null
+
+    const byCategory = MATERIALS_KB.reduce<Record<string, string[]>>((acc, m) => {
+      if (!acc[m.category]) acc[m.category] = []
+      acc[m.category].push(m.name)
+      return acc
+    }, {})
+
+    const lines = Object.entries(byCategory)
+      .map(([cat, names]) => `**${cat}**\n${names.map(n => `- ${n}`).join('\n')}`)
+      .join('\n\n')
+
+    return `Cunosc următoarele materiale de construcții:
+
+${lines}`
+  }
+
   async function sendMessage(text?: string) {
     const msg = (text || input).trim()
     if (!msg || isLoading) return
@@ -42,6 +72,16 @@ export function ChatInterface({ initialMessage, locale = 'ro' }: Props) {
     addMessage('user', msg)
     setLoading(true)
     setStreamingText('')
+
+    // Check for local response first — no API call needed
+    const localResponse = getLocalResponse(msg)
+    if (localResponse) {
+      setTimeout(() => {
+        addMessage('assistant', localResponse)
+        setLoading(false)
+      }, 300)
+      return
+    }
 
     const history = [
       ...messages.map((m) => ({ role: m.role, content: m.content })),
@@ -77,8 +117,8 @@ export function ChatInterface({ initialMessage, locale = 'ro' }: Props) {
 
       addMessage('assistant', full)
       setStreamingText('')
-    } catch (err) {
-      addMessage('assistant', t('errorConnect') + err)
+    } catch {
+      addMessage('assistant', t('errorConnect'))
     } finally {
       setLoading(false)
     }
