@@ -28,14 +28,25 @@ export function ChatMessage({ message, isStreaming }: ChatMessageProps) {
 
   return (
     <div className={cn('chat__message', isAI ? 'chat__message--ai' : 'chat__message--user')}>
-      <div className={cn('msg-avatar', isAI ? 'msg-avatar--ai' : 'msg-avatar--user')}>
-        {isAI ? '🤖' : '👤'}
+      {/* Avatar row — only for AI */}
+      {isAI && (
+        <div className="chat__message-header">
+          <div className="msg-avatar msg-avatar--ai">🤖</div>
+        </div>
+      )}
+
+      {/* Bubble — full width below avatar for AI, aligned right for user */}
+      <div className="flex items-end gap-2 w-full" style={isAI ? {} : { justifyContent: 'flex-end' }}>
+        <div
+          className={cn('chat__bubble', 'prose-chat')}
+          dangerouslySetInnerHTML={{ __html: renderMarkdown(message.content) }}
+        />
+        {!isAI && (
+          <div className="msg-avatar msg-avatar--user flex-shrink-0">👤</div>
+        )}
       </div>
-      <div
-        className={cn('chat__bubble', 'prose-chat')}
-        dangerouslySetInnerHTML={{ __html: renderMarkdown(message.content) }}
-      />
-      {isStreaming && <span className="self-end text-dust text-xs mb-1 animate-pulse">●</span>}
+
+      {isStreaming && <span className="text-dust text-xs animate-pulse self-start ml-1">●</span>}
     </div>
   )
 }
@@ -43,7 +54,9 @@ export function ChatMessage({ message, isStreaming }: ChatMessageProps) {
 export function TypingIndicator() {
   return (
     <div className="chat__typing">
-      <div className="msg-avatar msg-avatar--ai">🤖</div>
+      <div className="chat__message-header">
+        <div className="msg-avatar msg-avatar--ai">🤖</div>
+      </div>
       <div className="chat__typing-dots">
         <span /><span /><span />
       </div>

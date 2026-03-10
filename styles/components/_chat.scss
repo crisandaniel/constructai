@@ -55,14 +55,29 @@
   // Single message row
   &__message {
     display: flex;
-    gap: $space-3;
+    flex-direction: column;
+    gap: $space-2;
     animation: fadeUp 0.3s ease;
-    &--user { flex-direction: row-reverse; }
+
+    &--ai {
+      align-items: flex-start;
+    }
+
+    &--user {
+      align-items: flex-end;
+    }
+  }
+
+  // Avatar + name row (only for AI)
+  &__message-header {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
   }
 
   // Message bubble
   &__bubble {
-    max-width: 80%;
+    max-width: 85%;
     padding: $space-3 $space-4;
     border-radius: $radius-xl;
 
@@ -70,6 +85,8 @@
       background: $color-surface;
       border: $border-subtle;
       border-top-left-radius: $radius-sm;
+      max-width: 100%;
+      width: 100%;
     }
 
     .chat__message--user & {
