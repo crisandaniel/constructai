@@ -4,12 +4,14 @@ import { useRef, useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { useChatStore } from '@/lib/store'
 import { ChatMessage, TypingIndicator } from './ChatMessage'
+import { useAnalytics } from '@/hooks/useAnalytics'
 
 interface Props {
   initialMessage?: string
+  locale?: string
 }
 
-export function ChatInterface({ initialMessage }: Props) {
+export function ChatInterface({ initialMessage, locale = 'ro' }: Props) {
   const t = useTranslations('chat')
   const { messages, isLoading, addMessage, setLoading, clearChat } = useChatStore()
   const [input, setInput] = useState(initialMessage || '')
@@ -17,12 +19,13 @@ export function ChatInterface({ initialMessage }: Props) {
   const [showSuggestions, setShowSuggestions] = useState(true)
   const [initialized, setInitialized] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const { track, sessionId } = useAnalytics(locale)
 
-  // Initialize with translated welcome message on first render
   useEffect(() => {
     if (!initialized) {
       clearChat(t('welcome'))
       setInitialized(true)
+      track('chat_open')
     }
   }, [initialized, clearChat, t])
 
@@ -49,7 +52,7 @@ export function ChatInterface({ initialMessage }: Props) {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: history }),
+        body: JSON.stringify({ messages: history, sessionId, locale }),
       })
 
       if (!res.ok) throw new Error('API error')
@@ -85,11 +88,15 @@ export function ChatInterface({ initialMessage }: Props) {
     if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage() }
   }
 
+  function handleSuggestion(s: string) {
+    track('suggestion_click', { text: s })
+    sendMessage(s)
+  }
+
   const suggestions = t.raw('suggestions') as string[]
 
   return (
     <div className="chat__container">
-      {/* Header */}
       <div className="chat__header">
         <div className="chat__avatar">🤖</div>
         <div>
@@ -107,7 +114,6 @@ export function ChatInterface({ initialMessage }: Props) {
         </div>
       </div>
 
-      {/* Messages */}
       <div className="chat__messages">
         {messages.map((m) => <ChatMessage key={m.id} message={m} />)}
         {isLoading && streamingText && (
@@ -120,12 +126,11 @@ export function ChatInterface({ initialMessage }: Props) {
         <div ref={messagesEndRef} />
       </div>
 
-      {/* Input area */}
       <div className="chat__input-area">
         {showSuggestions && (
           <div className="chat__suggestions">
             {suggestions.map((s) => (
-              <button key={s} onClick={() => sendMessage(s)} className="chat__suggestion-chip">{s}</button>
+              <button key={s} onClick={() => handleSuggestion(s)} className="chat__suggestion-chip">{s}</button>
             ))}
           </div>
         )}

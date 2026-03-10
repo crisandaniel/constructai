@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import type { MaterialSpec } from '@/types'
+import { useAnalytics } from '@/hooks/useAnalytics'
 
 interface Props {
   materials: MaterialSpec[]
@@ -15,17 +16,16 @@ interface Props {
 
 export function MaterialsGrid({ materials, locale, labels }: Props) {
   const [active, setActive] = useState<string | null>(null)
+  const { track } = useAnalytics(locale)
 
-  // Build unique category list in order of first appearance
-  const categories = Array.from(new Set(materials.map(m => m.category)))
+  const categories = Array.from(new Set(materials.map(m => m.category.trim())))
 
   const filtered = active
-    ? materials.filter(m => m.category === active)
+    ? materials.filter(m => m.category.trim() === active.trim())
     : materials
 
   return (
     <>
-      {/* Category filter strip */}
       <div className="materials-strip mb-8">
         <button
           onClick={() => setActive(null)}
@@ -36,7 +36,7 @@ export function MaterialsGrid({ materials, locale, labels }: Props) {
         {categories.map(cat => (
           <button
             key={cat}
-            onClick={() => setActive(cat)}
+            onClick={() => { setActive(cat); track('filter_click', { category: cat }) }}
             className={`chip ${active === cat ? 'chip--active' : ''}`}
           >
             {cat}
@@ -44,20 +44,17 @@ export function MaterialsGrid({ materials, locale, labels }: Props) {
         ))}
       </div>
 
-      {/* Materials grid */}
       <div className="materials-grid">
         {filtered.map(m => (
           <Link
             key={m.id}
             href={`/${locale}/asistent?q=${encodeURIComponent(m.name)}`}
             className="material-card block"
+            onClick={() => track('material_click', { id: m.id, name: m.name })}
           >
             <div className="material-card__category">{m.category}</div>
             <div className="material-card__name">{m.name}</div>
             <p className="material-card__description">{m.description}</p>
-            {/* <div className="material-card__specs">
-              {m.specs.map(s => <span key={s} className="spec-tag">{s}</span>)}
-            </div> */}
             <span className="material-card__link">{labels.askAI}</span>
           </Link>
         ))}
