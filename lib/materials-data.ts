@@ -123,11 +123,5 @@ Baumit GranoporTop este o tencuială decorativă organică gata preparată, în 
   'tencuiala_decorativa_sticky_mozaic_sarcom_sticky': `### TENCUIALA DECORATIVA STICKY MOZAIC (Sarcom Sticky)
 Sticky Mozaic este o tencuială decorativă acrilică cu granule de cuart colorat (1,2-1,8 mm), destinată finisării decorative a suprafețelor interioare și exterioare, cu aspect mozaic. Consumul specific este de 3,5 – 4,5 kg/m², cu o valoare medie de 4,0 kg/m², aplicată într-un singur strat de aproximativ 1,8 mm grosime. O găleată de 25 kg acoperă aproximativ 5,5 – 7,1 m² (media ~6,25 m²). Produsul se aplică nediluat, omogenizat la turație mică cu o mașină de găurit cu tijă tip agitator-malaxor. Se aplică numai pe suprafețe verticale, cu gletiera din oțel inoxidabil, într-un singur strat continuu, fără întrerupere, pe toată suprafața. Temperatura de aplicare: 15-30°C (mediu, suport și produs), umiditate relativă maxim 80%. Nu se lucrează pe timp de ploaie, ceață, vânt puternic sau temperaturi scăzute. Pregătirea suportului este esențială: suprafețele noi de tencuieli minerale necesită 28 zile de maturare, termosistemele minim 6 zile. Obligatoriu se amorsează cu Sticky – Amorsa de perete sau Sticky TiefGrund-grund de adâncime, apoi se aplică strat de fond cu Sticky – Grund pentru tencuieli decorative colorat în aceeași nuanță cu tencuiala. Este interzisă amestecarea cu var, humă, solvenți organici sau vopsele pe bază de solvenți. Uscarea parțială durează 24 ore, iar cea totală 72 ore la 23°C. Termen de valabilitate: 18 luni în ambalaj original, depozitat la 5-30°C, ferit de îngheț.
 
-# =====================================================
-# END
-
-
-
-
-'`,
+`,
 }
