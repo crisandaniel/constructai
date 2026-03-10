@@ -1,0 +1,22 @@
+// =============================================================================
+// styles/main.scss — entry point
+//
+// Import order matters:
+//   1. abstracts  — variables & mixins (no CSS output)
+//   2. base       — reset, typography
+//   3. layout     — page-level structure
+//   4. components — UI blocks
+// =============================================================================
+
+@use 'abstracts/variables' as *;
+@use 'abstracts/mixins'    as *;
+
+@use 'base/reset';
+@use 'base/typography';
+
+@use 'layout/header';
+@use 'layout/layouts';
+
+@use 'components/ui';
+@use 'components/chat';
+@use 'components/calculator';

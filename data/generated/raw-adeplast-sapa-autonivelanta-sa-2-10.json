@@ -1,0 +1,85 @@
+{
+  "id": "adeplast-sapa-autonivelanta-sa-2-10",
+  "brand": "Adeplast",
+  "name": "Șapă autonivelantă pe bază de ciment, 2-10 mm, pentru interior",
+  "productCode": "SA 2 - 10",
+  "category": "Sapa",
+  "description": "Mortar de șapă autonivelantă pe bază de ciment pentru aplicare la interior în strat de 2-10 mm, destinat egalizării șapelor de ciment și suprafețelor de beton în vederea finisării cu linoleum, PVC, mochetă, parchet, gresie etc. Se aplică numai pe suporturi minerale.",
+  "specs": [
+    "Clasa de mortar: CT-C25-F6-A15 conform SR EN 13813/2003",
+    "Rezistență la compresiune: C25",
+    "Rezistență la încovoiere: F6",
+    "Rezistență la uzură: A15",
+    "Timp de găleată: cca. 1 oră",
+    "Timp deschis: 30 minute",
+    "Consum: cca. 1,6 – 1,8 kg/m²/mm",
+    "Grosime aplicare: 2 – 10 mm"
+  ],
+  "keyProperties": {
+    "Rezistență la compresiune": "C25",
+    "Rezistență la încovoiere": "F6",
+    "Rezistență la uzură": "A15",
+    "Timp de găleată": "cca. 1 oră",
+    "Timp deschis": "30 minute",
+    "Baza materialului": "ciment, agregate minerale, polimeri, plastificatori",
+    "Consum": "cca. 1,6 – 1,8 kg/m²/mm"
+  },
+  "rawConsumptionFromPDF": "Consum: cca. 1,6 – 1,8 kg / m² / mm",
+  "consumption": {
+    "kgPerM2Standard": 17,
+    "kgPerM2PerMm": 1.7,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 10,
+    "packageDescription": "sac 25kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 1.47,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum cca. 1,6 – 1,8 kg/m²/mm. Valoare medie 1,7 kg/m²/mm. La 10 mm grosime: 1,7 × 10 = 17,0 kg/m². Sac 25 kg la 10 mm: 25 / 17,0 = 1,47 m²/sac. La 2 mm grosime: 1,7 × 2 = 3,4 kg/m², sac 25 kg acoperă 7,35 m²."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 10,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Suprafața devine utilizabilă după minim 24 ore pentru placare ceramică și minim 72 ore pentru montare parchet sau mochetă. Timpii de uscare sunt la 20°C și 65% umiditate relativă.",
+    "substratePrep": "Suporturile minerale (beton, tencuieli, șape) trebuie să aibă minim 28 zile vechime, să fie complet întărite și uscate. Beton >20 cm grosime: minim 3 luni vechime. Suprafața trebuie rezistentă, curată, uscată, fără fisuri, grăsimi, pulberi. Rezistența la smulgere minim 0,8 N/mm² (trafic ușor) sau 1,5 N/mm² (trafic ridicat). Se aspiră suprafața înainte de amorsare și înainte de aplicare. Se montează profile de dilatare perimetral.",
+    "coatsRequired": 1,
+    "tools": [
+      "Malaxor electric turație redusă",
+      "Rolă cu țepi",
+      "Dreptar",
+      "Gletieră de șape"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data fabricației, la 20°C și 65% umiditate relativă. Depozitare în spații uscate pe paleți de lemn."
+  },
+  "compatibility": {
+    "compatible": [
+      "ADEPLAST Amorsă acrilică pentru șapă autonivelantă (suporturi absorbante, diluție max 1:4)",
+      "SCHOMBURG INDUFLOOR IB 1240 presărat cu nisip cuarțos 0,5-1 mm (suporturi neabsorbante)",
+      "Schomburg Remisil SI (soluție liant silicatic pentru întărire suport fragil)",
+      "Linoleum, PVC, mochetă, parchet, gresie ca finisaje"
+    ],
+    "incompatible": [
+      "Suporturi din lemn",
+      "Suporturi din plastic",
+      "Suporturi din metal",
+      "Pardoseli cu trafic industrial",
+      "Beton turnat direct pe sol fără izolație (umiditate cu presiune)"
+    ]
+  },
+  "standards": [
+    "SR EN 13813/2003"
+  ],
+  "systemPromptSection": "Adeplast Șapă Autonivelantă SA 2-10 este un mortar autonivelant pe bază de ciment pentru interior, aplicabil în grosimi de 2-10 mm. Consumul este de aproximativ 1,6-1,8 kg/m² per mm grosime. La grosimea maximă de 10 mm, consumul este de circa 17 kg/m², iar un sac de 25 kg acoperă aproximativ 1,47 m². La grosimea minimă de 2 mm, consumul este de circa 3,4 kg/m², iar un sac acoperă aproximativ 7,35 m². Temperatura de aplicare: minim +5°C, maxim +30°C. Preparare: 25 kg în 6-6,5 litri apă (0,24-0,26 L/kg), amestecare cu malaxor la turație redusă, repaus 10 minute, apoi reamestecare scurtă. Consistența corectă se verifică cu tub PVC Ø110 mm, lungime 10 cm: diametrul discului de material trebuie să fie 48-52 cm. Timpul deschis este de 30 minute, dezaerarea și nivelarea se fac în 15-20 minute. Suportul mineral trebuie să aibă minim 28 zile vechime, să fie curat, uscat, fără fisuri. Rezistența la smulgere: minim 0,8 N/mm² (trafic ușor), 1,5 N/mm² (trafic ridicat). OBLIGATORIU: suprafața se aspiră înainte de amorsare și înainte de turnare — praful este cauza principală a desprinderilor. Pe suporturi absorbante se aplică ADEPLAST Amorsă acrilică (diluabilă max 1:4). Pe suporturi neabsorbante se folosește punte de aderență SCHOMBURG INDUFLOOR IB 1240 cu nisip cuarțos. Se montează profile de dilatare perimetral. Suprafețe maxime de turnare: 6×6 m. Utilizabilă după 24 ore pentru gresie, 72 ore pentru parchet/mochetă."
+}

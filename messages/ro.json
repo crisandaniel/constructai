@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "ConstructAI — Asistent Inteligent pentru Materiale de Construcții",
+    "description": "Calculează materialele pentru orice lucrare de construcție. AI instruit cu fișe tehnice."
+  },
+  "nav": {
+    "calculator": "Calculator",
+    "materials": "Materiale",
+    "assistant": "Asistent AI",
+    "cta": "Începe acum"
+  },
+  "hero": {
+    "badge": "Powered by AI",
+    "title": "Calculează <highlight>materialele</highlight> pentru orice lucrare",
+    "titleHighlight": "materialele",
+    "description": "Agentul nostru AI a fost instruit cu fișe tehnice de la peste 200 de materiale de construcții. Descrie lucrarea și primești imediat o estimare precisă.",
+    "ctaPrimary": "Consultă Agentul AI",
+    "ctaSecondary": "Calculator Rapid"
+  },
+  "stats": {
+    "materials": "Fișe tehnice materiale",
+    "workTypes": "Tipuri de lucrări",
+    "precision": "Precizie estimări",
+    "availability": "Disponibil oricând"
+  },
+  "materialsStrip": {
+    "label": "Materiale:"
+  },
+  "kb": {
+    "title": "Baza de cunoștințe",
+    "subtitle": "Materiale cu fișe tehnice integrate în AI",
+    "askAI": "Întreabă AI despre acest material →",
+    "all": "Toate"
+  },
+  "cta": {
+    "title": "Gata să începi?",
+    "description": "Descrie lucrarea ta și primești în câteva secunde o estimare completă a materialelor necesare.",
+    "button": "Deschide asistentul AI →"
+  },
+  "footer": {
+    "disclaimer": "Estimările sunt orientative. Consultați un inginer pentru proiecte complexe."
+  },
+  "calculator": {
+    "title": "Calculator Rapid",
+    "selectWork": "Selectează tipul de lucrare:",
+    "surface": "Suprafață (m²)",
+    "surfacePlaceholder": "ex: 50",
+    "height": "Înălțime (m)",
+    "thickness": "Grosime / Tip",
+    "waste": "Adaos risipă",
+    "waste5": "5% — lucrare simplă",
+    "waste10": "10% — standard",
+    "waste15": "15% — lucrare complexă",
+    "calculate": "Calculează materiale",
+    "results": "Rezultate",
+    "resultsMeta": "{surface} m² • +{adaos}%",
+    "sendToChat": "Trimite în chat pentru verificare →",
+    "errorSurface": "Introduceți o suprafață validă",
+    "workTypes": {
+      "zidarie": "Zidărie",
+      "sapa": "Șapă beton",
+      "tencuiala": "Tencuială",
+      "rigips": "Rigips",
+      "faiance": "Faianță",
+      "termoizolatie": "Termoizol."
+    },
+    "grosimeLabels": {
+      "zidarie": "Tip perete",
+      "sapa": "Grosime șapă",
+      "tencuiala": "Grosime tencuială",
+      "rigips": "Sistem rigips",
+      "faiance": "Format plăci",
+      "termoizolatie": "Grosime izolație"
+    },
+    "grosimeOptions": {
+      "zidarie": [
+        {
+          "value": "25",
+          "label": "25 cm — perete exterior"
+        },
+        {
+          "value": "12.5",
+          "label": "12.5 cm — perete interior"
+        },
+        {
+          "value": "6",
+          "label": "6 cm — semizid"
+        }
+      ],
+      "sapa": [
+        {
+          "value": "3",
+          "label": "3 cm — șapă subțire"
+        },
+        {
+          "value": "5",
+          "label": "5 cm — standard"
+        },
+        {
+          "value": "8",
+          "label": "8 cm — gros"
+        }
+      ],
+      "tencuiala": [
+        {
+          "value": "1",
+          "label": "1 cm — finisaj"
+        },
+        {
+          "value": "1.5",
+          "label": "1.5 cm — standard"
+        },
+        {
+          "value": "2",
+          "label": "2 cm — gros"
+        }
+      ],
+      "rigips": [
+        {
+          "value": "12.5",
+          "label": "12.5 mm — standard"
+        },
+        {
+          "value": "15",
+          "label": "15 mm — ranforsat"
+        },
+        {
+          "value": "25",
+          "label": "25 mm — dublu strat"
+        }
+      ],
+      "faiance": [
+        {
+          "value": "30",
+          "label": "30×30 cm"
+        },
+        {
+          "value": "60",
+          "label": "60×60 cm"
+        },
+        {
+          "value": "90",
+          "label": "90×90 cm"
+        }
+      ],
+      "termoizolatie": [
+        {
+          "value": "5",
+          "label": "5 cm"
+        },
+        {
+          "value": "10",
+          "label": "10 cm — standard"
+        },
+        {
+          "value": "15",
+          "label": "15 cm — pasiv"
+        }
+      ]
+    }
+  },
+  "chat": {
+    "title": "Asistent ConstructAI",
+    "status": "Online — instruit cu fișe tehnice",
+    "clearChat": "Conversație nouă",
+    "placeholder": "Descrieți lucrarea sau întrebați despre materiale...",
+    "welcome": "Bună ziua! Sunt **ConstructAI**, instruit cu fișe tehnice de la principalele materiale de construcții din România. 🏗️\n\nVă pot ajuta cu:\n- **Estimarea cantităților** de materiale pentru orice lucrare\n- **Informații tehnice** — dozaje, rezistențe, consumuri\n- **Recomandări** pentru tipuri de lucrări\n- **Comparații** între produse similare\n\nDescriați-mi lucrarea pe care doriți să o realizați!",
+    "newChat": "Conversație nouă! Cu ce vă pot ajuta? 🏗️",
+    "errorConnect": "⚠️ Eroare la conectare. Verificați cheia API și reîncercați.",
+    "suggestions": [
+      "🧱 Câtă cărămidă pentru 20m² perete?",
+      "📐 Câtă șapă pentru 60m² pardoseală?",
+      "🎨 Consum tencuială per mp?",
+      "🛖 Polistiren pentru casă 120m²?"
+    ]
+  },
+  "materials": {
+    "title": "Materiale de construcții",
+    "subtitle": "Fișe tehnice complete, integrate în agentul AI",
+    "askFull": "Vreau informații tehnice complete despre {name}, inclusiv consum, dozaj și recomandări."
+  }
+}

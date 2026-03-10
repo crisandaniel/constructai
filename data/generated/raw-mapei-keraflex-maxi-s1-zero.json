@@ -1,0 +1,106 @@
+{
+  "id": "mapei-keraflex-maxi-s1-zero",
+  "brand": "Mapei",
+  "name": "Keraflex Maxi S1 Zero",
+  "productCode": null,
+  "category": "Adezivi",
+  "description": "Adeziv pe bază de ciment, de înaltă performanță, de culoare gri, cu timp deschis extins și fără alunecare pe verticală, cu tehnologie Low Dust, cu emisii foarte scăzute de compuși organici volatili și cu emisii de gaze cu efect de seră compensate. Clasificat C2TE S1 conform EN 12004. Recomandat în special pentru montarea plăcilor de mari dimensiuni din gresie porțelanată și piatră naturală.",
+  "specs": [
+    "Clasificare EN 12004: C2TE S1",
+    "ISO 13007-1: C2TE S1",
+    "EMICODE: EC1 Plus - emisii foarte scăzute",
+    "Tehnologie Low Dust",
+    "CO2 Fully Offset in the Entire Life Cycle",
+    "EPD nr. S-P-00907"
+  ],
+  "keyProperties": {
+    "Culoare": "gri",
+    "Consistență": "pulbere",
+    "Greutate specifică": "1400 kg/m³",
+    "Densitate amestec": "1550 kg/m³",
+    "pH amestec": "mai mare de 12",
+    "Consum": "1,2 kg/m² pe mm de grosime",
+    "Timp deschis": "> 30 minute",
+    "Timp de corecție": "circa 45 minute",
+    "Aderență inițială (28 zile)": "2,6 N/mm²",
+    "Aderență după expunere la căldură": "2,5 N/mm²",
+    "Aderență după imersie în apă": "1,1 N/mm²",
+    "Aderență după cicluri îngheț-dezgheț": "1,3 N/mm²",
+    "Deformabilitate": "S1 (> 2,5 mm, < 5 mm)",
+    "Temperatură în exploatare": "-30°C până la +90°C",
+    "Grosime maximă de aplicare": "15 mm",
+    "Raport amestec": "7,3-7,8 litri apă / 25 kg sac"
+  },
+  "rawConsumptionFromPDF": "CONSUM: 1,2 kg/m² pe mm de grosime.",
+  "consumption": {
+    "kgPerM2Standard": 1.2,
+    "kgPerM2PerMm": 1.2,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": 15,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 20.83,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: 1,2 kg/m² pe mm de grosime. La 1 mm grosime: 1,2 kg/m². kgPerM2PerMm = 1,2. Exemple: la 5 mm grosime → 6,0 kg/m² → 25/6,0 = 4,17 m²/sac; la 10 mm → 12,0 kg/m² → 25/12 = 2,08 m²/sac; la 15 mm → 18,0 kg/m² → 25/18 = 1,39 m²/sac. m2PerPackage variază în funcție de grosime, nu se poate seta o valoare fixă."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 35,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": 15,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Apt pentru trafic pietonal după 24 ore. Chituirea rosturilor la pereți după 4-8 ore, la pardoseli după 24 ore. Gata de utilizare după 14 zile. Bazinele și piscinele se pot umple după 21 zile.",
+    "substratePrep": "Suporturile trebuie să fie maturate, rezistente mecanic, fără urme de grăsimi, uleiuri, vopsea, ceară sau praf și suficient de uscate. Șapele pe bază de ciment necesită 28 zile maturare. Suporturile pe bază de ipsos și șapele anhidride trebuie tratate cu Primer G sau Eco Prim T Plus. Dacă suprafața este prea încinsă, se răcește cu apă.",
+    "coatsRequired": null,
+    "tools": [
+      "Spatulă dințată",
+      "Mixer electric"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Se depozitează 12 luni în ambalajul original sigilat, în locuri uscate."
+  },
+  "compatibility": {
+    "compatible": [
+      "Primer G",
+      "Eco Prim T Plus",
+      "Mapelastic",
+      "Mapelastic Smart",
+      "Mapelastic Turbo",
+      "Mapelastic AquaDefense",
+      "Mapegum WPS",
+      "Mapeguard UM 35",
+      "Mapeguard WP 200",
+      "Mapeguard Board",
+      "Mapecem",
+      "Mapecem Pronto",
+      "Topcem",
+      "Topcem Pronto",
+      "Sisteme de nivelare MapeLevel",
+      "Chituri MAPEI pe bază de ciment sau epoxidice",
+      "Produse UltraCare"
+    ],
+    "incompatible": [
+      "Suporturi din beton insuficient maturate",
+      "Suporturi din lemn sau aglomerate din lemn",
+      "Suprafețe metalice, din PVC, cauciuc sau linoleum",
+      "Plăci din marmură sau piatră naturală sensibile la pătare și eflorescențe",
+      "Plăci din piatră naturală sau compozite supuse la mișcări datorate umidității"
+    ]
+  },
+  "standards": [
+    "EN 12004 (C2TE S1)",
+    "ISO 13007-1 (C2TE S1)",
+    "ISO 14025 (EPD)",
+    "EMICODE EC1 Plus"
+  ],
+  "systemPromptSection": "Keraflex Maxi S1 Zero de la Mapei este un adeziv pe bază de ciment clasificat C2TE S1 conform EN 12004, de culoare gri, destinat lipirii plăcilor ceramice și din piatră naturală la interior și exterior. Consumul este de 1,2 kg/m² pe mm de grosime. Astfel, la o grosime de 5 mm consumul este de 6,0 kg/m² (un sac de 25 kg acoperă circa 4,17 m²), la 10 mm grosime consumul este de 12,0 kg/m² (un sac acoperă circa 2,08 m²), iar la grosimea maximă de 15 mm consumul este de 18,0 kg/m² (un sac acoperă circa 1,39 m²). Se prepară cu 7,3-7,8 litri de apă per sac de 25 kg. Temperatura de aplicare: între +5°C și +35°C. Timpul deschis este de circa 30 minute, iar timpul de corecție de 45 minute. Suporturile trebuie să fie maturate, curate, fără grăsimi sau praf. Șapele anhidride și suporturile pe bază de ipsos trebuie amorsate cu Primer G sau Eco Prim T Plus. Nu se folosește pe lemn, metal, PVC, cauciuc sau linoleum. La exterior și plăci mari se aplică tehnica dublei aplicări. Pardoselile sunt apte pentru trafic pietonal după 24 ore, iar punerea completă în funcțiune se face după 14 zile. Piscinele se pot umple după 21 zile. Este compatibil cu hidroizolațiile Mapelastic, Mapelastic AquaDefense, Mapegum WPS și cu sistemele de nivelare MapeLevel. Nu adăugați apă în amestec după inițierea prizei."
+}

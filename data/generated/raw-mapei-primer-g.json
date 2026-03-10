@@ -1,0 +1,94 @@
+{
+  "id": "mapei-primer-g",
+  "brand": "Mapei",
+  "name": "Primer G",
+  "productCode": "532",
+  "category": "Altele",
+  "description": "Amorsă pe bază de rășini sintetice în dispersie apoasă cu conținut foarte redus de compuși organici volatili (VOC). Se utilizează pentru tratarea suprafețelor din ipsos, ciment și anhidride înainte de aplicarea adezivilor, tencuielilor, șapelor autonivelante, tapetului sau vopselei. Formează o peliculă subțire, compactă și lucioasă ce consolidează suprafața și îmbunătățește aderența.",
+  "specs": [
+    "Bază de rășini sintetice în dispersie apoasă",
+    "Conținut VOC: 0 g/l conform 2004/42/EC",
+    "GEV EMICODE EC1 Plus - emisii foarte scăzute",
+    "Nu este inflamabil sau toxic",
+    "Densitate: 1,01 g/cm³",
+    "pH: 8",
+    "Conținut de solide: 18%",
+    "Consistență: lichid, culoare albastru deschis"
+  ],
+  "keyProperties": {
+    "Consistență": "lichid",
+    "Culoare": "albastru deschis",
+    "Densitate": "1,01 g/cm³",
+    "pH": "8",
+    "Conținut de solide": "18%",
+    "Conținut VOC": "0 g/l",
+    "EMICODE": "EC1 Plus - emisii foarte scăzute",
+    "Timp uscare pe beton": "30 min",
+    "Timp uscare pe ipsos": "30-60 min",
+    "Temperatură de aplicare": "+5°C până la +35°C"
+  },
+  "rawConsumptionFromPDF": "Consumul de Primer G depinde de porozitatea si gradul de absorbtie al suprafetei. Consumul normal este intre 0,08 si 0,15 kg/m².",
+  "consumption": {
+    "kgPerM2Standard": 0.115,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "bidon plastic 5 kg",
+    "packageUnit": "kg",
+    "packageSize": 5,
+    "m2PerPackage": 43.5,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum normal 0,08-0,15 kg/m². Valoare medie: (0,08+0,15)/2 = 0,115 kg/m². Bidon 5 kg: 5/0,115 ≈ 43,5 m²/bidon. Bidon 10 kg: 10/0,115 ≈ 87 m². Bidon 25 kg: 25/0,115 ≈ 217 m². Sticlă 1 kg: 1/0,115 ≈ 8,7 m². Consumul variază în funcție de porozitatea suportului."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 35,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Pe beton: 30 min; pe ipsos: 30-60 min (la +23°C și 50% U.R.)",
+    "substratePrep": "Suportul trebuie să fie curat, uscat și fără uleiuri, grăsimi, praf, urme de vopsea sau porțiuni friabile. Fisurile din suporturile din beton trebuie reparate cu Eporip sau Epojet. Suporturile anhidride trebuie șlefuite în prealabil.",
+    "coatsRequired": 1,
+    "tools": [
+      "Pensulă",
+      "Trafalet",
+      "Pulverizator"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "1 kg sticlă plastic",
+      "5 kg bidon plastic",
+      "10 kg bidon plastic",
+      "25 kg bidon plastic"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Se depozitează 12 luni de la data de fabricație în ambalajul original sigilat. Protejați de îngheț."
+  },
+  "compatibility": {
+    "compatible": [
+      "Eporip",
+      "Epojet",
+      "Ultraplan Eco",
+      "Rollcoll",
+      "Adezivi pe bază de ciment pentru plăci ceramice",
+      "Tencuieli pe bază de ipsos",
+      "Șape autonivelante MAPEI",
+      "Materiale de corecție tixotropice MAPEI"
+    ],
+    "incompatible": [
+      "Suporturi magnezice",
+      "Aplicații la exterior",
+      "Suporturi cu infiltrații de umiditate prin capilaritate"
+    ]
+  },
+  "standards": [
+    "EN ISO 16000-3, 6, 9, 11",
+    "CEN/TS 16516",
+    "2004/42/EC"
+  ],
+  "systemPromptSection": "Primer G de la Mapei este o amorsă lichidă pe bază de rășini sintetice în dispersie apoasă, de culoare albastru deschis, cu emisii foarte scăzute (EC1 Plus, VOC 0 g/l). Consumul normal este între 0,08 și 0,15 kg/m², în funcție de porozitatea suportului. Un bidon de 5 kg acoperă aproximativ 33-62 m², un bidon de 10 kg acoperă 67-125 m², iar unul de 25 kg acoperă 167-312 m². Temperatura de aplicare: între +5°C și +35°C. Timpul de uscare este de 30 minute pe beton și 30-60 minute pe ipsos (la +23°C, 50% U.R.). Diluarea variază în funcție de utilizare: nediluat pentru lipirea plăcilor ceramice pe ipsos și pe suporturi din ipsos înainte de șape; diluat 1:1 cu apă pe suporturi din ciment înainte de șape și între straturi de finisaj; diluat 1:2 cu apă pentru tencuieli pe bază de ipsos; diluat 1:3 cu apă pentru adezivi de tapet. Suportul trebuie să fie curat, uscat, fără uleiuri, grăsimi sau porțiuni friabile. Fisurile din beton se repară cu Eporip sau Epojet. Suporturile anhidride se șlefuiesc în prealabil. Nu se aplică pe suporturi magnezice și nu este recomandat la exterior sau pe suporturi cu infiltrații de umiditate prin capilaritate. Nu se aplică în cantitate mare încât să formeze peliculă — se diluează conform instrucțiunilor. Curățarea uneltelor se face imediat cu apă curată; resturile întărite se îndepărtează mecanic sau cu Pulicol 2000. Produsul nu este inflamabil sau toxic."
+}

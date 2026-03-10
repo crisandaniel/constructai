@@ -1,0 +1,84 @@
+{
+  "id": "baumit-superprimer",
+  "brand": "Baumit",
+  "name": "Baumit SuperPrimer",
+  "productCode": null,
+  "category": "Altele",
+  "description": "Amorsă gata preparată de culoare galbenă, de înaltă calitate, fără solvenți, cu umplutură de nisip de cuarț. Recomandată pentru suporturi slab absorbante și neabsorbante, la interior și exterior, pentru pereți și pardoseli.",
+  "specs": [
+    "Aderență ridicată pe suprafețe netede și neabsorbante",
+    "Fără solvenți",
+    "Umpluturi cu nisip de cuarț",
+    "Culoare galbenă pentru verificarea aplicării uniforme",
+    "EMICODE EC 1 PLUS",
+    "Reactivitate chimică specială în primele 48 ore"
+  ],
+  "keyProperties": {
+    "Culoare": "galben",
+    "Timp de uscare": "30 min",
+    "Densitate": "1.5 kg/dm³",
+    "Valoare pH": "8.5",
+    "TVOC": "< 60 µg/m³ EMICODE EC 1 PLUS",
+    "Consum": "0.3 kg/m²"
+  },
+  "rawConsumptionFromPDF": "Consum: 0.3 kg/m² (atât pentru SuperPrimer_5 Kg cât și SuperPrimer_20 Kg). Acoperire: 17 m² (5 kg), 67 m² (20 kg).",
+  "consumption": {
+    "kgPerM2Standard": 0.3,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "găleată 5 kg / găleată 20 kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 67,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică consum 0.3 kg/m² pentru ambele ambalaje. Găleată 5 kg acoperă 17 m² (5/0.3≈16.7). Găleată 20 kg acoperă 67 m² (20/0.3≈66.7). Produs aplicat în strat subțire, fără grosime specificată."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Timp de uscare aprox. 30 min. La temperaturi scăzute și umiditate ridicată poate dura mult mai mult. Pentru tencuieli var/var-ciment: aplicare după 2-3 ore, max 48 ore. Pentru tencuieli ipsos: după 6-8 ore.",
+    "substratePrep": "Suportul trebuie să fie neted, uscat, neînghețat, rezistent, stabil și curat - fără urme de praf, moloz, uleiuri, grăsimi, decofrol, părți friabile. Îndepărtați mecanic suprafețele friabile și neaderente. Curățați bine sau degresați suprafețele murdare. Aspirați și măturați suprafața.",
+    "coatsRequired": null,
+    "tools": [
+      "Pensulă",
+      "Trafalet"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "5 kg găleată",
+      "20 kg găleată"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, la loc uscat, răcoros, în ambalajul original, nedeschis, ferit de îngheț."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Klima",
+      "Baumit MPI 25",
+      "Baumit MPI 30",
+      "Baumit Ratio Glatt",
+      "Baumit Ratio Glatt L",
+      "Baumit UnoRed",
+      "Baumit Nivello",
+      "Baumit Alpha (șape fluide)",
+      "Adezivi Baumacol clasa C2",
+      "Hidroizolații Baumacol",
+      "Baumit SupraFix",
+      "Baumit StarContact White"
+    ],
+    "incompatible": [
+      "Suprafețe metalice vopsite",
+      "Aplicare pe scară largă pe suporturi metalice"
+    ]
+  },
+  "standards": [],
+  "systemPromptSection": "Baumit SuperPrimer este un grund de aderență gata preparat, de culoare galbenă, fără solvenți, cu umplutură de nisip de cuarț, destinat suporturilor slab absorbante și neabsorbante la interior și exterior. Consumul este de 0.3 kg/m². O găleată de 5 kg acoperă aproximativ 17 m², iar una de 20 kg acoperă aproximativ 67 m². Densitatea produsului este de 1.5 kg/dm³, iar timpul de uscare este de aproximativ 30 de minute în condiții normale. Temperatura minimă de aplicare este de +5°C, iar cea maximă de +30°C. Umiditatea ridicată și temperaturile scăzute prelungesc semnificativ timpul de uscare. Suportul trebuie să fie neted, uscat, neînghețat, rezistent, stabil și curat, fără praf, moloz, uleiuri, grăsimi sau decofrol. Se aplică uniform prin pensulare sau cu trafaletul. Înainte de utilizare se amestecă bine, asigurându-se că nisipul de cuarț depus este complet omogenizat. Pentru tencuieli de var/var-ciment pe beton, acestea trebuie aplicate în maximum 48 de ore de la amorsare pentru asigurarea legăturii chimice. Pentru tencuieli pe bază de ipsos, aplicarea se face după 6-8 ore. Dacă se depășesc 48 de ore, se realizează o punte de aderență cu Baumit StarContact White aplicat cu fierul de glet cu dinți de 3-5 mm. Este compatibil cu tencuielile Baumit Klima, MPI 25, MPI 30, Ratio Glatt, UnoRed, șapele Baumit Nivello și Alpha, adezivii Baumacol C2, hidroizolațiile Baumacol și adezivul Baumit SupraFix. Nu se aplică pe suprafețe metalice vopsite și nu se utilizează pe scară largă pe suporturi metalice."
+}

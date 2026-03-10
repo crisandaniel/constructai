@@ -1,0 +1,94 @@
+{
+  "id": "baumit-glemabrillant",
+  "brand": "Baumit",
+  "name": "Baumit GlemaBrillant",
+  "productCode": "GlemaBrillant_20 kg",
+  "category": "Finisaje",
+  "description": "Glet pe bază de ciment alb și adaosuri minerale pentru obținerea unor suprafețe netede pe pereți și plafoane la interior și exterior, cu finețe și grad de alb foarte ridicat. Se aplică manual și mecanizat.",
+  "specs": [
+    "Grupa Mortare: CS III",
+    "Standard: SR EN 998-1",
+    "Clasificare: GP-CS III-Wc1",
+    "Granulă maxim: 0.1 mm",
+    "Densitate: 930 kg/m³",
+    "Conductivitate termică: ≤ 0.43 W/mK",
+    "Timp de uscare: 24 ore",
+    "Grosime maximă strat: 3 mm",
+    "Grosime minimă aplicare: 0.1 mm",
+    "Timp de păstrare în vas: până la 5 ore"
+  ],
+  "keyProperties": {
+    "Grupa Mortare": "CS III",
+    "Standard": "SR EN 998-1",
+    "Clasificare": "GP-CS III-Wc1",
+    "Granulă maximă": "0.1 mm",
+    "Densitate": "930 kg/m³",
+    "Conductivitate termică": "≤ 0.43 W/mK",
+    "Timp de uscare": "24 ore",
+    "Grosime maximă strat": "3 mm",
+    "Grosime minimă aplicare": "0.1 mm",
+    "Rezistența la compresiune la 28 zile": "CS III",
+    "Timp de păstrare în vas": "până la 5 ore",
+    "Necesar apă": "8 l/Sac"
+  },
+  "rawConsumptionFromPDF": "Consum: 1 - 1.2 kg/m²/mm | Acoperire: 20 m²/Sac /mm grosime | Grosime minimă de aplicare: 0.1 mm | Grosimea maximă a stratului: 3 mm",
+  "consumption": {
+    "kgPerM2Standard": 1.1,
+    "kgPerM2PerMm": 1.1,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 0.1,
+    "thicknessMaxMm": 3,
+    "packageDescription": "sac 20 kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 20,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: Consum 1 - 1.2 kg/m²/mm. Valoare medie = 1.1 kg/m²/mm. Acoperire: 20 m²/Sac/mm grosime, adică la 1 mm grosime un sac de 20 kg acoperă 20 m² → 20/20 = 1.0 kg/m² (corespunde limitei inferioare). kgPerM2PerMm = 1.1 (medie). La 1 mm: 1.1 kg/m², sac 20 kg → 20/1.1 ≈ 18.2 m²/sac. PDF indică 20 m²/sac/mm."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 0.1,
+    "thicknessMaxMm": 3,
+    "openTimeMinutes": 300,
+    "dryingDescription": "24 ore uscare completă; întărire intermediară 2-5 ore în funcție de vreme și suport",
+    "substratePrep": "Suportul trebuie să fie curat, uscat, neînghețat, fără particule de praf, fără eflorescențe, rezistent și lipsit de părți care se pot desprinde. Pe beton lucios se aplică Baumit SuperPrimer. Pe suporturi absorbante sau cu absorbții diferite se folosește Baumit Grund. Tencuielile noi necesită min. 10 zile/cm grosime timp de uscare.",
+    "coatsRequired": 2,
+    "tools": [
+      "Fier de glet",
+      "Mixer la turație redusă",
+      "Mașină de gletuit PFT Ritmo PowerCoat",
+      "Hârtie abrazivă granulație 200-300"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, în ambalajul original, nedesfăcut, pe palet de lemn infoliat. 1 palet = 54 saci = 1080 kg."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit SuperPrimer (amorsă pe beton lucios sau suprafețe cu absorbție scăzută)",
+      "Baumit Grund (amorsă pentru suporturi absorbante sau cu absorbții diferite)",
+      "Baumit MultiPrimer (amorsă exterior, diluat 1:1)",
+      "Baumit DivinaPrimer (amorsă interior)",
+      "Baumit Divina (finisaje interior)",
+      "Baumit Color (finisaje exterior)",
+      "Tencuieli de var, var-ciment, ciment",
+      "Beton",
+      "Plăci de gips-carton",
+      "Gleturi de ipsos/var"
+    ],
+    "incompatible": [
+      "Mase de șpaclu în sistemele ETICS"
+    ]
+  },
+  "standards": [
+    "SR EN 998-1"
+  ],
+  "systemPromptSection": "Baumit GlemaBrillant este un glet pe bază de ciment alb pentru interior și exterior, cu grad ridicat de alb și granulă maximă de 0.1 mm. Consumul este de 1 - 1.2 kg/m² per mm grosime. Un sac de 20 kg acoperă aproximativ 20 m² la 1 mm grosime. Grosimea de aplicare variază între 0.1 mm (minim) și 3 mm (maxim) per strat. Necesarul de apă este de 8 litri per sac de 20 kg. Temperatura minimă de aplicare este de 5°C, maximă 30°C. Suportul trebuie să fie curat, uscat, neînghețat, fără praf și eflorescențe. Pe beton lucios se aplică amorsă Baumit SuperPrimer. Pe suporturi absorbante sau cu absorbții diferite se folosește Baumit Grund. Tencuielile noi necesită min. 10 zile/cm grosime timp de uscare înainte de gletuire. Nu se aplică pe mase de șpaclu din sistemele ETICS. Se aplică manual cu fierul de glet sau mecanizat cu mașina PFT Ritmo PowerCoat. După întărire (2-5 ore), se aplică un al doilea strat mai fluid. După uscare completă se șlefuiește cu hârtie abrazivă granulație 200-300. La exterior se amorsează cu Baumit MultiPrimer (diluat 1:1, uscare 12 ore), iar la interior cu Baumit DivinaPrimer. Ca finisaj se folosesc vopselele Baumit Divina (interior) sau Baumit Color (exterior). Materialul preparat se poate păstra până la 5 ore într-un vas închis."
+}

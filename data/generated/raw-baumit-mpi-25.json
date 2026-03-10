@@ -1,0 +1,99 @@
+{
+  "id": "baumit-mpi-25",
+  "brand": "Baumit",
+  "name": "Baumit MPI 25",
+  "productCode": "MPI 25",
+  "category": "Tencuieli",
+  "description": "Tencuială mecanizată var-ciment pentru interior, permeabilă la vapori, care reglează umiditatea în încăpere și asigură un climat interior confortabil. Se aplică manual sau mecanizat pe diverse suporturi, inclusiv în încăperi umede.",
+  "specs": [
+    "Grupa Mortare: CS II",
+    "Standard: SR EN 998-1",
+    "Clasificare: GP - CS II",
+    "Rezistența la compresiune la 28 zile: > 2.5 N/mm²",
+    "Aderența la forfecare: 0.08 N/mm²",
+    "Rezistența la difuzia vaporilor: 5 / 20",
+    "Conductivitate termică λ: 0.43 W/mK (P=50%)",
+    "Granulă maximă: 0.6 mm",
+    "Necesar apă: aprox. 22 - 24%"
+  ],
+  "keyProperties": {
+    "Grupa Mortare": "CS II",
+    "Rezistența la compresiune (28 zile)": "> 2.5 N/mm²",
+    "Aderența la forfecare": "0.08 N/mm²",
+    "Rezistența la difuzia vaporilor": "5 / 20",
+    "Conductivitate termică λ": "0.43 W/mK",
+    "Granulă maximă": "0.6 mm",
+    "Consum": "14 kg/m²/cm",
+    "Grosime minimă aplicare": "10 mm",
+    "Grosime maximă aplicare": "25 mm"
+  },
+  "rawConsumptionFromPDF": "Consum 14 kg/m²/cm | Acoperire 3 m²/cm/sac (MPI 25_25 kg), 3 m²/cm/sac (MPI 25_40 kg), 72 m²/tonă (MPI 25_siloz) | Grosime minimă de aplicare 10 mm | Grosime maximă de aplicare 25 mm",
+  "consumption": {
+    "kgPerM2Standard": 14,
+    "kgPerM2PerMm": 1.4,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "packageDescription": "sac 25 kg sau sac 40 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 1.786,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică 14 kg/m²/cm (adică 14 kg/m² per 1 cm grosime). kgPerM2PerMm = 14/10 = 1.4 kg/m²/mm. La grosimea minimă de 10 mm: 14 kg/m². Sac 25 kg la 10 mm: 25/14 = 1.786 m²/sac. PDF confirmă 3 m²/cm/sac, adică la 1 cm grosime un sac de 25 kg acoperă ~3 m² (25/3 ≈ 8.33 kg/m² per cm? – discrepanță aparentă, dar 14 kg/m²/cm pare valoarea corectă de consum, iar 3 m²/cm/sac se interpretează ca 3 m² per sac la grosime de 1 cm, ceea ce implică 25/3 ≈ 8.33 dar fișa indică 14; se folosește valoarea explicită 14 kg/m²/cm). Siloz: 72 m²/tonă la 1 cm → 1000/72 = 13.89 ≈ 14 kg/m²/cm, confirmă consumul."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": null,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "openTimeMinutes": null,
+    "dryingDescription": "Suprafața se menține umedă prin stropire cu apă timp de 2 zile. Timp de uscare recomandat: 10 zile per cm grosime înaintea aplicării stratului următor. La grosimi de 30 mm se aplică în 2 straturi cu minim 24 ore între ele.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, neted, cu capacitate portantă. BCA: se udă bine suprafața, amorsă Baumit Spritz 4 mm (uscare 3 zile, consum 10 kg/m²). Beton absorbant: amorsă Baumit Spritz 4 sau masă de șpaclu Baumit StarContact White/ProContact 3-5 mm. Beton neabsorbant: amorsă Baumit SuperPrimer (uscare min 3h, max 48h). Cărămidă: aplicare în două etape proaspăt în proaspăt (5 min).",
+    "coatsRequired": null,
+    "tools": [
+      "Mașină de tencuit (PFT G5C, M-tec sau similar)",
+      "Dreptar H",
+      "Dreptar trapez",
+      "Rabot zimțat",
+      "Drișcă cu burete",
+      "Profile pentru muchii"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac (palet = 54 saci = 1350 kg)",
+      "40 kg sac (palet = 35 saci = 1400 kg)",
+      "siloz"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni, loc uscat, pe paleți din lemn, înfoliați, în ambalaje originale, nedesfăcute."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Spritz 4 (amorsă pentru BCA și beton)",
+      "Baumit SuperPrimer (amorsă beton neabsorbant)",
+      "Baumit StarContact White (masă de șpaclu/punte de aderență)",
+      "Baumit ProContact (masă de șpaclu)",
+      "Baumit SpeedFix (adeziv rapid pentru profile)",
+      "Baumit Fino (glet de finisare)",
+      "Baumit EdelPutz",
+      "Baumit StructoJoy",
+      "Baumit Divina Classic",
+      "Baumit Divina Professionell",
+      "Baumit Divina Eco",
+      "Baumit Divina Color",
+      "Baumit KlimaColor",
+      "Placaje ceramice (pe suprafețe nedrișcuite)"
+    ],
+    "incompatible": [
+      "Mortar de ipsos (nu se amestecă în mașina de tencuit)",
+      "Nu se recomandă la grosimi peste 30 mm"
+    ]
+  },
+  "standards": [
+    "SR EN 998-1"
+  ],
+  "systemPromptSection": "Baumit MPI 25 este o tencuială mecanizată var-ciment pentru interior, clasificată GP - CS II conform SR EN 998-1. Consumul este de 14 kg/m² la grosimea de 10 mm (1 cm), ceea ce înseamnă 1.4 kg/m² per mm grosime. Un sac de 25 kg acoperă aproximativ 1.78 m² la 10 mm grosime. Din siloz, o tonă acoperă 72 m² la 1 cm grosime. Grosimea de aplicare este între 10 mm minim și 25 mm maxim într-un singur strat. La grosimi de 30 mm se aplică în două straturi: primul maxim 25 mm, asperizat, iar după minim 24 ore stratul 2 de 5-7 mm. Peste 30 mm nu se recomandă. Temperatura minimă la aplicare și uscare: +5°C. Pregătirea suportului variază: pe cărămidă se aplică în două etape proaspăt în proaspăt; pe BCA se udă și se aplică amorsă Baumit Spritz 4 (uscare 3 zile, 10 kg/m²); pe beton absorbant se folosește Baumit Spritz 4 sau masă de șpaclu Baumit StarContact White 3-5 mm; pe beton neabsorbant se aplică Baumit SuperPrimer (uscare min 3h, max 48h, doar la aplicare mecanizată). MPI 25 trebuie aplicat pe suprafețele amorsate în max 48 ore. Suprafețele tencuite se mențin umede 2 zile. Nu se încălzește direct tencuiala. Se aplică profile de muchii la colțuri. Finisare: pe suprafețe nedrișcuite — placaje ceramice, Baumit EdelPutz, StructoJoy; pe suprafețe drișcuite — gletuire cu Baumit Fino apoi vopsele Baumit Divina sau KlimaColor. Mașină de tencuit: PFT G5C cu rotor/stator D6-3, debit apă 400 l/h."
+}

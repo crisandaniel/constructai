@@ -1,0 +1,88 @@
+{
+  "id": "adeplast-mti-25",
+  "brand": "Adeplast",
+  "name": "MTI 25 - Mortar pentru tencuire și reparații aplicabil manual sau cu mașina de tencuit",
+  "productCode": "MTI 25",
+  "category": "Tencuieli",
+  "description": "Mortar de tencuială suport sau drișcuită, CS I conform SR EN 998-1/2016, pentru aplicare la interior pe suporturi minerale. Poate fi aplicat manual sau mecanizat, inclusiv în spații cu umiditate ridicată precum băi și bucătării. Se aplică numai pe suporturi minerale (beton, cărămidă, BCA).",
+  "specs": [
+    "Clasa de mortar: CS I conform SR EN 998-1/2016",
+    "Granulație: 0-1 mm",
+    "Reacția la foc: Clasa A1",
+    "Absorbție apă prin capilaritate: W0",
+    "Timp de găleată: cca. 3 ore",
+    "Grosime aplicare: minim 10 mm - maxim 25 mm / strat",
+    "Baza materialului: ciment, var, agregate minerale, polimeri, plastificatori"
+  ],
+  "keyProperties": {
+    "Clasa de mortar": "CS I conform SR EN 998-1/2016",
+    "Granulație": "0-1 mm",
+    "Reacția la foc": "Clasa A1",
+    "Absorbție apă prin capilaritate": "W0",
+    "Timp de găleată": "cca. 3 ore",
+    "Grosime aplicare": "10-25 mm/strat",
+    "Consum": "cca. 10-13 kg/m²/cm",
+    "Temperatură aplicare": "+5°C - +35°C",
+    "Necesarul de apă": "6,6-7,2 litri / 30 kg"
+  },
+  "rawConsumptionFromPDF": "Consum: cca. 10 - 13 kg / m² / cm",
+  "consumption": {
+    "kgPerM2Standard": 11.5,
+    "kgPerM2PerMm": 1.15,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "packageDescription": "sac 30 kg",
+    "packageUnit": "kg",
+    "packageSize": 30,
+    "m2PerPackage": 2.61,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum cca. 10-13 kg/m²/cm. Medie = 11.5 kg/m² la 1 cm (10 mm). kgPerM2PerMm = 11.5/10 = 1.15 kg/m²/mm. La 10 mm grosime: 30 kg / 11.5 kg/m² = 2.61 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 35,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "openTimeMinutes": 180,
+    "dryingDescription": "Uscare cca. 1 mm/zi în funcție de temperatura și umiditatea aerului. La grosimi mai mari de 25 mm se recomandă aplicarea în două straturi umed pe umed.",
+    "substratePrep": "Suprafața trebuie să fie rezistentă, curată, uscată, fără fisuri, crăpături, grăsimi, pulberi, reziduuri sfărâmicioase sau săruri. Pe BCA și cărămidă absorbantă se aplică strop de ciment ADEPLAST AMC 50 sau GRUND STOP diluat 1:3 cu apă (uscare 24 ore), apoi o primă mână din materialul de tencuială cu fluiditate mai ridicată. Pe tavane se utilizează ADEPLAST BETONKONTAKT.",
+    "coatsRequired": null,
+    "tools": [
+      "Mașină de tencuit",
+      "Dreptar",
+      "Dreptar trapez",
+      "Rabot zimțat",
+      "Malaxor electric"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "30 kg sac",
+      "vrac (siloz)"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Depozitare în spații uscate pe paleți de lemn, 12 luni de la data fabricației."
+  },
+  "compatibility": {
+    "compatible": [
+      "ADEPLAST BETONKONTAKT (punte de aderență pe tavane și pe tencuială uscată)",
+      "ADEPLAST AMC 50 (strop de ciment pentru BCA/cărămidă absorbantă)",
+      "ADEPLAST GRUND STOP (diluat 1:3 cu apă, pentru suporturi absorbante)",
+      "Glet ADEPLAST pe bază de ipsos sau ciment",
+      "ADEPLAST COLOR SYSTEM (vopsele)"
+    ],
+    "incompatible": [
+      "Suporturi din lemn",
+      "Suporturi din plastic",
+      "Suporturi din metal",
+      "Suporturi din gipscarton"
+    ]
+  },
+  "standards": [
+    "SR EN 998-1/2016"
+  ],
+  "systemPromptSection": "Adeplast MTI 25 este un mortar de tencuială interioară clasa CS I conform SR EN 998-1/2016, pe bază de ciment, var, agregate minerale și polimeri, cu granulație 0-1 mm. Se aplică manual sau mecanizat pe suporturi minerale (beton, cărămidă, BCA), inclusiv în băi și bucătării.\n\nConsum: cca. 10-13 kg/m² la 1 cm grosime (medie 11.5 kg/m²/cm, respectiv 1.15 kg/m²/mm). Un sac de 30 kg acoperă aproximativ 2.6 m² la grosimea de 10 mm. Grosimea de aplicare este minim 10 mm și maxim 25 mm per strat. La grosimi peste 25 mm se aplică în două straturi umed pe umed cu plasă de armare.\n\nNecesarul de apă: 6.6-7.2 litri la 30 kg. Timpul de găleată este cca. 3 ore. La aplicare manuală, se amestecă cu malaxor electric, se lasă în repaus 5-10 minute, apoi se reamestecă scurt.\n\nTemperatura de aplicare: minim +5°C, maxim +35°C. Uscarea este de cca. 1 mm/zi.\n\nPregătirea suportului este esențială: pe BCA și cărămidă absorbantă se aplică obligatoriu ADEPLAST AMC 50 (strop de ciment) sau ADEPLAST GRUND STOP diluat 1:3 cu apă (uscare 24 ore), urmat de o primă mână mai fluidă. Pe tavane se utilizează ADEPLAST BETONKONTAKT. Pentru aplicare peste tencuială uscată se folosește obligatoriu ADEPLAST BETONKONTAKT.\n\nAtenție: încăperile trebuie protejate de curenți de aer. Se evită expunerea la razele solare directe. Nu se aplică pe lemn, plastic, metal sau gipscarton. După uscare completă se poate finisa cu glet ADEPLAST și vopsele din gama ADEPLAST COLOR SYSTEM."
+}

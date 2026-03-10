@@ -1,0 +1,90 @@
+{
+  "id": "baumit-ratioglatt",
+  "brand": "Baumit",
+  "name": "Baumit RatioGlatt",
+  "productCode": null,
+  "category": "Tencuieli",
+  "description": "Tencuială glet de ipsos pentru interior, pe bază de ipsos, var pentru construcții și nisipuri fine, destinată prelucrării mecanizate a suprafețelor interioare. Oferă suprafață netedă, gletuită, aplicabilă unistrat, corespunzătoare grupelor de solicitări la umiditate W1, W2 și W3.",
+  "specs": [
+    "Standard: EN 13279-1",
+    "Clasificare: B2/50/2",
+    "Rezistența la încovoiere la 28 zile: > 1 N/mm²",
+    "Rezistența la compresiune la 28 zile: > 2 N/mm²",
+    "Rezistența la difuzia vaporilor: 10",
+    "Conductivitate termică λ: 0.600 W/mK",
+    "Granulă maxim: 0.6 mm",
+    "Necesar apă: 40 - 49 %"
+  ],
+  "keyProperties": {
+    "Rezistența la încovoiere (28 zile)": "> 1 N/mm²",
+    "Rezistența la compresiune (28 zile)": "> 2 N/mm²",
+    "Rezistența la difuzia vaporilor": "10",
+    "Conductivitate termică λ": "0.600 W/mK",
+    "Granulă maxim": "0.6 mm",
+    "Necesar apă": "40 - 49 %"
+  },
+  "rawConsumptionFromPDF": "Consum: 10.5 kg/m²/cm | Acoperire: 2.9 m²/cm/sac (30 kg) | 95 m²/to /cm | Grosime minimă de aplicare: 10 mm | Grosime maximă de aplicare: 25 mm",
+  "consumption": {
+    "kgPerM2Standard": 10.5,
+    "kgPerM2PerMm": 1.05,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "packageDescription": "sac 30 kg",
+    "packageUnit": "kg",
+    "packageSize": 30,
+    "m2PerPackage": 2.9,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum 10.5 kg/m²/cm, adică 10.5 kg/m² la 10 mm grosime. kgPerM2PerMm = 10.5/10 = 1.05 kg/m²/mm. Acoperire sac 30 kg: 2.9 m²/cm/sac (la 10 mm). Verificare: 30/10.5 = 2.857 ≈ 2.9 m²/sac. Acoperire siloz: 95 m²/to/cm → 1000/10.5 = 95.24 ≈ 95 m²/tonă la 10 mm."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": null,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "openTimeMinutes": null,
+    "dryingDescription": "Timp de uscare înaintea aplicării oricărui strat de acoperire: 10 zile/cm grosime de tencuială, în funcție de umiditate, temperatură și condițiile de ventilare. În primele 14 zile este necesară o uscare continuă și fără întreruperi.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, cu capacitate portantă. Pe beton: îndepărtarea reziduurilor de ulei de decofrare, umiditate max. ≤3%, amorsare cu Baumit BetonKontakt (min. 3 ore uscare). Pe BCA: amorsare cu Baumit Grund diluat 1:2 - 1:3 cu apă (min. 12 ore uscare). Pe cărămidă: Baumit Grund diluat 1:2 - 1:3 cu apă.",
+    "coatsRequired": 1,
+    "tools": [
+      "Mașină de tencuit",
+      "Dreptar profil H",
+      "Dreptar trapez",
+      "Șpaclu de finisare 600 mm",
+      "Drișcă cu burete",
+      "Fier de glet"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "30 kg sac",
+      "siloz"
+    ],
+    "shelfLifeMonths": 6,
+    "storageNotes": "6 luni de la data înscrisă pe ambalaj, la loc uscat, răcoros, în ambalajul original, nedesfăcut, pe palet de lemn infoliat."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Grund (amorsă pentru BCA și cărămidă)",
+      "Baumit BetonKontakt (amorsă pentru beton)",
+      "Baumit Spritz 4 (amorsă pentru plăci aglomerate >5 cm)",
+      "Baumit MP-Tex (plasă armare tencuieli mecanizate)",
+      "Baumit SperrGrund (pentru finisaje silicatice, 2 straturi)",
+      "Adezivi Baumacol (pentru placaje ceramice)",
+      "Vopsele și tencuieli decorative pentru interior",
+      "Tapet",
+      "Placaje ceramice"
+    ],
+    "incompatible": [
+      "Suprafețe cu reziduuri de ulei de decofrare",
+      "Suporturi cu umiditate beton >3%",
+      "Temperaturi sub +5°C la aplicare și uscare"
+    ]
+  },
+  "standards": [
+    "EN 13279-1"
+  ],
+  "systemPromptSection": "Baumit RatioGlatt este o tencuială glet de ipsos pentru interior, aplicată mecanizat, unistrat. Consumul este de 10.5 kg/m² la grosimea de 10 mm (1 cm), respectiv 1.05 kg/m² per mm grosime. Un sac de 30 kg acoperă aproximativ 2.9 m² la 10 mm grosime. O tonă acoperă aproximativ 95 m² la 10 mm grosime. Grosimea de aplicare este între 10 mm minim și 25 mm maxim pe strat. La grosimi mai mari se lucrează în 2 straturi, proaspăt în proaspăt (după 10-20 minute). Temperatura minimă de aplicare și uscare este +5°C. Necesarul de apă este 40-49%. Pregătirea suportului: pe beton se amorsează cu Baumit BetonKontakt (consum 0.4 kg/m², uscare min. 3 ore); pe BCA și cărămidă se amorsează cu Baumit Grund diluat 1:2 - 1:3 cu apă (consum 0.05 kg/m², uscare min. 12 ore); pe plăci aglomerate >5 cm se amorsează cu Baumit Spritz 4 (uscare 21 zile). Armarea se face cu plasa Baumit MP-Tex. Suprafețele pentru placaje ceramice nu se gletuiesc, umiditatea tencuielii max. 1%. Timpul de uscare înainte de aplicarea finisajului: 10 zile/cm grosime. În primele 14 zile se asigură uscare continuă, fără condens sau aport de umiditate. Se evită încălzirea directă a tencuielii. Pentru finisaje silicatice se pregătește suportul cu Baumit SperrGrund (2 straturi). Pompa de amestecare se curăță în max. 20 minute de la oprire."
+}

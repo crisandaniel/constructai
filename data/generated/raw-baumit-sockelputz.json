@@ -1,0 +1,87 @@
+{
+  "id": "baumit-sockelputz",
+  "brand": "Baumit",
+  "name": "Baumit SockelPutz",
+  "productCode": "SockelPutz_25 Kg",
+  "category": "Tencuieli",
+  "description": "Tencuială de ciment hidrofobată, impermeabilă la apă, pentru aplicare manuală și mecanizată. Se utilizează ca tencuială de soclu la interior și exterior, ca suport pentru placări ceramice și ca tencuială armată la lucrări de consolidare.",
+  "specs": [
+    "Grupa Mortare: CS IV",
+    "Standard: SR 998-1:2016",
+    "Clasificare: GP - CS IV - W2",
+    "Granulă maxim 2 mm",
+    "Consum: 16 kg/m²/cm",
+    "Grosime minimă aplicare: 20 mm",
+    "Grosime maximă aplicare: 25 mm",
+    "Necesar apă: 4-5 l/sac"
+  ],
+  "keyProperties": {
+    "Rezistența la încovoiere": "> 1.5 N/mm²",
+    "Rezistența la încovoiere la 28 zile (mecanizat)": "> 3 N/mm²",
+    "Rezistența la compresiune (manual)": "> 5 N/mm²",
+    "Rezistența la compresiune la 28 zile (mecanizat)": "> 10 N/mm²",
+    "Aderența la forfecare": "> 0.1 N/mm²",
+    "Rezistența la difuzia vaporilor": "15 / 35 tabelar",
+    "Conductivitate termică": "< 0.460 W/mK (manual)",
+    "Granulă maxim": "2 mm"
+  },
+  "rawConsumptionFromPDF": "Consum 16 kg/m²/cm",
+  "consumption": {
+    "kgPerM2Standard": 32,
+    "kgPerM2PerMm": 1.6,
+    "thicknessStandardMm": 20,
+    "thicknessMinMm": 20,
+    "thicknessMaxMm": 25,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 0.78,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: 16 kg/m²/cm = 1.6 kg/m²/mm. La grosimea minimă de 20 mm: 1.6 × 20 = 32 kg/m². m²/sac la 20 mm: 25 / 32 = 0.78 m²/sac. La 25 mm: 1.6 × 25 = 40 kg/m², 25/40 = 0.625 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 25,
+    "thicknessMinMm": 20,
+    "thicknessMaxMm": 25,
+    "openTimeMinutes": null,
+    "dryingDescription": "Timp de uscare minim 10 zile pe cm grosime de tencuială înainte de aplicarea altor finisaje. La aplicarea în mai multe straturi, timp de așteptare între straturi minim 24 ore.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, neted, cu capacitate portantă. Se amorsează cu Baumit Spritz4. Timp de uscare amorsă minim 3 zile, iar în primele 2 zile suprafața se menține umedă. Suprafețele de beton nu trebuie să prezinte urme de decofrol.",
+    "coatsRequired": null,
+    "tools": [
+      "Malaxor cu cădere liberă",
+      "Mașină de tencuit (PFT G5C, M-tec)",
+      "Dreptar H",
+      "Dreptar trapez",
+      "Cancioc"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, la loc uscat, răcoros, în ambalajul original, nedesfăcut pe palet de lemn infoliat. 1 palet = 54 saci = 1350 kg."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Spritz4 (amorsă suport)",
+      "Baumit Perla Interior (tinci interior)",
+      "Baumit Perla Exterior (tinci exterior)",
+      "Baumit MultiRenova (tinci exterior)",
+      "Tencuieli decorative Baumit",
+      "Vopsele de Fațadă Baumit",
+      "Placaje ceramice"
+    ],
+    "incompatible": [
+      "Suprafețe cu urme de decofrol necurățate",
+      "Suprafețe înghețate"
+    ]
+  },
+  "standards": [
+    "SR 998-1:2016"
+  ],
+  "systemPromptSection": "Baumit SockelPutz este o tencuială de ciment hidrofobată, impermeabilă la apă, destinată zonelor de soclu la interior și exterior. Consumul este de 16 kg/m² per cm grosime (1.6 kg/m²/mm). La grosimea minimă de aplicare de 20 mm, consumul este de 32 kg/m², iar un sac de 25 kg acoperă aproximativ 0.78 m². La grosimea maximă de 25 mm, consumul crește la 40 kg/m², iar un sac acoperă doar 0.625 m². Grosimea de aplicare se situează obligatoriu între 20 și 25 mm pe un singur strat. Prepararea se face cu 4-5 litri de apă per sac, timp de amestecare 3-5 minute. Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil și cu capacitate portantă. Amorsarea suportului se face cu Baumit Spritz4, cu timp de uscare al amorsei de minim 3 zile (primele 2 zile suprafața se menține umedă). Temperatura de aplicare trebuie să fie între +5°C și +25°C. Suprafețele proaspăt tencuite se protejează de acțiunea directă a soarelui și se mențin umede 2 zile. La aplicarea în mai multe straturi, suprafața se prelucrează rugos, cu minim 24 ore între straturi. Înainte de aplicarea finisajelor se așteaptă minim 10 zile/cm grosime. Pentru finisaj interior se folosește Baumit Perla Interior, iar la exterior Baumit Perla Exterior sau Baumit MultiRenova. Tencuiala nu se drișcuiește dacă se aplică placaje ceramice. Sub nivelul terenului se aplică obligatoriu hidroizolație."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "apla-aplafill-exterior",
+  "brand": "Apla",
+  "name": "AplaFill Exterior - Glet pe bază de ciment alb, pentru exterior",
+  "productCode": "F-PO-09-09, rev. 3",
+  "category": "Finisaje",
+  "description": "Mortar fin de uz general pe bază de ciment alb aditivat cu silicon, rășini și fibre sintetice, destinat nivelării și finisajului suprafețelor minerale la exterior și în spații cu umiditate mare. Produs de tip 2-în-1, adaptat atât pentru nivelare cât și pentru finisaj, creând o suprafață de un alb imaculat, netedă și fără pori.",
+  "specs": [
+    "Clasificare SR EN 998-1: GP A1 CS3 W2 Aderența 0,5 FP:B",
+    "Rezistența la compresiune: CS 3 (3,5-7,5 N/mm²)",
+    "Aderență la suport din beton: ≥ 0,5 N/mm², FP:B (rupere în mortar)",
+    "Absorbție de apă prin capilaritate: W2 (≤ 0,2 kg/m²min^1/2)",
+    "Permeabilitate la vaporii de apă: µ ≤ 20",
+    "Densitatea aparentă a mortarului întărit: 1200-1300 kg/m³",
+    "Clasa de reacție la foc: A1 (incombustibil)"
+  ],
+  "keyProperties": {
+    "Bază": "Ciment alb aditivat cu silicon, rășini și fibre sintetice",
+    "Rezistență la compresiune": "CS 3 (3,5-7,5 N/mm²)",
+    "Aderență la beton": "≥ 0,5 N/mm²",
+    "Absorbție apă capilaritate": "W2 (≤ 0,2 kg/m²min^1/2)",
+    "Permeabilitate vapori": "µ ≤ 20",
+    "Densitate mortar întărit": "1200-1300 kg/m³",
+    "Reacție la foc": "A1",
+    "Proporție apă/sac 20 kg": "8 litri",
+    "Lucrabilitate": "cca. 4 ore de la prepararea cu apă",
+    "Timp uscare șlefuire": "cca. 6 ore (grosime 1 mm, la 20°C și umiditate 50%)",
+    "Timp maturare vopsire": "2-7 zile"
+  },
+  "rawConsumptionFromPDF": "Consum standard (grosime de 1 mm): 0,8 kg/m²; Randament teoretic: 1,25 m²/kg; Consumul standard este de 0,8 kg/m² in strat de 1 mm grosime. La o grosime medie de aplicare de 1 mm, un sac de 20 kg este suficient pentru gletuirea a cca. 25 m² iar un sac de 5 kg este suficient pentru cca. 6 m².",
+  "consumption": {
+    "kgPerM2Standard": 0.8,
+    "kgPerM2PerMm": 0.8,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 1,
+    "thicknessMaxMm": 4,
+    "packageDescription": "sac 20kg / sac 5kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 25,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum standard 0,8 kg/m² la grosime 1 mm. kgPerM2PerMm = 0,8/1 = 0,8. Sac 20kg: 20/0,8 = 25 m²/sac la 1 mm. Sac 5kg: 5/0,8 = 6,25 m² ≈ 6 m²/sac. Randament teoretic: 1,25 m²/kg = 1/1,25 = 0,8 kg/m² confirmă."
+  },
+  "application": {
+    "minTempC": 8,
+    "maxTempC": 30,
+    "thicknessMinMm": 1,
+    "thicknessMaxMm": 4,
+    "openTimeMinutes": 240,
+    "dryingDescription": "Șlefuire după cca. 6 ore (grosime 1 mm, la 20°C și umiditate 50%). Timp maturare înaintea aplicării vopselelor: 2-7 zile. Al doilea strat se poate aplica după 24 ore.",
+    "substratePrep": "Suportul trebuie să fie stabil, uscat, maturat, fără praf, eflorescențe sau grăsimi. Porțiunile instabile se curăță cu ciocanul de zidărie. Suport poros/sfărâmicios: se amorsează cu AplaNivello Amorsă nediluată. Suport cu absorbție mixtă: AplaHydroStop Amorsă universală diluată 1:3 cu apă. Stâlpi/grinzi beton cu decofrante: AplaFill Amorsă universală diluată 1:3. Denivelări >4 mm: se egalizează cu AplaFill TMC. Fisuri/găuri: se repară cu AplaFix.",
+    "coatsRequired": 2,
+    "tools": [
+      "Gletieră din inox",
+      "Malaxor cu turație lentă (400 rot/min)",
+      "Hârtie abrazivă granulație min. 240"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "5kg sac",
+      "20kg sac"
+    ],
+    "shelfLifeMonths": null,
+    "storageNotes": "Se depozitează paletizat, în spații ferite de umiditate permanentă, îngheț sau căldură excesivă. Fără restricții de transport conform ADR/RID."
+  },
+  "compatibility": {
+    "compatible": [
+      "AplaNivello Amorsă pentru șape și mortare",
+      "AplaHydroStop Amorsă universală",
+      "AplaFill Amorsă universală",
+      "AplaFill TMC tencuială mecanizată pe bază de ciment",
+      "AplaFix mortar adeziv și masă de șpaclu",
+      "AplaLux amorsă concentrată de exterior",
+      "Vopsele lavabile AplaLux"
+    ],
+    "incompatible": []
+  },
+  "standards": [
+    "SR EN 998-1"
+  ],
+  "systemPromptSection": "AplaFill Exterior este un glet pe bază de ciment alb aditivat cu silicon, rășini și fibre sintetice, produs de Akzo Nobel Coatings (Fabryo). Consumul standard este de 0,8 kg/m² la grosimea de 1 mm. Un sac de 20 kg acoperă aproximativ 25 m², iar un sac de 5 kg acoperă aproximativ 6 m², ambele la grosimea de 1 mm. Grosimea de aplicare permisă este între 1 și 4 mm. La grosimea maximă de 4 mm, consumul crește la aproximativ 3,2 kg/m² (20 kg / 3,2 = cca. 6,25 m²/sac). Prepararea necesită 8 litri apă pentru sacul de 20 kg sau 2 litri pentru sacul de 5 kg, amestecate cu malaxor la 400 rot/min, repaus 3-5 minute, apoi reamestecarea. Temperatura de aplicare: între +8°C și +30°C. Se evită căldura excesivă (radiația solară directă), vântul puternic sau curenții de aer care pot cauza fisurarea. Suportul trebuie să fie stabil, uscat, fără praf sau grăsimi. Suporturile poroase sau sfărâmicioase se amorsează cu AplaNivello Amorsă nediluată. Suporturile cu absorbție mixtă se amorsează cu AplaHydroStop Amorsă universală diluată 1:3. Denivelările peste 4 mm se egalizează cu AplaFill TMC, iar fisurile se repară cu AplaFix. Se aplică cu gletieră din inox. Al doilea strat de finisare se aplică după 24 ore. Șlefuirea cu hârtie abrazivă (granulație min. 240) se face după circa 6 ore. Vopsirea cu vopsele lavabile AplaLux se face după minimum 2-7 zile de maturare, amorsând cu AplaLux amorsă concentrată de exterior. Produsul conține ciment cu reacție alcalină — se recomandă mănuși de cauciuc, mască anti-praf și ochelari de protecție."
+}

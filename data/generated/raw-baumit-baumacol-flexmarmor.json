@@ -1,0 +1,92 @@
+{
+  "id": "baumit-baumacol-flexmarmor",
+  "brand": "Baumit",
+  "name": "Baumit Baumacol FlexMarmor",
+  "productCode": null,
+  "category": "Adezivi",
+  "description": "Adeziv flexibil superior alb, sub formă de pulbere, pe bază de ciment alb, netoxic, rezistent la apă și îngheț, clasificare C2TE S1 conform SR EN 12004. Destinat lipirii plăcilor de marmură, piatră naturală și placaje ceramice la interior și exterior, cu grosime de aplicare variabilă între 3-20 mm.",
+  "specs": [
+    "Clasificare C2TE S1 conform SR EN 12004",
+    "Culoare alb",
+    "Grosime aplicare: 3-20 mm",
+    "Granulă maxim 0.6 mm",
+    "Timp de lucrabilitate: aprox. 4 ore",
+    "Timp deschis: max. 30 min",
+    "Timp de corecție: aprox. 5 min",
+    "Rezistent la apă și îngheț",
+    "EC1 - emisii foarte scăzute"
+  ],
+  "keyProperties": {
+    "Clasificare": "C2TE S1",
+    "Culoare": "alb",
+    "Granulă maximă": "0.6 mm",
+    "Grosime minimă strat": "3 mm",
+    "Grosime maximă strat": "20 mm",
+    "Timp de lucrabilitate": "aprox. 4 ore",
+    "Timp deschis": "max. 30 min",
+    "Timp de corecție": "aprox. 5 min",
+    "Timp de așteptare": "max. 5 min",
+    "Solicitare pas": "după 24 ore",
+    "Necesar apă": "aprox. 7.5 l/sac",
+    "Consum": "3-5 kg/m²"
+  },
+  "rawConsumptionFromPDF": "Consum 3 - 5 kg/m² functie de tipul si dimensiunea placajului ceramic, rugozitatea suportului si tipul gletierei\n\nTile size (cm) | Trowel teeth size (mm) | Consumption Baumacol FlexMarmor (kg/m²)*\n10x10 | 4 | 1.6\n15x15 | 6 | 2.0\n25x25 | 8 | 2.5\n35x35 | 10 | 3.0\n*) The above consumption is for your reference only and should be used on neat surfaces with the use of 75% adhesive.\n\nLa exterior/TD consum de 4-6 kg/m2.",
+  "consumption": {
+    "kgPerM2Standard": 3,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": 3,
+    "thicknessMaxMm": 20,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 8.3,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică consum 3-5 kg/m² (tehnica simplă TS, acoperire 75%). Tabel detaliat EN: 10x10cm→1.6 kg/m², 15x15→2.0, 25x25→2.5, 35x35→3.0 kg/m². Tehnica dublă TD: 4-6 kg/m². Folosim 3.0 kg/m² ca valoare standard medie (plăci 35x35, TS). m²/sac = 25/3.0 = 8.3 m²/sac. Consumul variază în funcție de dimensiunea plăcii, gleteră și tehnica de aplicare."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 3,
+    "thicknessMaxMm": 20,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Solicitare pas după 24 ore. Rosturi de chituire după minim 24 ore de la lipire. La piscine, umplerea se face după cel puțin 5 zile (RO) sau 14 zile (EN) de la lipire.",
+    "substratePrep": "Suportul trebuie să fie uniform, neted, nedeformabil, uscat, neînghețat, stabil, rezistent și curat, fără praf, moloz, pete de ulei, grăsimi, decofrol, părți friabile. Suporturi absorbante se amorsează cu Baumit Grund, suporturi neabsorbante cu Baumit SuperPrimer. Tencuieli var-ciment: timp uscare 10 zile/cm. Șape ciment: 28 zile la 5 cm grosime (umiditate max 2.5%). Plăci ceramice existente se amorsează cu Baumit SuperPrimer.",
+    "coatsRequired": null,
+    "tools": [
+      "Mixer electric max 500 rpm",
+      "Gletieră metalică dințată (dinți 3-10 mm)",
+      "Vas de amestecare curat",
+      "Burete umed"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni, loc uscat, pe paleți din lemn, înfoliați, în ambalaje originale, nedesfăcut. 1 palet = 54 saci = 1350 kg."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Grund (amorsă suporturi absorbante)",
+      "Baumit SuperPrimer (amorsă suporturi neabsorbante)",
+      "Hidroizolații (peste hidroizolații)",
+      "Pardoseli încălzite",
+      "Plăci ceramice existente (cu SuperPrimer)",
+      "Gresie porțelanată, marmură, granit, ardezie, travertin"
+    ],
+    "incompatible": [
+      "Suporturi din metal, plastic, cauciuc, PVC, linoleum, sticlă, lemn, plăci compozite de lemn",
+      "Suporturi pe bază de ciment care nu și-au consumat contracția",
+      "Hidroizolații pe bază de bitum"
+    ]
+  },
+  "standards": [
+    "SR EN 12004",
+    "SR EN 14411:2007"
+  ],
+  "systemPromptSection": "Baumit Baumacol FlexMarmor este un adeziv flexibil superior alb, clasificare C2TE S1 conform SR EN 12004, pe bază de ciment alb, destinat lipirii marmurăi, pietrei naturale și placajelor ceramice (gresie porțelanată, granit, ardezie, travertin) la interior și exterior. Consumul este de 3-5 kg/m² în tehnica simplă (acoperire 75%) și 4-6 kg/m² în tehnica dublă (acoperire 100%). Tabel orientativ: plăci 10x10 cm → 1.6 kg/m² (gletieră 4 mm), 15x15 → 2.0 kg/m² (6 mm), 25x25 → 2.5 kg/m² (8 mm), 35x35 → 3.0 kg/m² (10 mm). Un sac de 25 kg acoperă aproximativ 5-8.3 m² în funcție de dimensiunea plăcilor. Necesar apă: 7.5 l/sac. Grosime aplicare: 3-20 mm. Temperatura de aplicare: minim +5°C, maxim +30°C. Suportul trebuie să fie neted, uscat, stabil și curat. Suporturile absorbante se amorsează cu Baumit Grund, cele neabsorbante cu Baumit SuperPrimer. Plăcile ceramice existente necesită amorsare cu Baumit SuperPrimer. Timp deschis max. 30 min, timp corecție 5 min, lucrabilitate aprox. 4 ore. Solicitare pas după 24 ore. Rosturi de chituire după minim 24 ore. La exterior și zone cu umiditate permanentă se recomandă tehnica dublă cu acoperire 100%. Interior: plăci max 10.000 cm², exterior: max 3.600 cm². Nu se aplică pe metal, plastic, lemn, sticlă, PVC sau hidroizolații bituminoase. Se livrează în saci de 25 kg (54 saci/palet). Valabilitate 12 luni în ambalaj original, loc uscat."
+}

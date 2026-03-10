@@ -1,0 +1,87 @@
+{
+  "id": "ceresit-ct126-glet-interior",
+  "brand": "Ceresit",
+  "name": "Ceresit CT 126 Glet pentru interior",
+  "productCode": "CT 126",
+  "category": "Finisaje",
+  "description": "Glet pe bază de ipsos aditivat pentru interior, destinat egalizării suprafețelor și umplerii denivelărilor între 2 și 10 mm. Oferă un finisaj alb mat, de foarte bună calitate, pe pereți și plafoane în interiorul clădirilor.",
+  "specs": [
+    "Permite realizarea de straturi de până la 10 mm",
+    "Rezistență mare, în timp scurt",
+    "Grad mare de aderență",
+    "Finisaj alb mat, de foarte bună calitate",
+    "Rezistență la fisurare în strat gros",
+    "Reacție la foc A1"
+  ],
+  "keyProperties": {
+    "Compoziție": "amestec de ipsos cu compuși minerali și aditivi",
+    "Densitate": "0,9 kg/dm³",
+    "Timp de punere în operă": "40 - 60 minute",
+    "Temperatură de punere în operă": "+5°C până la +30°C",
+    "Consum orientativ": "1,2 kg/m²/mm",
+    "Aderență la suport": "≥ 0,4 N/mm²",
+    "Rezistență la încovoiere": "≥ 1 N/mm²",
+    "Rezistență la compresiune": "≥ 2 N/mm²",
+    "Timp de uscare": "cca. 24 ore/strat de 5 mm",
+    "Clasificare EN 13279": "B2/20/2"
+  },
+  "rawConsumptionFromPDF": "Consum orientativ: 1,2 kg/m²/mm",
+  "consumption": {
+    "kgPerM2Standard": 1.2,
+    "kgPerM2PerMm": 1.2,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 10,
+    "packageDescription": "sac 5kg și sac 20kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 1.67,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum orientativ 1,2 kg/m²/mm. La grosimea de 10 mm: 1,2 × 10 = 12 kg/m². Sac 20 kg la 10 mm: 20/12 = 1,67 m²/sac. La grosimea de 2 mm: 1,2 × 2 = 2,4 kg/m², sac 20 kg: 20/2,4 = 8,33 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 10,
+    "openTimeMinutes": 50,
+    "dryingDescription": "cca. 24 ore per strat de 5 mm",
+    "substratePrep": "Suprafețele trebuie să fie uscate, dense, rugoase și curate, lipsite de substanțe antiaderente (grăsimi, bitumuri, praf). Straturile nerezistente se înlătură. Zugrăvelile pe bază de cleiuri sau var se răzuiesc după udare și se spală cu apă. Suprafețele lucioase cu vopsea de ulei se asperizează cu glasspapier. Suprafețele absorbante (ipsos, BCA, tencuială var-ciment) se grunduiesc cu Ceresit CT 17.",
+    "coatsRequired": null,
+    "tools": [
+      "Fier de glet",
+      "Mixer electric",
+      "Glasspapier"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "5kg sac",
+      "20kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "În spații uscate se poate păstra timp de 12 luni."
+  },
+  "compatibility": {
+    "compatible": [
+      "Ceresit CT 17 (grund pentru suprafețe absorbante)",
+      "Ceresit CT 29 (mortar de reparație)",
+      "Ceresit CT 127 (glet de finisaj fin)",
+      "Beton",
+      "Tencuială tradițională",
+      "Vopsele de dispersie rezistente",
+      "Plăci de gips-carton"
+    ],
+    "incompatible": [
+      "Suprafețe cu umiditate permanentă",
+      "Zugrăveli pe bază de cleiuri sau var (se înlătură obligatoriu)",
+      "Exterior"
+    ]
+  },
+  "standards": [
+    "EN 13279-1"
+  ],
+  "systemPromptSection": "Ceresit CT 126 este un glet pe bază de ipsos aditivat pentru interior, destinat egalizării denivelărilor între 2 și 10 mm pe pereți și plafoane. Consumul orientativ este de 1,2 kg/m² per mm grosime. La grosimea minimă de 2 mm, consumul este de 2,4 kg/m², iar la grosimea maximă de 10 mm, consumul ajunge la 12 kg/m². Un sac de 20 kg acoperă aproximativ 8,33 m² la 2 mm grosime sau 1,67 m² la 10 mm grosime. Un sac de 5 kg acoperă aproximativ 2,08 m² la 2 mm sau 0,42 m² la 10 mm. Proporția de amestec: 1,8 litri apă pentru 5 kg sau 7 litri apă pentru 20 kg. Masa preparată trebuie utilizată în 40-60 minute de la preparare. Temperatura de aplicare: între +5°C și +30°C. Timpul de uscare este de aproximativ 24 ore per strat de 5 mm. Suprafețele absorbante (ipsos, BCA, tencuială var-ciment) se grunduiesc cu Ceresit CT 17. Suprafețele din beton și tencuiala tradițională se repară cu Ceresit CT 29. Pentru finisaj de mare finețe, se aplică ulterior Ceresit CT 127. Nu se folosește în exterior sau în zone cu umiditate permanentă. Nu se vor folosi recipiente ruginite sau cu urme de alte substanțe. Clasificare: EN 13279 B2/20/2, reacție la foc A1."
+}

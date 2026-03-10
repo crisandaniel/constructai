@@ -1,0 +1,108 @@
+{
+  "id": "baumit-mpa-35",
+  "brand": "Baumit",
+  "name": "Baumit MPA 35",
+  "productCode": "MPA 35",
+  "category": "Tencuieli",
+  "description": "Tencuială mecanizată var-ciment, hidrofobată, cu permeabilitate bună la vapori, pentru exterior și interior. Se aplică pe zidării de cărămidă plină sau eficientă și blocuri ceramice, mecanizat sau manual.",
+  "specs": [
+    "Grupa Mortare: CS II",
+    "Standard: SR EN 998-1",
+    "Clasificare: GP-CS II",
+    "Rezistența la compresiune la 28 zile: > 2.5 N/mm²",
+    "Aderența la forfecare: > 0.1 N/mm²",
+    "Rezistența la difuzia vaporilor: 5/20 valoare tabelară",
+    "Conductivitate termică λ: 0.430 W/mK (valoare tabelară P=50%)",
+    "Granulă maxim: 1 mm",
+    "Hidrofobată"
+  ],
+  "keyProperties": {
+    "Grupa Mortare": "CS II",
+    "Clasificare": "GP-CS II",
+    "Rezistența la compresiune (28 zile)": "> 2.5 N/mm²",
+    "Aderența la forfecare": "> 0.1 N/mm²",
+    "Rezistența la difuzia vaporilor": "5/20",
+    "Conductivitate termică λ": "0.430 W/mK",
+    "Granulă maximă": "1 mm",
+    "Necesar apă": "20-22%"
+  },
+  "rawConsumptionFromPDF": "Consum: 14 kg/m² (MPA 35_40 kg) / 14 kg/m²/cm (MPA 35_siloz). Grosime minimă de aplicare: 20 mm/strat. Grosime maximă de aplicare: 25 mm/strat.",
+  "consumption": {
+    "kgPerM2Standard": 14,
+    "kgPerM2PerMm": 1.4,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "packageDescription": "sac 40 kg",
+    "packageUnit": "kg",
+    "packageSize": 40,
+    "m2PerPackage": 1.43,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică 14 kg/m²/cm adică 14 kg/m² la 10 mm grosime. kgPerM2PerMm = 14/10 = 1.4. La grosimea minimă exterior 20 mm: 28 kg/m². Sac 40 kg la 10 mm: 40/14 = 2.86 m²/sac. La 20 mm: 40/28 = 1.43 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": null,
+    "thicknessMinMm": 10,
+    "thicknessMaxMm": 25,
+    "openTimeMinutes": null,
+    "dryingDescription": "Timp de uscare amorsă Spritz 4: minim 3 zile. Suprafața se menține umedă prin stropire cu apă 2 zile. Timp de uscare înainte de finisaj: 10 zile per cm grosime tencuială.",
+    "substratePrep": "Suprafața suport trebuie să fie uscată, neînghețată, lipsită de praf, să nu fie hidrofobă, fără eflorescențe, rezistentă și fără porțiuni neaderente. Se amorsează cu Baumit Spritz 4. La interior pe BCA/beton: udat și periat înainte de amorsare, menținut umed 2 zile, uscare min. 3 zile.",
+    "coatsRequired": null,
+    "tools": [
+      "Mașină de tencuit (PFT G5C, m-tec sau similare)",
+      "Dreptar H",
+      "Dreptar trapez",
+      "Rabot zimțat",
+      "Drișcă cu burete"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "40 kg sac (1 palet = 35 saci = 1400 kg)",
+      "siloz"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, la loc uscat, răcoros, în ambalajul original, nedesfăcut."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Spritz 4 (amorsă)",
+      "Baumit Speed Fix (adeziv pentru profile muchii)",
+      "Baumit EdelPutz",
+      "Baumit NanoporTop + PremiumPrimer",
+      "Baumit SilikatTop + PremiumPrimer",
+      "Baumit GranoporTop + UniPrimer",
+      "Baumit SilikonTop + PremiumPrimer",
+      "Baumit PuraTop + PremiumPrimer",
+      "Baumit MultiRenova",
+      "Baumit SanovaFeinputz",
+      "Baumit NanoporColor",
+      "Baumit SilikatColor",
+      "Baumit GranoporColor",
+      "Baumit SilikonColor",
+      "Baumit EdelPutzColor",
+      "Baumit ProContact",
+      "Baumit StarContact White",
+      "Baumit Perla Interior",
+      "Baumit FinoGrande",
+      "Baumit FinoBello",
+      "Baumit KlimaFino",
+      "Divina Color",
+      "Divina Professionell",
+      "Divina Classic",
+      "Divina ECO",
+      "Baumit KlimaColor"
+    ],
+    "incompatible": [
+      "Suprafețe hidrofobe",
+      "Ipsos (nu se folosește la fixarea profilelor de muchie)"
+    ]
+  },
+  "standards": [
+    "SR EN 998-1"
+  ],
+  "systemPromptSection": "Baumit MPA 35 este o tencuială mecanizată var-ciment, hidrofobată, pentru exterior și interior, aplicabilă pe zidării de cărămidă și blocuri ceramice. Consumul este de 14 kg/m² la 10 mm grosime (1.4 kg/m²/mm). Un sac de 40 kg acoperă aproximativ 2.86 m² la grosimea de 10 mm, sau 1.43 m² la grosimea minimă de exterior de 20 mm. Grosimea de aplicare per strat este minim 20 mm și maxim 25 mm. La interior grosimea minimă este 10 mm. Necesarul de apă este 20-22%. Temperatura minimă de aplicare și uscare este +5°C. Suportul trebuie să fie uscat, neînghețat, fără praf, eflorescențe sau porțiuni neaderente. La exterior se amorsează obligatoriu cu Baumit Spritz 4, iar la interior pe BCA sau beton tot cu Spritz 4 (suprafața de BCA se udă și se periază înainte). Timpul de uscare al amorsei: minim 3 zile. După aplicare, suprafața se menține umedă prin stropire cu apă timp de 2 zile. Timpul de uscare înainte de aplicarea stratului de finisaj este de 10 zile per cm grosime. La grosimi peste 25 mm se aplică în straturi succesive de max. 25 mm, cu striere orizontală și umezire între straturi. Profilelor de muchie se fixează cu Baumit Speed Fix (nu ipsos). Profilele de pontaj se scot la max. 24 ore. Finisare exterior: Baumit EdelPutz, NanoporTop, SilikatTop, GranoporTop, SilikonTop, PuraTop cu primerele aferente. Finisare interior: tinci Baumit MultiRenova, Perla Interior, gleturi FinoGrande/FinoBello/KlimaFino, apoi vopsele Divina sau KlimaColor."
+}

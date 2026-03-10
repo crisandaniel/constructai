@@ -1,0 +1,146 @@
+// =============================================================================
+// components/_ui.scss — shared UI elements: buttons, badges, chips, cards
+// =============================================================================
+@use '../abstracts' as *;
+
+// -- Buttons -------------------------------------------------------------------
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2;
+  border: none;
+  cursor: pointer;
+  transition: $transition-base;
+  font-family: $font-body;
+  font-size: $font-size-base;
+  border-radius: $radius-lg;
+  text-decoration: none;
+
+  &--primary {
+    @include button-primary;
+    @include font-display($font-size-sm, $font-weight-bold);
+    padding: $space-3 $space-6;
+  }
+
+  &--secondary {
+    @include button-ghost;
+    padding: $space-3 $space-6;
+    font-size: $font-size-sm;
+  }
+
+  &--icon {
+    background: rgba($color-border, 0.5);
+    border: $border-subtle;
+    color: $color-dust;
+    width: 32px;
+    height: 32px;
+    border-radius: $radius-md;
+    @include flex-center;
+
+    &:hover { color: $color-lime; border-color: $color-sand; }
+  }
+}
+
+// -- Chip (material strip tags) ------------------------------------------------
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  background: $color-card;
+  border: $border-subtle;
+  color: $color-sand;
+  padding: $space-1 $space-3;
+  border-radius: $radius-full;
+  font-size: $font-size-xs;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: $transition-base;
+
+  &:hover, &--active {
+    border-color: $color-gold;
+    color: $color-gold;
+    background: $color-gold-bg;
+  }
+}
+
+// -- Spec tag ------------------------------------------------------------------
+.spec-tag {
+  background: $color-surface;
+  border: $border-subtle;
+  color: $color-sand;
+  padding: 0.2rem $space-2;
+  border-radius: $radius-sm;
+  font-size: $font-size-xs;
+}
+
+// -- Stat card -----------------------------------------------------------------
+.stat-card {
+  background: $color-card;
+  padding: 1.75rem $space-6;
+  transition: background $transition-base;
+  &:hover { background: $color-surface; }
+
+  &__number {
+    @include font-display($font-size-4xl, $font-weight-extrabold);
+    color: $color-gold;
+    line-height: 1;
+    margin-bottom: $space-1;
+  }
+  &__label { font-size: $font-size-sm; color: $color-dust; }
+}
+
+// -- Material card -------------------------------------------------------------
+.material-card {
+  background: $color-card;
+  padding: $space-5;
+  cursor: pointer;
+  transition: background $transition-base;
+  &:hover { background: $color-surface; }
+
+  &__category {
+    @include label-uppercase;
+    color: $color-gold;
+    margin-bottom: $space-1;
+  }
+  &__name {
+    @include font-display($font-size-md, $font-weight-bold);
+    margin-bottom: $space-2;
+  }
+  &__description {
+    font-size: $font-size-xs;
+    color: $color-dust;
+    line-height: $line-height-relaxed;
+    margin-bottom: $space-3;
+  }
+  &__specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-2;
+    margin-bottom: $space-3;
+  }
+  &__link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: $font-size-xs;
+    background: $color-gold-bg;
+    border: 1px solid $color-gold-border;
+    color: $color-gold;
+    padding: $space-2;
+    border-radius: $radius-lg;
+    transition: $transition-base;
+    &:hover { background: $color-gold-bg-hover; }
+  }
+}
+
+// -- Animations ----------------------------------------------------------------
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

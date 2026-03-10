@@ -1,0 +1,91 @@
+{
+  "id": "ceresit-cm9-adeziv-standard-placi-ceramice-interior",
+  "brand": "Ceresit",
+  "name": "Ceresit CM 9 - Adeziv standard pentru plăci ceramice la interior",
+  "productCode": "CM 9",
+  "category": "Adezivi",
+  "description": "Adeziv pe bază de ciment pentru lipirea plăcilor ceramice absorbante la interior, în pat subțire și mediu. Ideal pentru suprafețe neregulate, economic, pentru grosimi de la 5 la 15 mm. Se utilizează numai pentru plăci ceramice cu absorbție de apă mai mare de 3% (E>3%).",
+  "specs": [
+    "Clasificare C1T conform EN 12004-1:2017",
+    "Aderență ≥ 0,5 N/mm² (C1)",
+    "Alunecare ≤ 0,5 mm (T)",
+    "Grosimi de aplicare 5-15 mm",
+    "Pentru plăci ceramice absorbante gr. BIIa, BIIb, BIII"
+  ],
+  "keyProperties": {
+    "Bază": "combinație de ciment cu compuși minerali și modificatori",
+    "Densitate": "1,44 kg/dm³",
+    "Proporția amestecului": "cca. 6 l apă pentru 25 kg",
+    "Timp de punere în operă": "până la 3 ore (minimum 90 minute)",
+    "Temperatură de punere în operă": "de la +5°C până la +30°C",
+    "Timp deschis": "≤ 20 min",
+    "Timp de maturare": "5 min",
+    "Alunecare": "≤ 0,5 mm",
+    "Rostuire": "după 24 de ore",
+    "Timp de ajustabilitate": "cca. 15 min",
+    "Aderență în mediu uscat": "≥ 0,7 N/mm²",
+    "Aderență în mediu umed": "≥ 0,5 N/mm²"
+  },
+  "rawConsumptionFromPDF": "Consum orientativ:\nPlaca/Mărimea dinților mistriei (mm) | Consum CM 9 (kg/m²)\n15x15/6 | 2,1\n20x20/8 | 3\n30x30/10 | 4,3\n≥30x30/15 | 6",
+  "consumption": {
+    "kgPerM2Standard": 4.3,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": 5,
+    "thicknessMaxMm": 15,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 5.81,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Consumul variază în funcție de dimensiunea dinților mistriei: 2,1 kg/m² (dinți 6mm), 3 kg/m² (dinți 8mm), 4,3 kg/m² (dinți 10mm), 6 kg/m² (dinți 15mm). Valoare de referință aleasă: 4,3 kg/m² pentru plăci 30x30 cu mistrie dinți 10mm. m2PerPackage = 25/4,3 = 5,81 m²/sac. Consumul nu este direct proporțional cu grosimea stratului ci depinde de mărimea dinților mistriei, deci kgPerM2PerMm nu se poate calcula corect."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 5,
+    "thicknessMaxMm": 15,
+    "openTimeMinutes": 20,
+    "dryingDescription": "Rostuire după minimum 24 de ore. Timp de punere în operă până la 3 ore (minimum 90 minute). Timp deschis ≤ 20 min.",
+    "substratePrep": "Suprafețele trebuie să fie rezistente, curate, uscate, lipsite de substanțe antiaderente (grăsimi, bitum, praf). Se îndepărtează straturile cu rezistență mecanică slabă. Neregularitățile până la 1 cm pot fi reparate cu CM 9 în ziua anterioară placării. Amorsare necesară cu Ceresit CT 17 pentru tencuieli ciment-var (min. 28 zile), șape ciment (min. 28 zile), beton (min. 6 luni), BCA. Uscare amorsă max. 4 ore.",
+    "coatsRequired": 1,
+    "tools": [
+      "Mixer electric",
+      "Mistrie dințată (6/8/10/15 mm)"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data fabricației, la temperaturi între -20°C și 50°C, fără contact direct cu apa, pe paleți cu ambalajul intact. În cazul deteriorării foliei de protecție, se păstrează în ambalaj original, nedeteriorat, în condiții uscate și spații acoperite."
+  },
+  "compatibility": {
+    "compatible": [
+      "Ceresit CT 17 (grund de profunzime)",
+      "Ceresit CC 83 (aditiv pentru plăci neabsorbante)",
+      "Chituri de rosturi Ceresit",
+      "Plăci ceramice absorbante BIIa, BIIb, BIII (E>3%)",
+      "Piatră naturală (nepredispusă la pătare)",
+      "Teracote",
+      "Suporturi pe bază de ciment"
+    ],
+    "incompatible": [
+      "Placări ceramice anterioare",
+      "Vopsele",
+      "Panouri gips-carton",
+      "Mozaicuri lustruite",
+      "Plăci de ipsos",
+      "Plăci ceramice neabsorbante (porțelanate) - fără aditiv CC 83",
+      "Zone solicitate chimic"
+    ]
+  },
+  "standards": [
+    "EN 12004-1:2017",
+    "C1T"
+  ],
+  "systemPromptSection": "Ceresit CM 9 este un adeziv standard pe bază de ciment, clasificat C1T conform EN 12004-1:2017, destinat liprii plăcilor ceramice absorbante (E>3%) la interior, în pat subțire și mediu (5-15 mm). Consumul variază în funcție de dimensiunea dinților mistriei: 2,1 kg/m² (mistrie 6 mm, plăci 15x15), 3 kg/m² (mistrie 8 mm, plăci 20x20), 4,3 kg/m² (mistrie 10 mm, plăci 30x30) și 6 kg/m² (mistrie 15 mm, plăci ≥30x30). Un sac de 25 kg acoperă între 4,2 m² (plăci mari) și 11,9 m² (plăci mici). Amestecul se prepară cu cca. 6 litri apă rece pentru 25 kg pulbere, mixat electric, cu 5 minute timp de maturare. Temperatura de aplicare: +5°C până la +30°C. Timpul deschis este de maximum 20 minute, iar timpul de ajustabilitate cca. 15 minute. Rostuirea se face după minimum 24 de ore cu chituri Ceresit. Suportul trebuie amorsit obligatoriu cu Ceresit CT 17 pe tencuieli ciment-var, șape ciment (min. 28 zile), beton (min. 6 luni) și BCA, cu uscare max. 4 ore. NU se utilizează pe gips-carton, vopsele, plăci ipsos, mozaic lustruit sau placări ceramice existente. Pentru plăci porțelanate (neabsorbante) se adaugă aditivul Ceresit CC 83 sau se folosesc adezivi flexibili Ceresit. Plăcile nu se înmoaie în apă înainte de montare."
+}

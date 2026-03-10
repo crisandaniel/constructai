@@ -1,0 +1,90 @@
+{
+  "id": "baumit-duotop",
+  "brand": "Baumit",
+  "name": "Baumit DuoTop",
+  "productCode": null,
+  "category": "Tencuieli",
+  "description": "Tencuială decorativă în strat subțire gata preparată pe bază de rășini sintetice, în structură striată (R) sau periată (K), colorată în masă pentru exterior. Rezistentă la intemperii, cu absorbție redusă de apă și permeabilă la vapori.",
+  "specs": [
+    "Clasa de rezistență la foc: A2 s1 d0",
+    "Rezistența la smulgere: > 0.3 MPa",
+    "Densitate: aprox. 1.8 kg/dm³",
+    "Permeabilitatea la vaporii de apă: V2",
+    "Conductivitate termică λ: aprox. 0.700 W/mK",
+    "Valoare W: W2",
+    "Culoare: paletarul Baumit Life, coduri cu terminațiile 6-9"
+  ],
+  "keyProperties": {
+    "Clasa rezistență la foc": "A2 s1 d0",
+    "Rezistența la smulgere": "> 0.3 MPa",
+    "Densitate": "aprox. 1.8 kg/dm³",
+    "Permeabilitate vapori apă": "V2",
+    "Conductivitate termică": "aprox. 0.700 W/mK",
+    "Valoare W": "W2",
+    "Consum DuoTop 1.5 K": "2.5 kg/m²",
+    "Consum DuoTop 2R": "2.6 kg/m²"
+  },
+  "rawConsumptionFromPDF": "DuoTop 1.5 K: Acoperire 10 m²/25kg, Consum 2.5 kg/m²; DuoTop 2R: Acoperire 9.6 m²/25kg, Consum 2.6 kg/m²",
+  "consumption": {
+    "kgPerM2Standard": 2.5,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "găleată 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 10,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "DuoTop 1.5 K: 2.5 kg/m², 25kg/2.5=10 m²/găleată. DuoTop 2R: 2.6 kg/m², 25kg/2.6≈9.6 m²/găleată. Se folosește valoarea DuoTop 1.5 K ca standard (2.5 kg/m²). Grosimea nu este specificată explicit, se aplică la grosimea granulei."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Baumit UniPrimer se lasă să se usuce cel puțin 24 de ore înainte de aplicarea DuoTop. Diluare maximă admisă: 1% apă.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, absorbant, neted, cu capacitate portantă, fără eflorescențe sau părți friabile. Abaterile maxime de planeitate: 2 mm sub dreptarul de 1 metru. Amorsare obligatorie cu Baumit PremiumPrimer / UniPrimer (min. 24 ore uscare). Suprafețe absorbante sau neuniforme se tratează cu Baumit MultiPrimer.",
+    "coatsRequired": 1,
+    "tools": [
+      "Fier de glet din oțel inoxidabil",
+      "Drișcă din material plastic",
+      "Mașină de tencuit pentru tencuieli fine (ex: Graco RTX 1500)",
+      "Malaxor"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg găleată"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "La loc uscat, în ambalajul original nedesfăcut, la temperaturi între +5°C și maxim 30°C. A se consuma în termen de 14 zile de la deschiderea cutiei. Protejați produsul de temperaturi peste 35°C, sub 5°C și de lumina directă a soarelui."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit UniPrimer",
+      "Baumit PremiumPrimer",
+      "Baumit MultiPrimer",
+      "Baumit SanovaPrimer",
+      "Baumit DuoContact",
+      "Baumit ProContact",
+      "Baumit StarContact",
+      "Baumit openContact",
+      "Baumit MultiWhite",
+      "Baumit PowerFlex",
+      "Baumit StarTex",
+      "Baumit FungoFluid"
+    ],
+    "incompatible": [
+      "Plastic și materiale sintetice",
+      "Straturi de lac respectiv vopsele de ulei",
+      "Tencuieli de var și spoeli de var lemn",
+      "Metal"
+    ]
+  },
+  "standards": [],
+  "systemPromptSection": "Baumit DuoTop este o tencuială decorativă gata preparată pe bază de rășini sintetice, disponibilă în structură periată (K, granulație 1.5 mm) și striată (R, granulație 2 mm), colorată în masă conform paletarului Baumit Life (coduri cu terminațiile 6-9). Consumul este de 2.5 kg/m² pentru DuoTop 1.5 K și 2.6 kg/m² pentru DuoTop 2R. O găleată de 25 kg acoperă aproximativ 10 m² (1.5 K) sau 9.6 m² (2R). Densitatea este de aprox. 1.8 kg/dm³, clasa de rezistență la foc A2 s1 d0, rezistența la smulgere > 0.3 MPa. Temperatura de aplicare trebuie să fie între +5°C și +30°C pentru cel puțin 8 ore. Suportul trebuie să fie uscat, fără praf, permeabil, cu abaterile de planeitate max. 2 mm/m. Obligatoriu se amorsează cu Baumit PremiumPrimer sau Baumit UniPrimer (uscare min. 24 ore). Pe suporturi puternic absorbante sau neuniforme se aplică Baumit MultiPrimer. Suprafețele cu alge/ciuperci se tratează cu Baumit FungoFluid. Nu se aplică pe plastic, metal, lac, vopsele de ulei sau tencuieli de var. Se aplică manual cu fier de glet din inox sau mecanizat (ex: Graco RTX 1500), la grosimea granulei, și se drișcuiește imediat cu drișcă din plastic. Diluare maximă admisă: 1% apă. Fațadele trebuie protejate de soare direct, ploaie și vânt puternic. Valoarea HBW nu trebuie să fie mai mică de 25 pe sisteme termoizolante. Depozitare: 12 luni în ambalaj original, între +5°C și +30°C; după deschidere, se consumă în max. 14 zile."
+}

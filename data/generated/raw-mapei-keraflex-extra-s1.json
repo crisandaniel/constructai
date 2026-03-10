@@ -1,0 +1,100 @@
+{
+  "id": "mapei-keraflex-extra-s1",
+  "brand": "Mapei",
+  "name": "Keraflex Extra S1",
+  "productCode": null,
+  "category": "Adezivi",
+  "description": "Adeziv pe bază de ciment, de înaltă performanță, deformabil (S1), tixotropic, cu timp deschis extins, pentru lipirea plăcilor ceramice și a pietrei naturale pe suprafețe orizontale și verticale. Clasificat C2TE S1 conform EN 12004.",
+  "specs": [
+    "Clasificare EN 12004: C2TE S1",
+    "Aderență inițială: 2,5 N/mm²",
+    "Aderență după expunere la căldură: 2,3 N/mm²",
+    "Aderență după imersie în apă: 1,1 N/mm²",
+    "Aderență după cicluri îngheț-dezgheț: 1,3 N/mm²",
+    "Deformabilitate: S1 (δ > 2,5 mm)",
+    "Timp deschis: aprox. 30 minute",
+    "Timp de corecție: aprox. 45-60 minute",
+    "EMICODE: EC1 R Plus - emisii foarte scăzute",
+    "Reacție la foc: A2FL-s1 / A2-s1, d0"
+  ],
+  "keyProperties": {
+    "Clasificare EN 12004": "C2TE S1",
+    "Aderență inițială": "2,5 N/mm²",
+    "Aderență după căldură": "2,3 N/mm²",
+    "Aderență după imersie în apă": "1,1 N/mm²",
+    "Aderență după îngheț-dezgheț": "1,3 N/mm²",
+    "Deformabilitate": "S1 (δ > 2,5 mm)",
+    "Timp deschis": "aprox. 30 minute",
+    "Timp de corecție": "aprox. 45-60 minute",
+    "Durată amestec (pot life)": "4 ore",
+    "pH amestec": "12",
+    "Greutate specifică amestec": "1.550 kg/m³",
+    "Greutate specifică pulbere": "1,4 g/cm³",
+    "Rezistență la temperatură": "-30°C până la +90°C",
+    "EMICODE": "EC1 R Plus"
+  },
+  "rawConsumptionFromPDF": "CONSUM\nMontarea plăcilor ceramice\n– Mozaic și plăcuțe format mic (spatula Nr. 4): 2 kg/m²\n– Placi dimensiuni normale (spatula Nr. 5): 2,5-3 kg/m²\n– Placi format mare, pardoseli exterioare (spatula Nr. 8-10): 5 kg/m²\nLipirea materialelor izolante\n– Spume si altele, circa: 0,5-0,8 kg/m²\n– Placi din fibrociment, beton celular circa: 1,5 kg/m²",
+  "consumption": {
+    "kgPerM2Standard": 2.75,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 9.09,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Consum variabil în funcție de dimensiunea plăcilor: mozaic/format mic (spatula Nr. 4) = 2 kg/m² → 25/2 = 12,5 m²/sac; plăci dimensiuni normale (spatula Nr. 5) = 2,5-3 kg/m² (medie 2,75 kg/m²) → 25/2,75 = 9,09 m²/sac; plăci format mare/pardoseli exterioare (spatula Nr. 8-10) = 5 kg/m² → 25/5 = 5 m²/sac. Valoarea standard setată la media pentru plăci normale (2,75 kg/m²). Lipire materiale izolante: spume 0,5-0,8 kg/m², plăci fibrociment/beton celular 1,5 kg/m²."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 40,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Chituirea rosturilor la pereți după 4-8 ore, la pardoseli după 24 ore. Apt pentru trafic pietonal ușor după 24 ore. Apt pentru darea în folosință după 14 zile. Șlefuirea după circa 14 zile. Rezervoarele și piscinele pot fi umplute cu apă după 21 zile.",
+    "substratePrep": "Toate suporturile trebuie să fie maturate, solide și uscate, fără contaminări. Suporturile pe bază de ciment (conținut de umiditate < 4%) nu trebuie să fie supuse la contracții. Tencuielile trebuie maturate cel puțin o săptămână per cm de grosime. Șapele pe bază de ciment trebuie maturate cel puțin 28 zile. Suporturile din ipsos (umiditate < 0,5%) și șapele anhidride (umiditate < 1%) trebuie perfect uscate. Amorsare obligatorie cu Primer G sau Eco Prim T. Suprafețele expuse la umiditate trebuie hidroizolate cu Mapegum WPS sau Mapelastic.",
+    "coatsRequired": null,
+    "tools": [
+      "Spatulă dințată Nr. 4",
+      "Spatulă dințată Nr. 5",
+      "Spatulă dințată Nr. 8-10",
+      "Mixer electric",
+      "Mistrie"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac (gri)",
+      "25 kg sac (alb)"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Valabil 12 luni de la data fabricației înscrisă pe ambalaj, depozitat în locuri uscate."
+  },
+  "compatibility": {
+    "compatible": [
+      "Primer G",
+      "Eco Prim T",
+      "Eco Prim Grip",
+      "Mapegum WPS",
+      "Mapelastic",
+      "Topcem",
+      "Topcem Pronto",
+      "Mapecem Pronto",
+      "Keranet"
+    ],
+    "incompatible": [
+      "Suprafețe din lemn sau aglomerate din lemn",
+      "Metal, cauciuc, PVC și linoleum",
+      "Piatră naturală sensibilă la umiditate",
+      "Beton supus la mișcări puternice"
+    ]
+  },
+  "standards": [
+    "EN 12004 C2TE S1"
+  ],
+  "systemPromptSection": "Keraflex Extra S1 de la Mapei este un adeziv pe bază de ciment, clasificat C2TE S1 conform EN 12004, deformabil, tixotropic și cu timp deschis extins (aprox. 30 minute). Este destinat lipirii plăcilor ceramice de orice tip și dimensiune, precum și a pietrei naturale nesensibile la pătare, pe suprafețe orizontale și verticale.\n\nConsum: pentru mozaic și plăcuțe format mic (spatula Nr. 4) se consumă 2 kg/m², pentru plăci dimensiuni normale (spatula Nr. 5) se consumă 2,5-3 kg/m², iar pentru plăci format mare și pardoseli exterioare (spatula Nr. 8-10) se consumă 5 kg/m². Un sac de 25 kg acoperă între 5 și 12,5 m² în funcție de dimensiunea plăcilor și spatula utilizată. Pentru lipirea materialelor izolante (spume, polistiren): 0,5-0,8 kg/m²; plăci fibrociment/beton celular: 1,5 kg/m².\n\nTemperatura de aplicare: între +5°C și +40°C. Raport amestec: 100 părți pulbere gri cu 27-29 părți apă; 100 părți pulbere albă cu 26-28 părți apă. Timp de lucru: aprox. 4 ore. Timp de corecție: 45-60 minute.\n\nSubstratul trebuie să fie maturat, solid, uscat și fără contaminări. Suporturile din ipsos sau șape anhidride trebuie amorsate obligatoriu cu Primer G sau Eco Prim T. Suprafețele expuse la umiditate se hidroizolează cu Mapegum WPS sau Mapelastic. Nu se aplică pe lemn, metal, PVC, linoleum sau piatră sensibilă la umiditate. Pentru pardoseli exterioare și plăci mari se recomandă tehnica dublei aplicări (adeziv și pe suport și pe dosul plăcii). Rosturile se chituiesc după 4-8 ore la pereți și 24 ore la pardoseli."
+}

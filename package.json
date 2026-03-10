@@ -1,0 +1,40 @@
+{
+  "name": "constructai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ingest": "npx ts-node --project scripts/ingest_pdf/tsconfig.json scripts/ingest_pdf/ingest-pdfs.ts",
+    "download:fise": "npx ts-node scripts/download_fise/download.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "lucide-react": "^0.400.0",
+    "next": "14.2.5",
+    "next-intl": "^3.15.0",
+    "openai": "^4.52.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.13.6",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "sass": "^1.77.0",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}

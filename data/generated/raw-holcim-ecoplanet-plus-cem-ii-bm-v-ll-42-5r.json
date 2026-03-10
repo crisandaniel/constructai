@@ -1,0 +1,98 @@
+{
+  "id": "holcim-ecoplanet-plus-cem-ii-bm-v-ll-42-5r",
+  "brand": "Holcim",
+  "name": "ECOPlanet PLUS CEM II/BM(V-LL) 42,5R",
+  "productCode": "60629916062992",
+  "category": "Beton",
+  "description": "Ciment Portland compozit, aditivat cu Duraditiv, cu performanță ridicată și amprentă redusă de CO2 (30% mai puține emisii). Primul ciment verde însăcuit din România, ideal pentru construcții rezidențiale, comerciale și industriale, inclusiv lucrări de renovare și modernizare.",
+  "specs": [
+    "CEM II/BM(V-LL) 42,5R",
+    "Clincher (K): 65÷79%",
+    "Cenușă zburătoare silicioasă (V) și calcar (LL): 21÷35%",
+    "Componente auxiliare minore: 0÷5%",
+    "Timp inițial de priză: min. 60 min",
+    "Stabilitate (expansiune): max. 10 mm",
+    "Rezistență la compresiune inițială: min. 20 MPa",
+    "Rezistență la compresiune standard: min. 42,5 / max. 62,5 MPa",
+    "Conținut de sulfați (SO3): max. 4,0%",
+    "Conținut de cloruri: max. 0,1%",
+    "Conținut de crom hexavalent: max. 0,0002%",
+    "30% mai puține emisii de CO2",
+    "Clasă climatică A",
+    "Conține până la 18% materiale reciclate"
+  ],
+  "keyProperties": {
+    "Tip ciment": "CEM II/BM(V-LL) 42,5R",
+    "Clincher": "65÷79%",
+    "Cenușă zburătoare și calcar": "21÷35%",
+    "Timp inițial de priză": "min. 60 min",
+    "Stabilitate (expansiune)": "max. 10 mm",
+    "Rezistență compresiune inițială": "min. 20 MPa",
+    "Rezistență compresiune standard": "min. 42,5 / max. 62,5 MPa",
+    "Sulfați (SO3)": "max. 4,0%",
+    "Cloruri": "max. 0,1%",
+    "Crom hexavalent": "max. 0,0002%",
+    "Termen de valabilitate": "90 zile",
+    "Reducere emisii CO2": "30%"
+  },
+  "rawConsumptionFromPDF": "REȚETE orientative de preparare betoane cu ECOPlanet PLUS (pentru un sac de ciment):\n\nC8/10 (B150): 1 sac = 20 kg → Apă 1,5 găleată, Nisip 0-4mm 14 lopete sau 4,4 găleți, Pietriș 4-8mm 5 lopete sau 1,5 găleți, Pietriș 8-16mm 8 lopete sau 2 găleți, Pietriș 16-22,4mm 9 lopete sau 2,3 găleți → Beton obținut 0,088 mc sau 8,8 găleți.\n1 sac = 40 kg → Apă 3 găleți, Nisip 28 lopete sau 8,8 găleți, Pietriș 4-8mm 10 lopete sau 3 găleți, Pietriș 8-16mm 16 lopete sau 4 găleți, Pietriș 16-22,4mm 18 lopete sau 4,6 găleți → Beton obținut 0,175 mc sau 17,5 găleți.\n\nC16/20 (B250): 1 sac = 20 kg → Apă 1,2 găleată, Nisip 12 lopete sau 3,6 găleți, Pietriș 4-8mm 4 lopete sau 1,3 găleți, Pietriș 8-16mm 7 lopete sau 1,8 găleți, Pietriș 16-22,4mm 8 lopete sau 2 găleți → Beton obținut 0,072 mc sau 7,2 găleți.\n1 sac = 40 kg → Apă 2,4 găleți, Nisip 24 lopete sau 7,2 găleți, Pietriș 4-8mm 8 lopete sau 2,5 găleți, Pietriș 8-16mm 14 lopete sau 3,5 găleți, Pietriș 16-22,4mm 16 lopete sau 4 găleți → Beton obținut 0,143 mc sau 14,5 găleți.\n\nC30/37 (B450): 1 sac = 20 kg → Apă 1 găleată, Nisip 7 lopete sau 2,2 găleți, Pietriș 4-8mm 3 lopete sau 1 găleată, Pietriș 8-16mm 5 lopete sau 1,3 găleți, Pietriș 16-22,4mm 4 lopete sau 1 găleată → Beton obținut 0,046 mc sau 4 găleți.\n1 sac = 40 kg → Apă 2 găleți, Nisip 14 lopete sau 4,4 găleți, Pietriș 4-8mm 6 lopete sau 2 găleți, Pietriș 8-16mm 10 lopete sau 2,6 găleți, Pietriș 16-22,4mm 8 lopete sau 2 găleți → Beton obținut 0,092 mc sau 8 găleți.",
+  "consumption": {
+    "kgPerM2Standard": null,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "sac 20 kg sau 40 kg",
+    "packageUnit": "kg",
+    "packageSize": 40,
+    "m2PerPackage": null,
+    "kgPerM3": 229,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Produs volumetric (ciment pentru beton). Dozaje variază per clasă de beton: C8/10: 1 sac 40kg → 0,175 m³ beton → ~229 kg ciment/m³. C16/20: 1 sac 40kg → 0,143 m³ → ~280 kg/m³. C30/37: 1 sac 40kg → 0,092 m³ → ~435 kg/m³. kgPerM3 setat la 229 kg/m³ pentru C8/10 ca referință minimă. Pentru C16/20 dozajul este ~280 kg/m³, iar pentru C30/37 ~435 kg/m³."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Protecția betonului se menține pe o perioadă de 7 zile după punerea în operă",
+    "substratePrep": "Nisipul și agregatele se recomandă a fi sortate și spălate. Se utilizează apă curată, de la rețeaua de alimentare cu apă potabilă. Agregatele umede necesită reducerea cantității de apă.",
+    "coatsRequired": null,
+    "tools": [
+      "Betonieră",
+      "Lopată",
+      "Găleată",
+      "Vibrator beton"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac",
+      "40 kg sac"
+    ],
+    "shelfLifeMonths": 3,
+    "storageNotes": "Se păstrează în locuri cu temperaturi pozitive, ferite de ploaie și umezeală. Greutate palet = 1,6 tone. Saci paletizați și înfoliați. Termen de valabilitate: 90 de zile de la data însăcuirii, cu respectarea condițiilor de transport și depozitare."
+  },
+  "compatibility": {
+    "compatible": [
+      "Duraditiv (aditiv deja inclus)",
+      "Agregate sortate și spălate 0-4mm, 4-8mm, 8-16mm, 16-22,4mm",
+      "Beton simplu și beton armat",
+      "Șape CT-C5 … CT-C30",
+      "Betoane ușoare LC8/9 … LC25/28"
+    ],
+    "incompatible": [
+      "Suprafețe cu temperaturi sub 5°C sau peste 30°C fără măsuri speciale"
+    ]
+  },
+  "standards": [
+    "SR EN 197-1",
+    "NE 012/1:2022",
+    "Agrement Tehnic nr. 004-07/1552:2018",
+    "Normativ C 16/84",
+    "Regulamentul (CE) nr. 1907/2006 (REACH)"
+  ],
+  "systemPromptSection": "ECOPlanet PLUS (CEM II/BM(V-LL) 42,5R) este un ciment Portland compozit produs de Holcim, aditivat cu Duraditiv, primul ciment verde însăcuit din România, cu 30% mai puține emisii de CO2. Se livrează în saci de 20 kg și 40 kg.\n\nConsum și dozaje per clasă de beton:\n- C8/10 (B150): ~229 kg ciment/m³ beton (1 sac 40 kg → 0,175 m³ beton)\n- C16/20 (B250): ~280 kg ciment/m³ beton (1 sac 40 kg → 0,143 m³ beton)\n- C30/37 (B450): ~435 kg ciment/m³ beton (1 sac 40 kg → 0,092 m³ beton)\n\nTemperatura betonului proaspăt la turnare trebuie să fie între 5°C și 30°C. Pentru betonare pe timp friguros se aplică măsuri speciale conform normativului C 16/84. Pe timp călduros, agregatele se păstrează la umbră.\n\nPreparare: se utilizează apă curată, potabilă. Apa în exces scade durabilitatea și rezistența betonului. Nisipul și agregatele trebuie sortate și spălate. Dacă agregatele sunt umede, se reduce cantitatea de apă.\n\nBetonul se protejează cât mai repede după turnare, protecția menținându-se pe o perioadă de 7 zile. Subdozarea cimentului duce la scăderea rezistenței și durabilității construcției.\n\nClase de expunere: XO, XC1-XC4, XD1, XS1, XF1, XF3, XA1, XM1 (conform NE 012/1:2022 și AT 004-07/1552:2018). Clase de betoane recomandate: C8/10…C30/37 (simple și armate), LC8/9…LC25/28 (ușoare), șape CT-C5…CT-C30.\n\nTermen de valabilitate: 90 de zile. Depozitare la temperaturi pozitive, ferit de umezeală și ploaie."
+}

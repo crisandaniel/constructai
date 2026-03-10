@@ -1,0 +1,87 @@
+{
+  "id": "baudeman-adf27",
+  "brand": "Baudeman (Dedeman)",
+  "name": "Baudeman ADF 27 - Adeziv flexibil pentru placi ceramice",
+  "productCode": "ADF 27",
+  "category": "Adezivi",
+  "description": "Adeziv flexibil pe bază de ciment pentru plăci ceramice, destinat lucrărilor de interior și exterior. Oferă aderență foarte bună, flexibilitate ridicată și este potrivit pentru plăci de dimensiuni mari, gresie porțelanată, gresogranit, clincher, piatră naturală, marmură, inclusiv peste suprafețe netede precum faianță veche, ciment sclivisit și plăci de gipscarton.",
+  "specs": [
+    "Compoziție: ciment, adaosuri minerale, polimeri, plastificatori",
+    "Necesar de apă: 0.25–0.27 litri/kg (6.25–6.75 litri/sac)",
+    "Timp deschis: minim 30 minute",
+    "Alunecare: maxim 0.5 mm",
+    "Aplicabilitate după amestecare: 2 ore",
+    "Consum specific: 2.5–5 kg/m²",
+    "Temperaturi de exploatare: -25°C la +80°C",
+    "Standard: SR EN 12004+A1:2012"
+  ],
+  "keyProperties": {
+    "Necesar de apă": "0.25–0.27 litri/kg",
+    "Timp deschis": "minim 30 minute",
+    "Alunecare": "maxim 0.5 mm",
+    "Consum specific": "2.5–5 kg/m²",
+    "Aplicabilitate după amestecare": "2 ore",
+    "Grosime aplicare": "4–5 mm",
+    "Temperaturi exploatare": "-25°C la +80°C"
+  },
+  "rawConsumptionFromPDF": "CONSUM SPECIFIC: 2.5 - 5 kg/m² în funcţie de calitatea suprafeţei suport si de dimensiunea placilor. Pasta se pune pe suprafaţă în grosime de 4 - 5 mm. AMBALARE: În saci de 25 kg.",
+  "consumption": {
+    "kgPerM2Standard": 3.75,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": 4,
+    "thicknessMaxMm": 5,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 6.67,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum 2.5–5 kg/m², media 3.75 kg/m². Grosime aplicare 4–5 mm. Sac 25 kg: la consum minim 2.5 kg/m² → 25/2.5 = 10 m²/sac; la consum maxim 5 kg/m² → 25/5 = 5 m²/sac; la consum mediu 3.75 kg/m² → 25/3.75 ≈ 6.67 m²/sac. Nu se poate calcula kgPerM2PerMm deoarece consumul variază în funcție de dimensiunea plăcilor și calitatea suportului, nu doar de grosime."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 4,
+    "thicknessMaxMm": 5,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Rostuire după minim 24 ore. Utilizare generală după minim 72 ore. La temperaturi sub 20°C timpul de întărire se prelungește.",
+    "substratePrep": "Suprafața suport trebuie să fie întărită cu o vechime de minim 28 de zile, plană, curată, spălată și degresată riguros cu minim 4 ore înainte de aplicarea plăcilor. Suprafața se controlează cu ciocanul. Pe suprafețe netede (ciment sclivisit, faianță veche), se degresează cu apă caldă și detergent, se aplică un strat aderent de 0.5–1 mm din adeziv și se lasă 24 ore pentru întărire.",
+    "coatsRequired": 1,
+    "tools": [
+      "Găleată",
+      "Amestecător mecanic sau manual",
+      "Mistrie",
+      "Gletieră cu dinți 6x6/8x8/10x10 mm",
+      "Boloboc",
+      "Tăietor de faianță"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "În locuri uscate, în stare închisă, pe paleți din lemn."
+  },
+  "compatibility": {
+    "compatible": [
+      "Faianță veche",
+      "Ciment sclivisit",
+      "Plăci de gipscarton",
+      "Substraturi minerale",
+      "Pardoseală încălzită",
+      "Piscine și bazine de apă"
+    ],
+    "incompatible": [
+      "Suporturi de lemn",
+      "Suporturi de plastic",
+      "Suporturi de metal"
+    ]
+  },
+  "standards": [
+    "SR EN 12004+A1:2012"
+  ],
+  "systemPromptSection": "Baudeman ADF 27 este un adeziv flexibil pe bază de ciment pentru plăci ceramice, utilizat în interior și exterior. Consumul specific este de 2.5–5 kg/m², în funcție de calitatea suprafeței suport și dimensiunea plăcilor. Un sac de 25 kg acoperă între 5 și 10 m² (aproximativ 6.67 m² la consum mediu de 3.75 kg/m²). Pasta se aplică în grosime de 4–5 mm și se greblează cu gletieră cu dinți de 6–10 mm. Necesarul de apă este de 0.25–0.27 litri/kg (6.25–6.75 litri/sac). Temperatura mediului de lucru trebuie să fie între +5°C și +30°C, evitând bătaia directă a razelor solare. Suprafața suport trebuie întărită (minim 28 zile vechime), plană, curată, spălată și degresată cu minim 4 ore înainte de aplicare. Pe suprafețe netede (faianță veche, ciment sclivisit, mozaic) se aplică mai întâi un strat aderent de 0.5–1 mm din adeziv, lăsat 24 ore la întărire. La exterior sau suprafețe critice, se aplică adeziv atât pe substrat cât și pe intradosul plăcii (contact 100%). Timpul deschis este de minim 30 minute, iar pasta din găleată este utilizabilă timp de 2 ore. Rostuirea se face după minim 24 ore, iar utilizarea generală după minim 72 ore. NU se aplică pe suporturi de lemn, plastic sau metal. Produsul este adecvat pentru gresie porțelanată, gresogranit, clincher, piatră naturală, marmură, plăci de dimensiuni mari, piscine și pardoseli încălzite."
+}

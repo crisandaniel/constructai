@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "ConstructAI — Intelligent Construction Materials Assistant",
+    "description": "Calculate materials for any construction project. AI trained on technical data sheets."
+  },
+  "nav": {
+    "calculator": "Calculator",
+    "materials": "Materials",
+    "assistant": "AI Assistant",
+    "cta": "Get started"
+  },
+  "hero": {
+    "badge": "Powered by AI",
+    "title": "Calculate <highlight>materials</highlight> for any project",
+    "titleHighlight": "materials",
+    "description": "Our AI agent has been trained on technical data sheets from over 200 construction materials. Describe your project and get an accurate estimate instantly.",
+    "ctaPrimary": "Consult AI Agent",
+    "ctaSecondary": "Quick Calculator"
+  },
+  "stats": {
+    "materials": "Technical data sheets",
+    "workTypes": "Work types supported",
+    "precision": "Estimation precision",
+    "availability": "Always available"
+  },
+  "materialsStrip": {
+    "label": "Materials:"
+  },
+  "kb": {
+    "title": "Knowledge base",
+    "subtitle": "Materials with technical data sheets integrated into AI",
+    "askAI": "Ask AI about this material →",
+    "all": "All"
+  },
+  "cta": {
+    "title": "Ready to start?",
+    "description": "Describe your project and get a complete materials estimate in seconds.",
+    "button": "Open AI assistant →"
+  },
+  "footer": {
+    "disclaimer": "Estimates are indicative. Always consult a structural engineer for complex projects."
+  },
+  "calculator": {
+    "title": "Quick Calculator",
+    "selectWork": "Select work type:",
+    "surface": "Surface area (m²)",
+    "surfacePlaceholder": "e.g. 50",
+    "height": "Height (m)",
+    "thickness": "Thickness / Type",
+    "waste": "Waste factor",
+    "waste5": "5% — simple project",
+    "waste10": "10% — standard",
+    "waste15": "15% — complex project",
+    "calculate": "Calculate materials",
+    "results": "Results",
+    "resultsMeta": "{surface} m² • +{adaos}%",
+    "sendToChat": "Send to chat for review →",
+    "errorSurface": "Please enter a valid surface area",
+    "workTypes": {
+      "zidarie": "Masonry",
+      "sapa": "Concrete screed",
+      "tencuiala": "Plaster",
+      "rigips": "Drywall",
+      "faiance": "Tiles",
+      "termoizolatie": "Insulation"
+    },
+    "grosimeLabels": {
+      "zidarie": "Wall type",
+      "sapa": "Screed thickness",
+      "tencuiala": "Plaster thickness",
+      "rigips": "Drywall system",
+      "faiance": "Tile format",
+      "termoizolatie": "Insulation thickness"
+    },
+    "grosimeOptions": {
+      "zidarie": [
+        {
+          "value": "25",
+          "label": "25 cm — exterior wall"
+        },
+        {
+          "value": "12.5",
+          "label": "12.5 cm — interior wall"
+        },
+        {
+          "value": "6",
+          "label": "6 cm — partition"
+        }
+      ],
+      "sapa": [
+        {
+          "value": "3",
+          "label": "3 cm — thin screed"
+        },
+        {
+          "value": "5",
+          "label": "5 cm — standard"
+        },
+        {
+          "value": "8",
+          "label": "8 cm — thick screed"
+        }
+      ],
+      "tencuiala": [
+        {
+          "value": "1",
+          "label": "1 cm — finish coat"
+        },
+        {
+          "value": "1.5",
+          "label": "1.5 cm — standard"
+        },
+        {
+          "value": "2",
+          "label": "2 cm — heavy coat"
+        }
+      ],
+      "rigips": [
+        {
+          "value": "12.5",
+          "label": "12.5 mm — standard"
+        },
+        {
+          "value": "15",
+          "label": "15 mm — reinforced"
+        },
+        {
+          "value": "25",
+          "label": "25 mm — double layer"
+        }
+      ],
+      "faiance": [
+        {
+          "value": "30",
+          "label": "30×30 cm"
+        },
+        {
+          "value": "60",
+          "label": "60×60 cm"
+        },
+        {
+          "value": "90",
+          "label": "90×90 cm"
+        }
+      ],
+      "termoizolatie": [
+        {
+          "value": "5",
+          "label": "5 cm"
+        },
+        {
+          "value": "10",
+          "label": "10 cm — standard"
+        },
+        {
+          "value": "15",
+          "label": "15 cm — passive house"
+        }
+      ]
+    }
+  },
+  "chat": {
+    "title": "ConstructAI Assistant",
+    "status": "Online — trained on technical data sheets",
+    "clearChat": "New conversation",
+    "placeholder": "Describe your project or ask about materials...",
+    "welcome": "Hello! I am **ConstructAI**, trained on technical data sheets from the main construction materials. 🏗️\n\nI can help you with:\n- **Quantity estimates** for any construction project\n- **Technical specs** — dosage, strength, consumption rates\n- **Recommendations** for different work types\n- **Product comparisons**\n\nDescribe the project you want to complete!",
+    "newChat": "New conversation! How can I help? 🏗️",
+    "errorConnect": "⚠️ Connection error. Check your API key and try again.",
+    "suggestions": [
+      "🧱 How many bricks for a 20m² wall?",
+      "📐 How much screed for 60m² floor?",
+      "🎨 Plaster consumption per m²?",
+      "🛖 EPS insulation for a 120m² house?"
+    ]
+  },
+  "materials": {
+    "title": "Construction materials",
+    "subtitle": "Complete technical data sheets integrated into the AI agent",
+    "askFull": "I want complete technical information about {name}, including consumption, dosage and application recommendations."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "rigips-rimano-bianco",
+  "brand": "Rigips",
+  "name": "Rimano® BIANCO - Glet de nivelare pe bază de ipsos",
+  "productCode": null,
+  "category": "Finisaje",
+  "description": "Rimano® BIANCO este un glet de nivelare pe bază de ipsos pentru finisaje interioare, cu aplicare manuală sau mecanizată (cu pompe airless) în grosimi de până la 7 mm. Destinat gletuirii suprafețelor acoperite cu tencuieli pe bază de ciment sau ciment-var-nisip, rezultând o suprafață perfect netedă.",
+  "specs": [
+    "Standard de referință: SR EN 13279-1:2009",
+    "Clasa de încadrare: B2/20/2",
+    "Compoziție: Ipsos, compuși minerali și aditivi",
+    "Reacție la foc: A1",
+    "Finețe: 99% sub 200 µm",
+    "Aderență: >0,1 N/mm²",
+    "Rezistență la încovoiere: >1 N/mm²",
+    "Rezistență la compresiune: >2 N/mm²",
+    "Timp de lucru: 90 min",
+    "Raport amestec: 20 kg pulbere / 10 L apă"
+  ],
+  "keyProperties": {
+    "Standard de referință": "SR EN 13279-1:2009",
+    "Clasa de încadrare": "B2/20/2",
+    "Reacție la foc": "A1",
+    "Finețe": "99% sub 200 µm",
+    "Aderență": ">0,1 N/mm²",
+    "Rezistență la încovoiere": ">1 N/mm²",
+    "Rezistență la compresiune": ">2 N/mm²",
+    "Timp de lucru": "90 min",
+    "Raport amestec": "20 kg pulbere / 10 L apă",
+    "Consum orientativ de pulbere": "0,9 kg/m²/1 mm"
+  },
+  "rawConsumptionFromPDF": "Consum orientativ de pulbere 0,9 kg/m²/1 mm",
+  "consumption": {
+    "kgPerM2Standard": 0.9,
+    "kgPerM2PerMm": 0.9,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 1,
+    "thicknessMaxMm": 7,
+    "packageDescription": "Sac de polietilenă 20 kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 3.17,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică 0,9 kg/m²/1 mm grosime. La grosime maximă 7 mm: 0,9 × 7 = 6,3 kg/m². Sac 20 kg la 1 mm grosime: 20 / 0,9 = 22,22 m²/sac. La grosimea medie de ~7 mm: 20 / 6,3 = 3,17 m²/sac. kgPerM2PerMm = 0,9."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 35,
+    "thicknessMinMm": 1,
+    "thicknessMaxMm": 7,
+    "openTimeMinutes": 90,
+    "dryingDescription": "Suprafața uscată se poate șlefui foarte ușor după uscarea completă. Suprafața finală întărită și complet uscată asigură un suport impecabil pentru vopsire sau zugrăvire.",
+    "substratePrep": "Suprafața suport trebuie să fie curată, fără praf, fără urme de grăsimi, gudroane sau funingine, neînghețată, uscată și protejată de umiditate excesivă. Suprafețele cu absorbție mare se tratează cu Rigips® Prime. Suprafețele cu aderență scăzută se tratează cu Rigips® Kontakt. Nu se aplică peste suprafețe din lemn sau plastic.",
+    "coatsRequired": null,
+    "tools": [
+      "Fier de glet",
+      "Șpaclu",
+      "Cancioc",
+      "Spatulă",
+      "Mixer",
+      "Pompe airless"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac polietilenă"
+    ],
+    "shelfLifeMonths": null,
+    "storageNotes": "Păstrați produsul sigilat în ambalajul original. În cazul utilizării parțiale, sacul se va închide cât mai bine posibil pentru evitarea transferului de umezeală din aer. Se recomandă a se utiliza cât mai curând. Termenul de valabilitate este inscripționat pe ambalaj. Palet: 54 saci."
+  },
+  "compatibility": {
+    "compatible": [
+      "Rigips® Kontakt - amorsa de contact",
+      "Rigips® Prime - amorsa universală concentrată",
+      "Tencuieli pe bază de ciment",
+      "Tencuieli ciment-var-nisip"
+    ],
+    "incompatible": [
+      "Suprafețe din lemn",
+      "Suprafețe din plastic",
+      "Medii cu umiditate excesivă (băi, piscine)",
+      "Suprafețe vopsite cu vopsele lavabile, pe bază de ulei, emailuri, vopsele alchidice (fără îndepărtarea prealabilă)"
+    ]
+  },
+  "standards": [
+    "SR EN 13279-1:2009"
+  ],
+  "systemPromptSection": "Rimano® BIANCO este un glet de nivelare pe bază de ipsos produs de Rigips (Saint-Gobain), destinat finisajelor interioare. Consumul orientativ este de 0,9 kg/m² per milimetru de grosime. La grosimea maximă de 7 mm, consumul este de 6,3 kg/m². Un sac de 20 kg acoperă aproximativ 22,2 m² la grosimea de 1 mm, respectiv 3,17 m² la grosimea maximă de 7 mm. Raportul de amestec este de 20 kg pulbere la 10 litri apă curată — se presară pulberea în apă (niciodată invers), se așteaptă 3 minute pentru umectare, apoi se amestecă cu mixerul. Amestecarea excesivă scurtează timpul de lucru. Timpul de lucru este de 90 de minute. Temperatura de aplicare trebuie să fie între +5°C și 35°C. Suprafața suport trebuie să fie curată, uscată, fără praf, grăsimi sau funingine. Suprafețele cu absorbție mare se tratează cu Rigips® Prime, iar cele cu aderență scăzută cu Rigips® Kontakt. Nu se aplică peste lemn, plastic sau în medii cu umiditate excesivă (băi, piscine). Suprafețele vopsite necesită îndepărtarea completă a stratului de vopsea și tratare cu Rigips® Kontakt. Aplicarea se face manual sau mecanizat cu pompe airless. Reacția la foc este A1. Clasa de încadrare: B2/20/2 conform SR EN 13279-1:2009. Nu se amestecă cu alte materiale."
+}

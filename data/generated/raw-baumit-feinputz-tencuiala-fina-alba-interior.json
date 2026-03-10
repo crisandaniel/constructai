@@ -1,0 +1,88 @@
+{
+  "id": "baumit-feinputz-tencuiala-fina-alba-interior",
+  "brand": "Baumit",
+  "name": "Baumit FeinPutz - Tencuială fină albă pentru interior",
+  "productCode": "1334",
+  "category": "Tencuieli",
+  "description": "Mortar uscat, predozat pe bază de var și ciment alb, cu difuzie ridicată la vapori, pentru executarea manuală a tencuielilor fine la interior. Se aplică peste tencuieli brute minerale și tencuieli termoizolante. Nu se recomandă ca suport pentru lipirea placajelor ceramice.",
+  "specs": [
+    "Clasificare: GP - CS I conform EN 998-1",
+    "Rezistență la compresiune (28 zile): > 0,6 N/mm²",
+    "Granulație max.: 0,6 mm",
+    "Conductivitate termică (λ): 0,50 W/mK",
+    "Factor rezistență la permeabilitate vapori (µ): ca. 12",
+    "Densitate: 1300 kg/m³",
+    "Grosime strat: 3-6 mm",
+    "Necesar de apă: cca. 11 l/sac",
+    "Timp de uscare: 5 zile"
+  ],
+  "keyProperties": {
+    "Clasificare": "GP - CS I conform EN 998-1",
+    "Rezistență la compresiune (28 zile)": "> 0,6 N/mm²",
+    "Granulație maximă": "0,6 mm",
+    "Conductivitate termică (λ)": "0,50 W/mK",
+    "Factor rezistență permeabilitate vapori (µ)": "ca. 12",
+    "Densitate": "1300 kg/m³",
+    "Grosime strat minimă": "3 mm",
+    "Grosime strat maximă": "6 mm",
+    "Necesar de apă": "cca. 11 l/sac",
+    "Timp de uscare": "5 zile"
+  },
+  "rawConsumptionFromPDF": "Necesarul de material: cca. 6 kg/m² la grosimea de strat de 4 mm",
+  "consumption": {
+    "kgPerM2Standard": 6,
+    "kgPerM2PerMm": 1.5,
+    "thicknessStandardMm": 4,
+    "thicknessMinMm": 3,
+    "thicknessMaxMm": 6,
+    "packageDescription": "sac de 40 kg",
+    "packageUnit": "kg",
+    "packageSize": 40,
+    "m2PerPackage": 6.67,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: cca. 6 kg/m² la grosimea de strat de 4 mm. kgPerM2PerMm = 6.0 / 4 = 1.5. m2PerPackage = 40 / 6.0 = 6.67 m²/sac la 4 mm. La grosime minimă 3 mm: 1.5 × 3 = 4.5 kg/m² → 40/4.5 = 8.89 m²/sac. La grosime maximă 6 mm: 1.5 × 6 = 9.0 kg/m² → 40/9.0 = 4.44 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": null,
+    "thicknessMinMm": 3,
+    "thicknessMaxMm": 6,
+    "openTimeMinutes": null,
+    "dryingDescription": "Timp de uscare: 5 zile. Temperaturile scăzute și umiditatea ridicată influențează întărirea materialului.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, neted, cu capacitate portantă. În funcție de capacitatea de absorbție a stratului suport și starea vremii, suportul trebuie umezit.",
+    "coatsRequired": 1,
+    "tools": [
+      "Fier de glet",
+      "Mistrie",
+      "Drișcă din polistiren",
+      "Drișcă din burete",
+      "Malaxor cu cădere liberă"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "40 kg sac"
+    ],
+    "shelfLifeMonths": 6,
+    "storageNotes": "6 luni la loc uscat, pe paleți de lemn; vrac la siloz. 1 palet = 35 saci = 1400 kg."
+  },
+  "compatibility": {
+    "compatible": [
+      "Tencuieli brute minerale",
+      "Tencuieli termoizolante",
+      "Divina Classic (vopsea lavabilă interior)",
+      "Divina Professionell (vopsea lavabilă interior)",
+      "Divina Eco (vopsea lavabilă interior)",
+      "Tapet"
+    ],
+    "incompatible": [
+      "Placaje ceramice (nu se recomandă ca suport pentru lipire)"
+    ]
+  },
+  "standards": [
+    "EN 998-1"
+  ],
+  "systemPromptSection": "Baumit FeinPutz este o tencuială fină albă pentru interior, pe bază de var și ciment alb, cu difuzie ridicată la vapori (µ ca. 12). Consumul este de aproximativ 6 kg/m² la grosimea de strat de 4 mm, ceea ce înseamnă 1,5 kg/m² per mm grosime. Un sac de 40 kg acoperă aproximativ 6,67 m² la grosimea standard de 4 mm. La grosimea minimă de 3 mm, un sac acoperă circa 8,89 m², iar la grosimea maximă de 6 mm, un sac acoperă circa 4,44 m². Grosimea de aplicare este între 3 mm (minim) și 6 mm (maxim). Necesarul de apă este de aproximativ 11 litri per sac. Temperatura aerului și a stratului suport trebuie să depășească +5°C în timpul aplicării și uscării. Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, neted și cu capacitate portantă; se umezește în funcție de absorbție și condițiile meteo. Materialul se amestecă 4-5 minute cu apă în malaxor cu cădere liberă, se aplică cu fierul de glet sau mistria, iar după începerea întăririi se drișcuiește cu drișcă din polistiren sau burete. Se amestecă întotdeauna integral conținutul sacului. Nu se amestecă cu alte produse. Nu se încălzește direct tencuiala. La folosirea aparatelor de încălzit cu gaz, se face aerisire diagonală. Timpul de uscare este de 5 zile. Ca finisaj se poate aplica vopsea lavabilă Divina Classic, Divina Professionell, Divina Eco sau tapet. NU se recomandă ca suport pentru placaje ceramice."
+}

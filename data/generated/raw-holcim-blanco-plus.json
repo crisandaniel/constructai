@@ -1,0 +1,96 @@
+{
+  "id": "holcim-blanco-plus",
+  "brand": "Holcim",
+  "name": "Blanco Plus® CEM I 52,5R ALB",
+  "productCode": "SAP 6045456",
+  "category": "Beton",
+  "description": "Blanco Plus® este un ciment Portland alb de clasă 52,5R, conceput pentru elemente din beton aparent, lucrări decorative și mortare uscate. Gradul de alb de peste 85% și finețea cimentului asigură suprafețe netede și elegante, potrivite pentru betoane arhitecturale și colorate.",
+  "specs": [
+    "CEM I 52,5R ALB - Ciment Portland alb",
+    "Grad de alb peste 85%",
+    "Rezistență la compresiune inițială: min. 30 MPa",
+    "Rezistență la compresiune standard: min. 52,5 MPa",
+    "Timp inițial de priză: min. 45 minute",
+    "Stabilitate (expansiune): max. 10 mm",
+    "Conținut cloruri: max. 0,1%",
+    "Conținut sulfați (SO₃): max. 4%",
+    "Conținut crom hexavalent: max. 0,0002%",
+    "Clincher (K): 95-100%",
+    "Componente auxiliare minore: 0-5%"
+  ],
+  "keyProperties": {
+    "Tip ciment": "CEM I 52,5R ALB",
+    "Grad de alb": "peste 85%",
+    "Rezistență compresiune inițială": "min. 30 MPa",
+    "Rezistență compresiune standard": "min. 52,5 MPa",
+    "Timp inițial de priză": "min. 45 min",
+    "Stabilitate (expansiune)": "max. 10 mm",
+    "Pierdere la calcinare": "max. 5%",
+    "Reziduu insolubil": "max. 5%",
+    "Conținut sulfați (SO₃)": "max. 4%",
+    "Conținut cloruri": "max. 0,1%",
+    "Conținut crom hexavalent": "max. 0,0002%",
+    "Clase betoane uzuale": "C 20/25 ... C 50/60",
+    "Clase betoane ușoare": "LC 8/9 ... LC 55/60"
+  },
+  "rawConsumptionFromPDF": "NOT FOUND",
+  "consumption": {
+    "kgPerM2Standard": null,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "sac 20 kg, paletizat și înfoliat",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": null,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Fișa de produs nu conține date explicite de consum pe m² sau m³. Fiind ciment, dozajul depinde de rețeta de beton utilizată (de obicei 300-400 kg ciment/m³ beton, în funcție de clasa betonului). Greutatea paletului este 1,6 tone (80 saci x 20 kg)."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Betonul se protejează cât mai repede după punerea în operă, protecția menținându-se pe o perioadă de 7 zile.",
+    "substratePrep": "La prepararea betonului se utilizează apă curată din rețeaua de apă potabilă și agregate curate, sortate, de preferință din aceeași sursă. Echipamentele trebuie să fie curate și fără pete de rugină.",
+    "coatsRequired": null,
+    "tools": [
+      "Betonieră",
+      "Vibrator de beton",
+      "Cofraje",
+      "Mistrie",
+      "Dreptar"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac"
+    ],
+    "shelfLifeMonths": 6,
+    "storageNotes": "Sacii de ciment se vor păstra în locuri cu temperaturi pozitive, ferite de ploaie și umezeală. Termen de valabilitate: 180 de zile de la data însăcuirii."
+  },
+  "compatibility": {
+    "compatible": [
+      "Agregate albe pentru beton alb",
+      "Agregate uzuale pentru beton gri deschis",
+      "Pigmenți incolori sau colorați pentru betoane decorative",
+      "Aditivi incolori"
+    ],
+    "incompatible": [
+      "Aditivi colorați (pot afecta nuanța albă)",
+      "Agenți de decofrare cu culoare neuniformă",
+      "Echipamente cu rugină"
+    ]
+  },
+  "standards": [
+    "SR EN 197-1:2011",
+    "NE 012/1:2022",
+    "Regulamentul (CE) nr. 1907/2006 (REACH)",
+    "C16/84"
+  ],
+  "systemPromptSection": "Blanco Plus® (CEM I 52,5R ALB) de la Holcim este un ciment Portland alb cu grad de alb peste 85%, destinat betoanelor aparente, decorative, arhitecturale și mortarelor uscate. Se livrează în saci de 20 kg, paletizați și înfoliați (palet de 1,6 tone). Consumul de ciment depinde de rețeta de beton și clasa vizată: pentru betoane uzuale C 20/25 ... C 50/60, dozajul tipic variază între 300-450 kg ciment/m³ beton, în funcție de clasa de rezistență și raportul apă/ciment. Temperatura betonului proaspăt la turnare trebuie să fie cuprinsă între 5°C și 30°C. La prepararea betonului se utilizează exclusiv apă curată din rețeaua de apă potabilă și agregate curate, sortate, de preferință din aceeași sursă pentru uniformitatea culorii. Raportul apă-ciment și granulometria agregatelor trebuie menținute constante pentru a evita variațiile de nuanțe. Aditivii trebuie să fie incolori, iar agenții de decofrare se aplică uniform pe cofraj. Echipamentele de preparare trebuie să fie curate, fără rugină. Betonul se protejează imediat după turnare, pe o perioadă de minimum 7 zile. Pe timp friguros se aplică normativul C16/84, iar pe timp călduros se păstrează agregatele la umbră. Apa în exces reduce durabilitatea, rezistența și uniformitatea culorii. Termenul de valabilitate este de 180 de zile de la însăcuire, cu depozitare la temperaturi pozitive, ferit de umezeală. Clase de expunere compatibile: X0, XC1-XC4, XD1-XD3, XF1-XF4, XA1-XA3, XS1-XS3, XM1-XM3."
+}

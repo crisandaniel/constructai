@@ -1,0 +1,95 @@
+{
+  "id": "apla-aplafill-incarcare",
+  "brand": "Apla",
+  "name": "AplaFill Încărcare",
+  "productCode": "Nr.173",
+  "category": "Finisaje",
+  "description": "Glet de încărcare pe bază de ipsos, aditivi și combinație de pulbere de marmură și calcită, utilizat la interiorul clădirilor civile și industriale pentru nivelarea grosieră a pereților sau tavanelor. Oferă super-lucrabilitate, grad sporit de alb și permite încărcări în straturi de până la 15 mm pe strat.",
+  "specs": [
+    "Bază de ipsos cu aditivi și pulbere de marmură și calcită",
+    "Grosime strat: 2–15 mm",
+    "Rezistență la compresiune după 28 zile: cca. 3,0 N/mm²",
+    "Rezistență la încovoiere după 28 zile: cca. 1,5 N/mm²",
+    "Aderență la suport din beton: cca. 0,4 N/mm²",
+    "Clasa de reacție la foc: A1 – incombustibil",
+    "Timp de lucru (început de priză): cca. 50–60 min",
+    "Timp de întărire (sfârșit de priză): cca. 120 min",
+    "Încadrare SR EN 13279-1: Tencuială de ipsos pentru interior B3/60/2"
+  ],
+  "keyProperties": {
+    "Bază": "Ipsos, aditivi, pulbere de marmură și calcită",
+    "Grosime strat": "2–15 mm",
+    "Consum orientativ": "0,8–3 kg/m²",
+    "Consum standard": "0,8 kg/m² la 1 mm grosime",
+    "Rezistență la compresiune (28 zile)": "cca. 3,0 N/mm²",
+    "Rezistență la încovoiere (28 zile)": "cca. 1,5 N/mm²",
+    "Aderență la suport beton": "cca. 0,4 N/mm²",
+    "Timp de lucru": "cca. 50–60 min",
+    "Timp de întărire": "cca. 120 min",
+    "Timp de uscare (5 mm)": "min. 2 zile",
+    "Timp de maturare completă": "7 zile",
+    "Clasă reacție la foc": "A1 – incombustibil",
+    "Standard": "SR EN 13279-1"
+  },
+  "rawConsumptionFromPDF": "Consum orientativ de glet: 0,8 – 3 kg/m² (în funcție de grosimea stratului aplicat). Consumul standard este de 0,8 kg/m² in strat de 1 mm grosime. La o grosime medie de aplicare de 4 mm, consumul de glet este de 4 kg/m². În aceste condiţii, un sac de 20 kg este suficient pentru gletuirea a 5 m².",
+  "consumption": {
+    "kgPerM2Standard": 4,
+    "kgPerM2PerMm": 1,
+    "thicknessStandardMm": 4,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 15,
+    "packageDescription": "sac 20kg / sac 25kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 5,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum standard 0,8 kg/m² la 1 mm grosime. La 4 mm → 0,8 × 4 = 3,2 kg/m² (PDF declară 4 kg/m² la 4 mm, incluzând pierderi). Sac 20 kg → 20/4 = 5 m²/sac. kgPerM2PerMm = 0,8 kg/m²/mm conform declarație fabricant."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 35,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 15,
+    "openTimeMinutes": 55,
+    "dryingDescription": "Timp de uscare la grosime medie de 5 mm: minim 2 zile. Uscare și maturare completă: 7 zile.",
+    "substratePrep": "Suportul trebuie să fie stabil, uscat, maturat, fără praf, eflorescențe sau grăsimi, fără elemente metalice oxidabile. Porțiunile instabile se curăță cu ciocanul de zidărie. Suporturile puternic absorbante, poroase sau sfărâmicioase se amorsează cu AplaLux Amorsă de interior (diluată 1:2) sau AplaHydroStop Amorsă universală (diluată 1:3). Stâlpii și grinzile din beton cu substanțe decofrante se amorsează cu AplaFill Amorsă de contact.",
+    "coatsRequired": null,
+    "tools": [
+      "Gletieră metalică",
+      "Malaxor turație lentă (400 rot/min)",
+      "Mașină de tencuit mecanizat",
+      "Hârtie abrazivă",
+      "Fier de glet"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20kg sac",
+      "25kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Se depozitează paletizat, în spații ferite de umezeală sau căldură excesivă."
+  },
+  "compatibility": {
+    "compatible": [
+      "AplaLux Amorsă de interior",
+      "AplaHydroStop Amorsă universală",
+      "AplaFill Amorsă de contact",
+      "AplaFill Finisaj interior",
+      "AplaFill Glet pastă",
+      "AplaFill 2-în-1",
+      "Vopsele lavabile de interior AplaLux"
+    ],
+    "incompatible": [
+      "Suprafețe exterioare",
+      "Suprafețe umede sau neuscate",
+      "Suprafețe cu grăsimi sau eflorescențe netratate"
+    ]
+  },
+  "standards": [
+    "SR EN 13279-1"
+  ],
+  "systemPromptSection": "AplaFill Încărcare este un glet de încărcare pe bază de ipsos destinat exclusiv utilizării la interior, pentru nivelarea grosieră a pereților și tavanelor. Consumul standard este de 0,8 kg/m² per milimetru de grosime. La o grosime medie de aplicare de 4 mm, consumul este de aproximativ 4 kg/m², iar un sac de 20 kg acoperă circa 5 m². Sacul de 25 kg se prepară cu 9,5–10 litri de apă, iar cel de 20 kg cu 7,5–8 litri. Grosimea stratului aplicat poate fi între 2 și 15 mm. Temperatura minimă de aplicare este de +5°C, iar cea maximă de +35°C. Suportul trebuie să fie stabil, uscat, curat, fără praf, grăsimi sau eflorescențe. Suprafețele absorbante sau sfărâmicioase se amorsează cu AplaLux Amorsă de interior (diluată 1:2) sau AplaHydroStop Amorsă universală (diluată 1:3). Stâlpii și grinzile din beton tratate cu decofrante necesită amorsare cu AplaFill Amorsă de contact. Timpul de lucru este de 50–60 minute, iar uscarea durează minim 2 zile la 5 mm grosime, cu maturare completă în 7 zile. După uscare, se finisează cu AplaFill Finisaj interior, AplaFill Glet pastă sau AplaFill 2-în-1, apoi se vopsește cu vopsele lavabile AplaLux. Produsul conține hidroxid de calciu – este iritant pentru ochi, piele și căile respiratorii. Se utilizează echipament de protecție: mănuși, mască anti-praf, ochelari."
+}

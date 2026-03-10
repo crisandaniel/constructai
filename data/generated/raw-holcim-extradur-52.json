@@ -1,0 +1,92 @@
+{
+  "id": "holcim-extradur-52",
+  "brand": "Holcim",
+  "name": "ExtraDur 52® CEM II/A-S 52,5R",
+  "productCode": "CEM II/A-S 52,5R",
+  "category": "Beton",
+  "description": "Ciment de înaltă rezistență dezvoltat pentru betoane extradure, cu rezistențe inițiale mari într-un timp scurt. Ideal pentru producția de elemente prefabricate (pavele, borduri, dale, elemente gard), betoane armate de clasele C30/37 - C50/60, reparații speciale și mortare de injectare. Conține până la 18% materiale reciclate.",
+  "specs": [
+    "Rezistență la compresiune inițială: min. 30 MPa",
+    "Rezistență la compresiune standard: min. 52,5 MPa",
+    "Timp inițial de priză: min. 45 minute",
+    "Stabilitate (expansiune): max. 10 mm",
+    "Conținut SO₃: max. 4%",
+    "Conținut cloruri: max. 0,1%",
+    "Conținut crom hexavalent: max. 0,0002%",
+    "Clincher (K): 80-94%",
+    "Zgură de furnal (S): 6-20%",
+    "Componente auxiliare minore: 0-5%",
+    "Clasa climatică: B (Eticheta Verde Holcim)"
+  ],
+  "keyProperties": {
+    "Rezistență compresiune inițială": "min. 30 MPa",
+    "Rezistență compresiune standard": "min. 52,5 MPa",
+    "Timp inițial de priză": "min. 45 min",
+    "Stabilitate (expansiune)": "max. 10 mm",
+    "Conținut SO₃": "max. 4%",
+    "Conținut cloruri": "max. 0,1%",
+    "Clincher": "80-94%",
+    "Zgură de furnal": "6-20%",
+    "Clase beton armat recomandate": "C30/37 ... C50/60",
+    "Clase beton ușor recomandate": "L16/18 ... L45/50",
+    "Clase micro beton recomandate": "C25/30 ... C50/60"
+  },
+  "rawConsumptionFromPDF": "REȚETE orientative de preparare betoane: Pavele C30/37: 1 sac=20kg, Apă 1.1 găleată, Nisip 0-4mm 10.5 lopați/2.7 găleți, Pietriș 4-8mm 12 lopați/3.4 găleți, Beton obținut 0.052 mc. Pavele C35/45: 1 sac=20kg, Apă 1 găleată, Nisip 0-4mm 9.5 lopați/2.5 găleți, Pietriș 4-8mm 12 lopați/3.4 găleți, Aditiv 100ml, Beton obținut 0.048 mc. Betoane armate C30/37: 1 sac=20kg, Apă 1.1 găleată, Nisip 10 lopați/2.6 găleți, Pietriș 4-8mm 5 lopați/1.5 găleți, Pietriș 8-16mm 10 lopați/3.2 găleți, Beton obținut 0.054 mc. Betoane armate C35/45: 1 sac=20kg, Apă 1 găleată, Nisip 9 lopați/2.2 găleți, Pietriș 4-8mm 4.5 lopați/1.2 găleți, Pietriș 8-16mm 9 lopați/2.7 găleți, Beton obținut 0.050 mc. Betoane armate C40/50: 1 sac=20kg, Apă 0.9 găleată, Nisip 8 lopați/2 găleți, Pietriș 4-8mm 4 lopați/1.1 găleți, Pietriș 8-16mm 8 lopați/2.5 găleți, Beton obținut 0.046 mc.",
+  "consumption": {
+    "kgPerM2Standard": null,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "sac 20 kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": null,
+    "kgPerM3": 385,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Produs volumetric (ciment). Din rețetele orientative: 1 sac 20kg produce între 0.046 mc (C40/50) și 0.054 mc (C30/37 armat). Pentru C30/37 armat: 20kg/0.054mc ≈ 370 kg/m³. Pentru C40/50: 20kg/0.046mc ≈ 435 kg/m³. Valoare medie orientativă ~385 kg/m³. Consumul exact depinde de clasa betonului."
+  },
+  "application": {
+    "minTempC": 0,
+    "maxTempC": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Priză și întărire rapidă, timp inițial de priză min. 45 minute. Decofrare rapidă posibilă datorită rezistențelor inițiale mari.",
+    "substratePrep": "Verificarea materialelor componente ale betonului, utilizarea de aditivi plastifianți, respectarea rețetelor de preparare corelate cu echipamentul utilizat. Agregatele sortate și spălate de la balastiere.",
+    "coatsRequired": null,
+    "tools": [
+      "Betonieră",
+      "Vibrator beton",
+      "Cofraj",
+      "Mașină vibro-presare",
+      "Lopată",
+      "Găleată"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac"
+    ],
+    "shelfLifeMonths": 3,
+    "storageNotes": "Sacii de ciment se păstrează în locuri cu temperaturi pozitive, ferite de ploaie și umezeală. Termen de valabilitate: 90 de zile de la data însăcuirii. Greutate palet: 1,6 tone, saci paletizați și înfoliați."
+  },
+  "compatibility": {
+    "compatible": [
+      "Agregate sortate și spălate (nisip 0-4mm, pietriș 4-8mm, pietriș 8-16mm)",
+      "Aditivi plastifianți",
+      "Apă potabilă curată"
+    ],
+    "incompatible": [
+      "Agregate nesortate sau murdare",
+      "Apă în exces (reduce durabilitatea și rezistența)"
+    ]
+  },
+  "standards": [
+    "SR EN 197/1:2011",
+    "NE 012/1:2022",
+    "Regulamentul (CE) nr. 1907/2006 (REACH)"
+  ],
+  "systemPromptSection": "ExtraDur 52® (CEM II/A-S 52,5R) este un ciment Holcim de înaltă rezistență pentru betoane extradure, cu priză și întărire rapidă. Consumul de ciment per metru cub de beton variază în funcție de clasa betonului: aproximativ 370 kg/m³ pentru C30/37 beton armat, 400 kg/m³ pentru C35/45 și 435 kg/m³ pentru C40/50. Un sac de 20 kg produce între 0,046 m³ (C40/50) și 0,054 m³ (C30/37 armat) de beton. Pentru pavele și elemente de placare, un sac de 20 kg produce 0,048-0,052 m³ beton, cu adaos de 100 ml aditiv plastifiant pentru clasa C35/45. Temperatura minimă de aplicare trebuie să fie pozitivă. Sacii se depozitează în locuri cu temperaturi pozitive, ferite de ploaie și umezeală, termen de valabilitate 90 de zile. Agregatele (nisip 0-4 mm, pietriș 4-8 mm, pietriș 8-16 mm) trebuie achiziționate de la balastiere, sortate și spălate. Se utilizează doar apă curată potabilă. Apa în exces reduce drastic durabilitatea și rezistența betonului. Subdozarea cimentului scade rezistența și durabilitatea construcției. Clase de expunere compatibile: X0, XC1-XC4, XD1-XD3, XF1-XF4, XA1-XA3, XS1-XS3, XM1-XM3. Rezistență compresiune standard: min. 52,5 MPa. Produs la Câmpulung, livrat și de la terminalele Roman, București, Craiova."
+}

@@ -1,0 +1,94 @@
+{
+  "id": "primus-mortar-tencuiala",
+  "brand": "Primus",
+  "name": "PRIMUS Mortar Tencuială",
+  "productCode": "F-97",
+  "category": "Tencuieli",
+  "description": "Mortar pe bază de ciment pentru tencuieli interioare și exterioare, aplicabil mecanizat sau manual. Asigură aderență bună la tencuieli, betoane și zidării, cu grosimea stratului de 3-4 cm dintr-o mână.",
+  "specs": [
+    "Clasificare SR EN 998-1: GP-CSIII/Wo",
+    "Compoziție: ciment, aditivi, nisip și alte agregate",
+    "Granulație: 1 mm",
+    "Densitate: 1,25 kg/dm³",
+    "Rezistență la compresiune: clasa CS III (3,5 ÷ 7,5 N/mm²)",
+    "Absorbție de apă prin capilaritate: WcO",
+    "Conductivitate termică: 0,33 W/mK",
+    "Aderență și mod de rupere: 0,29 N/mm² - FP:B",
+    "Coeficient de permeabilitate la vaporii de apă: μ=5/20",
+    "Proporție de amestec: 25 kg praf în 5,5 ÷ 6 litri apă",
+    "Timp de punere în operă: 1 oră",
+    "Timp de uscare: 7 zile/cm grosime",
+    "Clasa de reacție la foc: A1"
+  ],
+  "keyProperties": {
+    "Clasificare": "GP-CSIII/Wo",
+    "Granulație": "1 mm",
+    "Densitate": "1,25 kg/dm³",
+    "Rezistență la compresiune": "clasa CS III (3,5 ÷ 7,5 N/mm²)",
+    "Conductivitate termică": "0,33 W/mK",
+    "Aderență": "0,29 N/mm² - FP:B",
+    "Coeficient permeabilitate vapori": "μ=5/20",
+    "Consum": "12 ÷ 14 kg/m², cm",
+    "Culoare": "gri",
+    "Clasa de reacție la foc": "A1"
+  },
+  "rawConsumptionFromPDF": "Consum: 12 ÷ 14 kg/m², cm. Randamentul materialului este de 12÷14 kg/m² la fiecare cm de grosime a stratului. Grosimea normală a stratului de tencuială este de 2÷2,5 cm, dar poate ajunge și la 4 cm. Saci de 25 kg.",
+  "consumption": {
+    "kgPerM2Standard": 13,
+    "kgPerM2PerMm": 1.3,
+    "thicknessStandardMm": 10,
+    "thicknessMinMm": 20,
+    "thicknessMaxMm": 40,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 0.96,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: Consum 12÷14 kg/m² per cm grosime. Medie = 13 kg/m²/cm = 1.3 kg/m²/mm. La grosime standard de 10 mm: 13 kg/m². La grosimea normală recomandată de 20-25 mm: 26-32.5 kg/m². Sac 25 kg la 10 mm grosime: 25/13 = 1.92 m²/sac. La grosimea tipică de 20 mm: 25/26 = 0.96 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 20,
+    "thicknessMaxMm": 40,
+    "openTimeMinutes": 60,
+    "dryingDescription": "7 zile per cm de grosime. Priza mortarului: 2,5÷12 ore, în funcție de condițiile ambientale.",
+    "substratePrep": "Stratul suport trebuie să fie rezistent, curat, lipsit de impurități care pot micșora aderența (grăsimi, bitum, praf). Se recomandă aplicarea stratului de șpriț. Pe beton neted sau suprafețe foarte absorbante (BCA) se vor utiliza martori preparați din produs sau profile speciale metalice.",
+    "coatsRequired": 1,
+    "tools": [
+      "Mașină de tencuit mecanizată",
+      "Dreptar din aluminiu",
+      "Mistrie",
+      "Drișcă"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data fabricației înscrisă pe ambalaj, în ambalajul original nedesfăcut, în locuri ferite de umiditate."
+  },
+  "compatibility": {
+    "compatible": [
+      "PRIMUS TINCI ALB",
+      "PRIMUS UNIFORM TINCI",
+      "PRIMUS GLET EXTERIOR",
+      "PRIMUS GLET NIVELARE",
+      "PRIMUS GLET DE FINISAJ GLF48"
+    ],
+    "incompatible": [
+      "Suprafețe cu grăsimi, bitum",
+      "Suprafețe hidrofuge netratate"
+    ]
+  },
+  "standards": [
+    "SR EN 998-1",
+    "SR EN 1015-11",
+    "SR EN 1015-18",
+    "SR EN 1745"
+  ],
+  "systemPromptSection": "PRIMUS Mortar Tencuială este un mortar pe bază de ciment destinat tencuielilor interioare și exterioare, aplicabil atât mecanizat cât și manual. Consumul este de 12÷14 kg/m² per cm de grosime (media 13 kg/m²/cm, adică 1,3 kg/m²/mm). La grosimea tipică de 2 cm, consumul este de aproximativ 26 kg/m². Un sac de 25 kg acoperă aproximativ 0,96 m² la grosimea de 2 cm, sau 1,92 m² la grosimea de 1 cm. Grosimea normală a stratului este de 2-2,5 cm dar poate ajunge la 4 cm dintr-o singură aplicare. Proporția de amestec este de 25 kg praf în 5,5-6 litri apă rece și curată. Temperatura de aplicare: între 5°C și 30°C. Timpul de punere în operă este de 1 oră de la preparare. Stratul suport trebuie verificat să fie rezistent, curat, lipsit de grăsimi, bitum și praf. Pe suprafețe netede de beton sau BCA se aplică mai întâi strat de șpriț (obligatoriu). Se evită lucrul în soare direct sau vânt puternic. Uniformizarea se face cu dreptar din aluminiu la scurt timp după aplicare. Drișcuirea se face după priza mortarului (2,5-12 ore). Timp de uscare: 7 zile per cm grosime. Pentru finisare se utilizează PRIMUS TINCI ALB, PRIMUS UNIFORM TINCI, PRIMUS GLET EXTERIOR, PRIMUS GLET NIVELARE sau PRIMUS GLET DE FINISAJ GLF48. Clasificare GP-CSIII/Wo conform SR EN 998-1. Clasa de reacție la foc A1."
+}

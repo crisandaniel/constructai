@@ -1,0 +1,113 @@
+// =============================================================================
+// abstracts/_variables.scss
+// Single source of truth for all design tokens.
+// Change here → propagates everywhere.
+// =============================================================================
+
+// -- Color palette -------------------------------------------------------------
+$color-concrete:   #1a1a18;   // main background
+$color-steel:      #2c2c28;   // elevated surfaces
+$color-cement:     #3d3d38;   // visible borders, placeholders
+$color-surface:    #22221e;   // mid-level surfaces
+$color-card:       #262622;   // cards, panels
+
+$color-dust:       #8a8a7a;   // secondary text
+$color-sand:       #c4b89a;   // tertiary text, labels
+$color-lime:       #e8dfc8;   // primary text
+
+$color-gold:       #d4a843;   // primary accent
+$color-gold-hover: #e0b84f;   // gold hover state
+$color-ember:      #c4571a;   // secondary accent / errors
+$color-moss:       #5a8a4a;   // success / online status
+
+// -- Transparency helpers ------------------------------------------------------
+$color-border:        rgba($color-sand, 0.12);
+$color-gold-bg:       rgba($color-gold, 0.10);
+$color-gold-bg-hover: rgba($color-gold, 0.20);
+$color-gold-border:   rgba($color-gold, 0.30);
+
+// -- Typography ----------------------------------------------------------------
+$font-display: var(--font-syne), 'Syne', sans-serif;
+$font-body:    var(--font-dm-sans), 'DM Sans', sans-serif;
+
+$font-size-xs:   0.75rem;
+$font-size-sm:   0.8125rem;
+$font-size-base: 0.875rem;
+$font-size-md:   1rem;
+$font-size-lg:   1.125rem;
+$font-size-xl:   1.25rem;
+$font-size-2xl:  1.5rem;
+$font-size-3xl:  2rem;
+$font-size-4xl:  2.5rem;
+$font-size-hero: clamp(2.8rem, 5vw, 4.2rem);
+
+$font-weight-light:     300;
+$font-weight-regular:   400;
+$font-weight-medium:    500;
+$font-weight-semibold:  600;
+$font-weight-bold:      700;
+$font-weight-extrabold: 800;
+
+$line-height-tight:   1.0;
+$line-height-snug:    1.3;
+$line-height-normal:  1.5;
+$line-height-relaxed: 1.65;
+
+$letter-spacing-tight:   -0.03em;
+$letter-spacing-wide:     0.05em;
+$letter-spacing-wider:    0.08em;
+$letter-spacing-widest:   0.12em;
+
+// -- Spacing -------------------------------------------------------------------
+$space-1:  0.25rem;
+$space-2:  0.5rem;
+$space-3:  0.75rem;
+$space-4:  1rem;
+$space-5:  1.25rem;
+$space-6:  1.5rem;
+$space-8:  2rem;
+$space-10: 2.5rem;
+$space-12: 3rem;
+$space-16: 4rem;
+$space-20: 5rem;
+$space-24: 6rem;
+
+// -- Borders & radius ----------------------------------------------------------
+$radius-sm:   4px;
+$radius-md:   6px;
+$radius-lg:   8px;
+$radius-xl:   12px;
+$radius-2xl:  16px;
+$radius-full: 9999px;
+
+$border-subtle: 1px solid $color-border;
+$border-gold:   1px solid $color-gold-border;
+
+// -- Shadows -------------------------------------------------------------------
+$shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.3);
+$shadow-md:   0 4px 12px rgba(0, 0, 0, 0.4);
+$shadow-lg:   0 8px 32px rgba(0, 0, 0, 0.5);
+$shadow-glow: 0 0 20px rgba($color-gold, 0.15);
+
+// -- Z-index -------------------------------------------------------------------
+$z-base:    0;
+$z-overlay: 10;
+$z-modal:   50;
+$z-header:  100;
+
+// -- Transitions ---------------------------------------------------------------
+$transition-fast: all 0.15s ease;
+$transition-base: all 0.2s ease;
+$transition-slow: all 0.35s ease;
+
+// -- Breakpoints ---------------------------------------------------------------
+$bp-sm:  640px;
+$bp-md:  768px;
+$bp-lg:  1024px;
+$bp-xl:  1280px;
+$bp-2xl: 1536px;
+
+// -- Layout --------------------------------------------------------------------
+$max-width:     1300px;
+$header-height: 64px;
+$sidebar-width: 300px;

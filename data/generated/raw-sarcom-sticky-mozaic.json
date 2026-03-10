@@ -1,0 +1,83 @@
+{
+  "id": "sarcom-sticky-mozaic",
+  "brand": "Sarcom Sticky",
+  "name": "Tencuiala Decorativa Sticky Mozaic",
+  "productCode": null,
+  "category": "Finisaje",
+  "description": "Tencuială decorativă pe bază de copolimeri acrilici în dispersie apoasă, cu granule de cuart colorat și aditivi de finisare. Se recomandă pentru protejarea și finisarea decorativă a suprafețelor interioare și exterioare din beton, gleturi, zidărie și gips carton, în special pentru soclu și detalii decorative la interior.",
+  "specs": [
+    "Conținut nevolatile: 80 ± 3%",
+    "Granule de cuart colorat 1,2-1,8 mm",
+    "Gama culori: M 302, M 602, M 703, M 803",
+    "Aspect peliculă: dură, uniformă, cu aspect mozaic",
+    "Putere de acoperire: 1 strat",
+    "COV maxim produs gata de utilizare: 40 g/l"
+  ],
+  "keyProperties": {
+    "Conținut nevolatile": "80 ± 3%",
+    "Granule cuart": "1,2-1,8 mm",
+    "Timp uscare parțial (20°C)": "24 ore",
+    "Timp uscare total (20°C)": "72 ore",
+    "Consum specific": "3,5 – 4,5 kg/m²",
+    "Grosime aplicare strat": "~1,8 mm",
+    "Putere de acoperire": "1 strat",
+    "COV limita UE cat A/c": "40 g/l",
+    "COV maxim produs": "40 g/l"
+  },
+  "rawConsumptionFromPDF": "6. Consum specific: 3,5 – 4,5 kg/m² in functie de natura suportului si structura dorita. Valoarea exacta a consumului se va stabili in urma efectuarii unei probe. Pierderile de material in cursul prepararii si aplicarii variaza si trebuie luate in considerare suplimentar. Ele depind de metoda si conditiile de aplicare, forma, marimea, textura si profilul suprafetei.",
+  "consumption": {
+    "kgPerM2Standard": 4,
+    "kgPerM2PerMm": 2.22,
+    "thicknessStandardMm": 1.8,
+    "thicknessMinMm": 1.8,
+    "thicknessMaxMm": 1.8,
+    "packageDescription": "găleată 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 6.25,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum specific 3,5-4,5 kg/m². Valoare medie 4,0 kg/m². Strat de ~1,8 mm conform indicațiilor de aplicare. kgPerM2PerMm = 4,0/1,8 ≈ 2,22. Ambalare 25 kg → 25/4,0 = 6,25 m²/găleată. Interval: min 25/4,5=5,56 m², max 25/3,5=7,14 m²."
+  },
+  "application": {
+    "minTempC": 15,
+    "maxTempC": 30,
+    "thicknessMinMm": 1.8,
+    "thicknessMaxMm": 1.8,
+    "openTimeMinutes": null,
+    "dryingDescription": "Uscare parțială: 24 ore, uscare totală: 72 ore la temperatura ambiantă (23 ± 2°C). Timpul depinde de temperatură și umiditate.",
+    "substratePrep": "Suprafața trebuie să fie stabilă, rezistentă, curată, lipsită de praf sau grăsimi. Se aplică numai pe suprafețe verticale. Suprafețe noi: tencuieli minerale și gleturi de var și ciment se lasă să se matureze 28 zile. Termosisteme: stratul final de adeziv se lasă minim 6 zile. Se amorsează cu Sticky – Amorsa de perete sau Sticky TiefGrund-grund de adâncime. Strat de fond cu Sticky – Grund pentru tencuieli decorative, colorat în aceeași nuanță.",
+    "coatsRequired": 1,
+    "tools": [
+      "Gletieră din oțel inoxidabil"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg găleată plastic"
+    ],
+    "shelfLifeMonths": 18,
+    "storageNotes": "În ambalajul original închis ermetic, neexpus la intemperii, radiații solare sau alte surse de căldură și aprindere, la temperaturi între 5-30°C. Risc de depreciere prin îngheț."
+  },
+  "compatibility": {
+    "compatible": [
+      "Sticky – Amorsa de perete",
+      "Sticky TiefGrund-grund de adâncime",
+      "Sticky – Grund pentru tencuieli decorative"
+    ],
+    "incompatible": [
+      "Var",
+      "Humă",
+      "Solvenți organici",
+      "Vopsele pe bază de solvenți organici",
+      "Lacuri și emailuri pe bază de solvent",
+      "Zugrăveli de var sau humă"
+    ]
+  },
+  "standards": [
+    "SR EN ISO 3251:2008",
+    "SR EN ISO 9117-3:2010"
+  ],
+  "systemPromptSection": "Sticky Mozaic este o tencuială decorativă acrilică cu granule de cuart colorat (1,2-1,8 mm), destinată finisării decorative a suprafețelor interioare și exterioare, cu aspect mozaic. Consumul specific este de 3,5 – 4,5 kg/m², cu o valoare medie de 4,0 kg/m², aplicată într-un singur strat de aproximativ 1,8 mm grosime. O găleată de 25 kg acoperă aproximativ 5,5 – 7,1 m² (media ~6,25 m²). Produsul se aplică nediluat, omogenizat la turație mică cu o mașină de găurit cu tijă tip agitator-malaxor. Se aplică numai pe suprafețe verticale, cu gletiera din oțel inoxidabil, într-un singur strat continuu, fără întrerupere, pe toată suprafața. Temperatura de aplicare: 15-30°C (mediu, suport și produs), umiditate relativă maxim 80%. Nu se lucrează pe timp de ploaie, ceață, vânt puternic sau temperaturi scăzute. Pregătirea suportului este esențială: suprafețele noi de tencuieli minerale necesită 28 zile de maturare, termosistemele minim 6 zile. Obligatoriu se amorsează cu Sticky – Amorsa de perete sau Sticky TiefGrund-grund de adâncime, apoi se aplică strat de fond cu Sticky – Grund pentru tencuieli decorative colorat în aceeași nuanță cu tencuiala. Este interzisă amestecarea cu var, humă, solvenți organici sau vopsele pe bază de solvenți. Uscarea parțială durează 24 ore, iar cea totală 72 ore la 23°C. Termen de valabilitate: 18 luni în ambalaj original, depozitat la 5-30°C, ferit de îngheț."
+}

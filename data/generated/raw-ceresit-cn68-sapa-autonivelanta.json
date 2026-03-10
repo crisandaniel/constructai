@@ -1,0 +1,94 @@
+{
+  "id": "ceresit-cn68-sapa-autonivelanta",
+  "brand": "Ceresit",
+  "name": "Ceresit CN 68 Șapă autonivelantă",
+  "productCode": "CN 68",
+  "category": "Sapa",
+  "description": "Șapă autonivelantă pe bază de sulfat de calciu, armată cu fibre, pentru nivelarea și egalizarea pardoselilor în interior. Se aplică în grosimi între 2 și 20 mm, destinată traficului rezidențial, compatibilă cu pardoseli încălzite și aplicare mecanizată.",
+  "specs": [
+    "Grosime aplicare: 2-20 mm",
+    "Rezistență la compresiune: C20 (20 N/mm² după 28 zile)",
+    "Rezistență la încovoiere: F6 (6 N/mm² după 28 zile)",
+    "Aderență la suport: B 0,5 (0,5 N/mm²)",
+    "Reacție la foc: A1fl",
+    "Armat cu fibre, fără contracții, fără fisuri",
+    "Densitate șapă proaspătă: cca. 1,3 kg/l",
+    "Clasa SR EN 13813: CA - C 20 - F6 - B 0.5"
+  ],
+  "keyProperties": {
+    "Compoziție": "amestec de ipsos, ciment, agregate și aditivi",
+    "Culoare": "gri",
+    "Necesar de apă": "5,5-6 litri apă la 25 kg pulbere",
+    "Densitate șapă proaspătă": "cca. 1,3 kg/l",
+    "Consum orientativ": "cca. 1,5 kg/m²/mm grosime",
+    "Timp de aplicare": "max. 40 minute de la amestecarea cu apă",
+    "Temperatura de aplicare": "de la +5°C până la +30°C",
+    "Trafic pietonal <5mm": "după 4 ore",
+    "Trafic pietonal 5-20mm": "după 12 ore",
+    "Rezistență la compresiune": "20 N/mm² după 28 zile",
+    "Rezistență la încovoiere": "6 N/mm² după 28 zile",
+    "Aderență la suport": "0,5 N/mm²"
+  },
+  "rawConsumptionFromPDF": "Consum orientativ: cca. 1,5 kg/m²/mm grosime",
+  "consumption": {
+    "kgPerM2Standard": 1.5,
+    "kgPerM2PerMm": 1.5,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 20,
+    "packageDescription": "sac 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 1.67,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: consum orientativ cca. 1,5 kg/m²/mm grosime. La 10 mm: 1,5 × 10 = 15 kg/m². Sac 25 kg la 10 mm: 25/15 = 1,67 m²/sac. La 1 mm: 25/1,5 = 16,67 m²/sac."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 20,
+    "openTimeMinutes": 40,
+    "dryingDescription": "Trafic pietonal: după 4 ore pentru grosimi <5 mm, după 12 ore pentru grosimi 5-20 mm. Acoperire: după 24 ore (până la 5 mm), 48 ore (5-10 mm), 7 zile (10-20 mm).",
+    "substratePrep": "Suprafețele trebuie uscate (max 2% CM umiditate), curate, neînghețate, fără fisuri. Șlefuire cu monodisc (granulaţie 16/24), aspirare industrială. Amorsare conform tipului de suport: Ceresit CT 17 sau Ceresit R 777 pe beton, Ceresit CT 17 nediluată pe șape ciment/sulfat de calciu, Ceresit R 755 pe magnezit.",
+    "coatsRequired": 1,
+    "tools": [
+      "Amestecător cu viteză mică (max 600 rpm)",
+      "Greblă/gletieră din oțel cu dinți fini",
+      "Rolă cu țepi pentru dezaerare",
+      "Gletieră dințată",
+      "Mașină de aplicare mecanizată"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 9,
+    "storageNotes": "A se păstra în ambalajul original, nedeteriorat, în încăperi uscate, ferit de umezeală sau îngheț."
+  },
+  "compatibility": {
+    "compatible": [
+      "Ceresit CT 17 (amorsă penetrantă)",
+      "Ceresit R 777 (amorsă de dispersie)",
+      "Ceresit R 755 (amorsă epoxidică)",
+      "Ceresit R 740 (amorsă poliuretanică)",
+      "Ceresit CX 5 (mortar rapid pentru reparații)",
+      "Ceresit RS 88 (mortar reparații suport)",
+      "Mochetă, pardoseală laminată, covor PVC, linoleum, plăci ceramice"
+    ],
+    "incompatible": [
+      "Suporturi din material plastic",
+      "Suporturi din metal",
+      "Suporturi cu rezistență la compresiune sub 15 N/mm²"
+    ]
+  },
+  "standards": [
+    "SR EN 13813:2002",
+    "SR EN 13892-2",
+    "SR EN 13892-8"
+  ],
+  "systemPromptSection": "Ceresit CN 68 este o șapă autonivelantă pe bază de sulfat de calciu, armată cu fibre, destinată exclusiv utilizării în interior pe suprafețe uscate, pentru grosimi între 2 și 20 mm. Consumul orientativ este de 1,5 kg/m² per mm grosime — de exemplu, la 10 mm grosime consumul este 15 kg/m², iar un sac de 25 kg acoperă circa 1,67 m². La 5 mm grosime: 7,5 kg/m², un sac acoperă circa 3,33 m². Necesarul de apă este 5,5-6 litri per sac de 25 kg. Temperatura de aplicare: minim +5°C, maxim +30°C, optim +15°C – +25°C, umiditate relativă sub 75%. Timpul de lucru este maxim 40 minute de la amestecare. Trafic pietonal după 4 ore (grosimi sub 5 mm) sau 12 ore (grosimi 5-20 mm). Acoperirea cu finisaje: după 24 ore (sub 5 mm), 48 ore (5-10 mm) sau 7 zile (10-20 mm). Pregătirea suportului: șlefuire cu monodisc (granulaţie 16/24), aspirare, apoi amorsare. Pe beton: Ceresit CT 17 (două straturi) sau Ceresit R 777 diluată 1:1. Pe șape de ciment: Ceresit CT 17 nediluată, două straturi. Pe sulfat de calciu: Ceresit CT 17 nediluată. Pe magnezit: Ceresit R 755 cu nisip de cuarț 0,3-0,7 mm. Pentru barieră de umiditate: Ceresit R 755 sau R 740. Nu se aplică pe plastic sau metal. Suportul trebuie să aibă minim 15 N/mm² rezistență la compresiune și max 2% CM umiditate. Dezaerarea cu rolă cu țepi este obligatorie imediat după turnare. Se evită uscarea rapidă, expunerea la soare și îngheț."
+}

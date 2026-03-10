@@ -1,0 +1,92 @@
+{
+  "id": "baumit-baumacol-basic",
+  "brand": "Baumit",
+  "name": "Baumit Baumacol Basic",
+  "productCode": null,
+  "category": "Adezivi",
+  "description": "Adeziv în pat subțire pentru gresie și faianță la interior, sub formă de pulbere, netoxic, cu stabilitate ridicată, clasa C1T conform SR EN 12004. Se utilizează pentru lipirea plăcilor ceramice cu dimensiunea de până la 900 cm² și latura ≤ 30 cm, cu absorbție de apă începând cu grupa BII (E>3%), pe suporturi minerale.",
+  "specs": [
+    "Clasa C1 T conform SR EN 12004",
+    "Culoare: gri",
+    "Granulă maxim 0.6 mm",
+    "Grosime maximă strat: 5 mm",
+    "Timp de lucrabilitate: aprox. 4 ore",
+    "Timp deschis: aprox. 30 min",
+    "Timp de corecție: aprox. 5 min",
+    "Solicitare pas: după 24 ore"
+  ],
+  "keyProperties": {
+    "Clasificare": "C1 T",
+    "Standard": "SR EN 12004",
+    "Culoare": "gri",
+    "Granulă maximă": "0.6 mm",
+    "Grosime maximă strat": "5 mm",
+    "Timp de lucrabilitate": "aprox. 4 ore",
+    "Timp deschis": "aprox. 30 min",
+    "Timp de așteptare": "aprox. 5 min",
+    "Timp de amestecare": "aprox. 3-5 min",
+    "Timp de corecție": "aprox. 5 min",
+    "Solicitare pas": "după 24 ore",
+    "Necesar apă": "aprox. 7 l/sac"
+  },
+  "rawConsumptionFromPDF": "Consum aprox. 3 - 5 kg/m² functie de tipul si dimensiunea placajului ceramic, rugozitatea suportului si tipul gletierei",
+  "consumption": {
+    "kgPerM2Standard": 4,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": 5,
+    "packageDescription": "sac 25kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 6.25,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică consum aprox. 3-5 kg/m² în funcție de dimensiunea plăcii, rugozitatea suportului și tipul gletierei. Valoare medie adoptată: 4.0 kg/m². m2PerPackage = 25 / 4.0 = 6.25 m²/sac (valoare medie). La consum minim (3 kg/m²): 25/3 = 8.33 m²/sac. La consum maxim (5 kg/m²): 25/5 = 5.0 m²/sac. Grosimea stratului nu este specificată explicit pentru consum, dar grosimea maximă a stratului este 5 mm."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": 5,
+    "openTimeMinutes": 30,
+    "dryingDescription": "Solicitare pas după 24 ore. Rosturile se chituiesc după minim 24 ore.",
+    "substratePrep": "Suportul trebuie să fie uniform, neted, nedeformabil, uscat, neînghețat, stabil, rezistent și curat, fără urme de praf, moloz, pete de ulei, grăsimi, decofrol, părți friabile. Se aplică pe tencuieli var-ciment (10 zile/cm grosime uscare), șape de ciment (28 zile la 5 cm grosime, umiditate max 2.5%), șape autonivelante (24 ore la max 10 mm). Neregularitățile până la 5 mm se repară cu Baumacol Basic cu 24h înainte. Amorse: Baumit Grund pe suporturi absorbante, Baumit SuperPrimer pe suporturi neabsorbante.",
+    "coatsRequired": null,
+    "tools": [
+      "Gletieră metalică dințată 3-10 mm",
+      "Mixer max 500 rpm",
+      "Vas de amestecare curat"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, la loc uscat, în ambalajul original, nedesfăcut, pe palet de lemn infoliat."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit Grund (amorsa pentru suporturi absorbante)",
+      "Baumit SuperPrimer (amorsa pentru suporturi neabsorbante)",
+      "Tencuieli var-ciment/ciment",
+      "Șape de ciment",
+      "Șape de ciment autonivelante",
+      "Plăci ceramice cu absorbție apă E>3% (grupa BII)"
+    ],
+    "incompatible": [
+      "Suporturi din metal, plastic, cauciuc, PVC, linoleum, sticlă, lemn, plăci compozite de lemn",
+      "Șape de ipsos",
+      "Placaje ceramice existente",
+      "Suporturi pe bază de ciment care nu și-au consumat contracția",
+      "Plăci ceramice cu dimensiuni peste 900 cm²",
+      "Aplicare la exterior"
+    ]
+  },
+  "standards": [
+    "SR EN 12004"
+  ],
+  "systemPromptSection": "Baumit Baumacol Basic este un adeziv în pat subțire de clasă C1T conform SR EN 12004, destinat exclusiv lipirilor de gresie și faianță la interior. Consumul este de aproximativ 3-5 kg/m², în funcție de dimensiunea plăcilor ceramice, rugozitatea suportului și tipul gletierei dințate utilizate (dinți de la 3 mm la 10 mm). Un sac de 25 kg acoperă între 5.0 și 8.3 m² (medie ~6.25 m²). Se amestecă cu aproximativ 7 litri de apă per sac. Grosimea maximă a stratului aplicat este de 5 mm. Temperatura de aplicare: minim 5°C, maxim 30°C. Timpul deschis este de aprox. 30 minute, iar timpul de corecție de aprox. 5 minute. Solicitare pas după 24 ore. Suportul trebuie să fie uscat, stabil, curat, fără praf sau grăsimi. Pe suporturi absorbante se aplică Baumit Grund, iar pe suporturi neabsorbante Baumit SuperPrimer. Nu se utilizează la exterior, pe șape de ipsos, pe placaje ceramice existente, pe suporturi din metal, plastic, lemn sau sticlă. Nu este compatibil cu plăci ceramice mai mari de 900 cm² sau cu absorbție de apă sub 3%. Neregularitățile de până la 5 mm se pot repara cu același produs cu 24h înainte. Rosturile între plăci: minim 3 mm la interior, se chituiesc după minim 24 ore. Se malaxează cu mixer la max 500 rpm, timp de 3 minute, apoi 3 minute maturare și reamestecare."
+}

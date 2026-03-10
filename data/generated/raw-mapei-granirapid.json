@@ -1,0 +1,102 @@
+{
+  "id": "mapei-granirapid",
+  "brand": "Mapei",
+  "name": "Granirapid",
+  "productCode": "113-2-2026 ro",
+  "category": "Adezivi",
+  "description": "Adeziv bicomponent pe bază de ciment, de înaltă performanță, deformabil, cu priză și hidratare rapidă, pentru plăci ceramice și din piatră naturală. Clasificat C2F S1 conform EN 12004. Apt pentru trafic pietonal în doar 3-4 ore și gata de utilizare în 24 ore.",
+  "specs": [
+    "Clasificare EN 12004: C2F S1",
+    "Adeziv bicomponent (pulbere + latex cauciuc sintetic)",
+    "Aderență inițială conform EN 1348: 2,5 N/mm²",
+    "Rezistență la compresiune la 28 zile: 20,0 N/mm²",
+    "Rezistență la încovoiere la 28 zile: 6,0 N/mm²",
+    "Timp deschis conform EN 1346: circa 20 minute",
+    "Timp de priză: circa 2 ore",
+    "Temperatură în exercițiu: de la -30°C la +90°C",
+    "EMICODE: EC1 Plus – emisii foarte scăzute",
+    "Certificat MED pentru industria navală"
+  ],
+  "keyProperties": {
+    "Clasificare EN 12004": "C2F S1",
+    "Aderență inițială (28 zile)": "2,5 N/mm²",
+    "Aderență după expunere la căldură": "2,2 N/mm²",
+    "Aderență după imersie în apă": "1,3 N/mm²",
+    "Aderență după cicluri îngheț-dezgheț": "1,4 N/mm²",
+    "Rezistență la compresiune 28 zile": "20,0 N/mm²",
+    "Rezistență la încovoiere 28 zile": "6,0 N/mm²",
+    "Masă volumică amestec": "1600 kg/m³",
+    "Durată amestec la +20°C": "45 minute",
+    "Timp deschis": "circa 20 minute",
+    "Timp de priză": "circa 2 ore",
+    "Apt trafic pietonal": "după 3-4 ore",
+    "Gata de utilizare": "după 24 ore",
+    "Temperatură în exercițiu": "de la -30°C la +90°C",
+    "Deformabilitate": "S1 - deformabil",
+    "pH amestec": "circa 11"
+  },
+  "rawConsumptionFromPDF": "Mozaic si placute mici in general (spatula nr. 4): 2,5-3 kg/m²; dimensiuni normale (spatula nr. 5): 3,5-4 kg/m²; dimensiuni mari, pardoseli la exterior (spatula nr. 6): 5-6 kg/m²; placi cu spate foarte profilat, suport neregulat si placi din roci naturale (spatula nr. 10): 8 kg/m² sau mai mult.",
+  "consumption": {
+    "kgPerM2Standard": 4,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "kit 28 kg (sac 22,5 kg comp. A + bidon 5,5 kg comp. B)",
+    "packageUnit": "kg",
+    "packageSize": 28,
+    "m2PerPackage": 7,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Consumul variază în funcție de spatulă: 2,5-3 kg/m² (spatula nr. 4, mozaic), 3,5-4 kg/m² (spatula nr. 5, dimensiuni normale), 5-6 kg/m² (spatula nr. 6, dimensiuni mari/exterior), 8+ kg/m² (spatula nr. 10, plăci mari/suport neregulat). Valoarea standard de 4 kg/m² corespunde spatulei nr. 5 pentru plăci de dimensiuni normale. Kit 28 kg / 4 kg/m² = 7 m²/kit."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": 10,
+    "openTimeMinutes": 20,
+    "dryingDescription": "Timp de priză circa 2 ore. Apt trafic pietonal după 3-4 ore. Gata de utilizare după 24 ore. La bazine și piscine, umplere cu apă după 3 zile. Șlefuire posibilă după 24 ore.",
+    "substratePrep": "Suporturile trebuie să fie plane, rezistente mecanic, fără părți care se desprind, urme de grăsimi, uleiuri, vopsea, ceară. Suporturile pe bază de ciment nu trebuie finisate înainte de finalizarea contracțiilor. Timp maturare tencuieli: 7 zile/cm grosime. Timp maturare șape ciment: 28 zile. Pe vreme calduroasă, udați suportul cu apă pentru răcire. Suporturile pe bază de ipsos și șapele anhidride trebuie perfect uscate (umiditate reziduală max. 0,5%) și tratate cu Primer G sau Eco Prim T Plus.",
+    "coatsRequired": null,
+    "tools": [
+      "Spatulă dințată MAPEI nr. 4 sau 5 (mozaic)",
+      "Spatulă MAPEI nr. 5 cu dinți romboidali (pereți)",
+      "Spatulă MAPEI nr. 6 (pardoseli)",
+      "Spatulă MAPEI nr. 10 cu dinți pătrați (plăci mari)",
+      "Mixer electric"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "kit 28 kg (22,5 kg comp. A + 5,5 kg comp. B) alb sau gri"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "Componenta A: 12 luni de la data fabricației, în ambalaj original, loc uscat. Componenta B: 24 luni. Se va feri de îngheț."
+  },
+  "compatibility": {
+    "compatible": [
+      "Primer G",
+      "Eco Prim T Plus",
+      "Mapecem",
+      "Mapecem Pronto",
+      "Topcem",
+      "Topcem Pronto",
+      "Chituri pe bază de ciment MAPEI",
+      "Chituri epoxidice MAPEI",
+      "Etanșanți MAPEI"
+    ],
+    "incompatible": [
+      "Suprafețe metalice",
+      "Pereți/pardoseli cu mișcări sau vibrații puternice (plăci aglomerate din lemn, fibrociment)",
+      "Marmură verde sau plăci recompuse sensibile la umiditate (se folosește Keralastic, Keralastic T sau Ultrabond Eco PU 2K)"
+    ]
+  },
+  "standards": [
+    "EN 12004 C2F S1",
+    "EN 1348",
+    "EN 1346"
+  ],
+  "systemPromptSection": "Granirapid de la Mapei este un adeziv bicomponent pe bază de ciment, clasificat C2F S1 conform EN 12004, cu priză și hidratare rapidă, deformabil. Se compune din componenta A (pulbere 22,5 kg) și componenta B (latex cauciuc sintetic 5,5 kg), livrat în kit-uri de 28 kg (alb sau gri). Consumul variază în funcție de spatula utilizată: 2,5-3 kg/m² pentru mozaic (spatula nr. 4-5), 3,5-4 kg/m² pentru plăci de dimensiuni normale pe pereți (spatula nr. 5 cu dinți romboidali), 5-6 kg/m² pentru pardoseli și plăci mari (spatula nr. 6), și 8 kg/m² sau mai mult pentru plăci cu spate foarte profilat sau suport neregulat (spatula nr. 10). Un kit de 28 kg acoperă aproximativ 7 m² la consum mediu de 4 kg/m². Temperatura de aplicare permisă: +5°C până la +30°C. Timpul deschis este de circa 20 minute. Pardoselile sunt pietonabile după 3-4 ore, gata de utilizare intensă după 24 ore. Suporturile trebuie plane, curate, fără grăsimi sau părți instabile. Suporturile pe bază de ipsos sau șape anhidride (umiditate max. 0,5%) necesită tratare cu Primer G sau Eco Prim T Plus. Metoda dublei aplicări este obligatorie pentru plăci mai mari de 900 cm² (30×30 cm), la exterior, piscine și pardoseli de trafic greu. Nu se folosește pe suprafețe metalice sau pe suporturi cu vibrații puternice. Pentru marmură verde sau plăci sensibile la umiditate se recomandă Keralastic, Keralastic T sau Ultrabond Eco PU 2K. Rosturile se chituiesc după 3 ore cu chituri MAPEI. Nu udați adezivul cu apă pentru prelungirea timpului deschis."
+}

@@ -1,0 +1,93 @@
+{
+  "id": "baumit-granoportop",
+  "brand": "Baumit",
+  "name": "Baumit GranoporTop",
+  "productCode": null,
+  "category": "Tencuieli",
+  "description": "Tencuială decorativă organică în strat subțire, gata preparată, disponibilă în structură striată (K) sau periată (R), pentru exterior. Element component al sistemelor termoizolante Baumit Star și Baumit Pro. Disponibilă în granulații de 1,5 / 2,0 / 3,0 mm.",
+  "specs": [
+    "Granulație: 1,5 / 2,0 / 3,0 mm",
+    "Densitate: cca. 1,8 kg/dm³",
+    "Conductivitate termică: cca. 0,7 W/mK",
+    "Factor rezistență permeabilitate vapori (μ): cca. 110-140",
+    "Absorbția de apă (W): ≤ 0,2 kg/(m²h⁰·⁵)",
+    "Aderența la suport: > 0,3 MPa",
+    "Liant organic, granule de marmură, fibre, pigmenți albi și colorați, adaosuri și apă"
+  ],
+  "keyProperties": {
+    "Granulație": "1,5 / 2,0 / 3,0 mm",
+    "Densitate": "cca. 1,8 kg/dm³",
+    "Conductivitate termică": "cca. 0,7 W/mK",
+    "Factor μ": "cca. 110-140",
+    "Absorbție apă": "≤ 0,2 kg/(m²h⁰·⁵)",
+    "Aderență la suport": "> 0,3 MPa"
+  },
+  "rawConsumptionFromPDF": "Structura 1,5 K | 2K | 3K | 2R | 3R\nConsum kg/m² cca. 2,5 | cca. 2,9 | cca. 3,9 | cca. 2,8 | cca. 3,9\nConsumurile prezentate mai sus sunt orientative. În practică, se ia în considerare un adaos de 10%, deoarece consumul de material este influențat de rugozitatea și porozitatea stratului suport, cât și de tehnica de aplicare.",
+  "consumption": {
+    "kgPerM2Standard": 2.9,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "Găleată 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 8.6,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Consum variabil pe structură: 1,5K=2,5 kg/m², 2K=2,9 kg/m², 3K=3,9 kg/m², 2R=2,8 kg/m², 3R=3,9 kg/m². Se aplică la grosimea granulei, nu la grosime variabilă. Valoarea standard aleasă: 2K = 2,9 kg/m² (cea mai uzuală). m²/găleată = 25/2,9 ≈ 8,6 m². În practică se adaugă 10% pierderi."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Grundul UniPrimer se usucă minim 24 ore. Aplicarea unui alt finisaj peste GranoporTop se recomandă după min. 48 ore (la 20°C și 60% umiditate). Temperaturile scăzute și umiditatea ridicată lungesc timpul de uscare.",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, fără praf, permeabil, absorbant, neted, cu capacitate portantă, fără eflorescențe sau părți friabile. Planeitate max 2 mm sub dreptarul de 1 m. Toate straturile suport trebuie amorsate cu Baumit UniPrimer (uscare min 24 ore).",
+    "coatsRequired": 1,
+    "tools": [
+      "Fier de glet din oțel inoxidabil",
+      "Drișcă din material plastic",
+      "Malaxor",
+      "Mașină de tencuit pentru tencuieli fine (ex: Graco RTX 1500)"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "25 kg găleată"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data înscrisă pe ambalaj, la loc uscat, răcoros, ferit de îngheț, în ambalajul original, nedesfăcut."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit UniPrimer (grund universal obligatoriu)",
+      "Baumit StarContact",
+      "Baumit ProContact",
+      "Baumit DuoContact",
+      "Baumit openContact",
+      "Baumit PutzSpachtel",
+      "Baumit PowerFlex (permite renunțarea la grund)",
+      "Baumit StarTex (plasă fibră sticlă)",
+      "Baumit PutzFestiger (întăritor tencuială)",
+      "Baumit TiefenGrund (grund de profunzime)",
+      "Baumit SpeedTop (aditiv pentru iarnă)",
+      "Baumit SanierLösung (soluție antimucegai)",
+      "Suporturi minerale, beton, var-ciment drișcuit"
+    ],
+    "incompatible": [
+      "Plastic și materiale sintetice",
+      "Straturi de lac și vopsele de ulei",
+      "Tencuieli de var și spoeli de var",
+      "Lemn",
+      "Metal"
+    ]
+  },
+  "standards": [
+    "SR EN 15824",
+    "ETAG 004"
+  ],
+  "systemPromptSection": "Baumit GranoporTop este o tencuială decorativă organică gata preparată, în strat subțire, pentru exterior, disponibilă în structuri striate (K) și periate (R) cu granulații de 1,5 / 2,0 / 3,0 mm. Consumul variază în funcție de structură: 1,5K = cca. 2,5 kg/m², 2K = cca. 2,9 kg/m², 3K = cca. 3,9 kg/m², 2R = cca. 2,8 kg/m², 3R = cca. 3,9 kg/m². În practică se adaugă 10% pierderi. O găleată de 25 kg acoperă aproximativ 8,6 m² pentru structura 2K sau 10 m² pentru 1,5K. Se livrează pe palet de 24 găleți = 600 kg. Temperatura de aplicare: minim 5°C, maxim 30°C. Pentru temperaturi între 1°C și 15°C se recomandă aditivul Baumit SpeedTop. Toate straturile suport trebuie amorsate obligatoriu cu Baumit UniPrimer (uscare min 24 ore). Excepție: pe masa de șpaclu Baumit PowerFlex se poate renunța la grund. Suportul trebuie să fie uscat, fără praf, plan (max 2 mm sub dreptarul de 1 m), cu capacitate portantă. Nu se aplică pe plastic, lac, vopsele de ulei, lemn, metal, tencuieli de var. Se aplică manual cu fier de glet inox sau mecanizat, la grosimea granulei, și se drișcuie imediat cu drișcă de plastic. Nu se amestecă cu alte produse. Fațadele trebuie protejate de soare direct, ploaie și vânt puternic. Valabilitate 12 luni, depozitare la loc uscat, ferit de îngheț."
+}

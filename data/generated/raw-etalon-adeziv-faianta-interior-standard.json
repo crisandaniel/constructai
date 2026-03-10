@@ -1,0 +1,88 @@
+{
+  "id": "etalon-adeziv-faianta-interior-standard",
+  "brand": "Etalon (Dedeman)",
+  "name": "Adeziv faianță interior standard",
+  "productCode": "Adeziv faianta interior standard",
+  "category": "Adezivi",
+  "description": "Adeziv pe bază de ciment, clasa C1T, pentru placare ceramică (gresie și faianță) la interior, în strat subțire, pe suporturi minerale cu absorbție. Se aplică pe tencuială ciment și var-ciment, BCA tencuit, beton și șape pe bază de ciment. Nu se utilizează pe gipscarton, lemn, plastic sau metal.",
+  "specs": [
+    "Clasa adeziv: C1T conform SR EN 12004+A1/2012",
+    "Aderență inițială prin tracțiune: minim 0,5 N/mm²",
+    "Aderență după imersare în apă: minim 0,5 N/mm²",
+    "Alunecare: maxim 0,5 mm",
+    "Timp de găleată: cca. 2 ore",
+    "Timp deschis: 15-20 minute",
+    "Dimensiune maximă plăci: 900 cm²",
+    "Consum: cca. 3-4 kg/m²"
+  ],
+  "keyProperties": {
+    "Clasa adeziv": "C1T conform SR EN 12004+A1/2012",
+    "Aderență inițială": "minim 0,5 N/mm²",
+    "Aderență după imersare": "minim 0,5 N/mm²",
+    "Alunecare": "maxim 0,5 mm",
+    "Timp de găleată": "cca. 2 ore",
+    "Timp deschis": "15-20 minute",
+    "Consum": "cca. 3-4 kg/m²",
+    "Temperatură aplicare": "+5°C ... +30°C",
+    "Baza materialului": "ciment, agregate minerale, polimeri, plastificatori"
+  },
+  "rawConsumptionFromPDF": "Consum: cca. 3 - 4 kg / m²",
+  "consumption": {
+    "kgPerM2Standard": 3.5,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": 4,
+    "thicknessMaxMm": 5,
+    "packageDescription": "sac 25kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 7.14,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF indică consum cca. 3-4 kg/m². Valoare medie: 3.5 kg/m². Sac 25 kg → 25/3.5 = 7.14 m²/sac. Grosimea stratului aplicat este 4-5 mm (conform secțiunea Punere în operă), dar consumul depinde de dimensiunea dinților gletieriei (6-8 mm) și de dimensiunea plăcilor. Nu se poate calcula kgPerM2PerMm deoarece consumul nu variază liniar cu grosimea în aplicații de adeziv strat subțire."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 4,
+    "thicknessMaxMm": 5,
+    "openTimeMinutes": 20,
+    "dryingDescription": "Rostuire după minim 24 ore. Lucrări ulterioare pe suprafața placată după minimum 72 ore. Timpii sunt calculați la 20°C și 65% umiditate relativă. Temperaturile reduse și umiditatea ridicată prelungesc perioada de uscare.",
+    "substratePrep": "Suprafața suportului trebuie să fie rezistentă, curată, uscată, fără fisuri sau crăpături, aderentă și compactă, lipsită de grăsimi, pulberi, reziduuri sfărâmicioase, săruri. Porțiunile fragile se îndepărtează. Suportul se tencuiește cu mortar pe bază de ciment și var. Pereții din BCA se tencuiesc în prealabil și se așteaptă 7 zile/cm grosime strat pentru întărire. Denivelările se corectează cu șapă autonivelantă. Suportul se amorsează sau umezește în funcție de absorbție.",
+    "coatsRequired": 1,
+    "tools": [
+      "Malaxor electric cu ax malaxor pentru adezivi",
+      "Gletieră zimțată 6-8 mm"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "5 kg sac",
+      "25 kg sac"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "12 luni de la data fabricației înscrisă pe ambalaj. Depozitare în spații uscate pe paleți de lemn."
+  },
+  "compatibility": {
+    "compatible": [
+      "Tencuieli pe bază de ciment-var",
+      "Beton",
+      "Șape pe bază de ciment",
+      "BCA tencuit",
+      "Adeplast AFN (pentru gipscarton)"
+    ],
+    "incompatible": [
+      "Suporturi din lemn",
+      "Suporturi din plastic",
+      "Suporturi din metal",
+      "Gipscarton",
+      "Suporturi pe bază de ghips",
+      "Suporturi flexibile"
+    ]
+  },
+  "standards": [
+    "SR EN 12004+A1/2012"
+  ],
+  "systemPromptSection": "Adezivul Etalon faianță interior standard este un adeziv clasa C1T conform SR EN 12004+A1/2012, destinat exclusiv placării ceramice (gresie și faianță) la interior, în strat subțire, pe suporturi minerale cu absorbție. Consumul este de aproximativ 3-4 kg/m², ceea ce înseamnă că un sac de 25 kg acoperă aproximativ 6,25-8,33 m² (media ~7,14 m²/sac). Adezivul se aplică în strat de 4-5 mm și se piaptănă cu gletieră zimțată de 6-8 mm. Este adecvat pentru plăci cu dimensiunea maximă de 900 cm² (30×30 cm). Temperatura de aplicare trebuie să fie între +5°C și +30°C. Prepararea: la 25 kg se adaugă 5,5-6 litri apă curată, se amestecă cu malaxor electric, se lasă în repaus 5-10 minute, apoi se amestecă din nou scurt. Timpul deschis este de 15-20 minute, iar timpul de găleată cca. 2 ore. Suportul trebuie să fie rezistent, curat, uscat, fără fisuri, grăsimi sau pulberi. Pereții din BCA se tencuiesc obligatoriu cu mortar ciment-var și se așteaptă 7 zile/cm grosime. ATENȚIE: produsul NU se utilizează pe gipscarton, lemn, plastic, metal sau suporturi pe bază de ghips — pentru gipscarton se recomandă Adeplast AFN. Nu se utilizează la exterior. Rostuirea se face după minim 24 ore, iar lucrările ulterioare după minim 72 ore (la 20°C, 65% umiditate). Se evită expunerea la soare directă în timpul lipirii. Se recomandă apăsarea plăcii cu putere și mișcări laterale pentru contact minim 75% cu suportul."
+}

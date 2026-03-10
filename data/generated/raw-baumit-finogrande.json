@@ -1,0 +1,96 @@
+{
+  "id": "baumit-finogrande",
+  "brand": "Baumit",
+  "name": "Baumit FinoGrande",
+  "productCode": null,
+  "category": "Finisaje",
+  "description": "Glet pe bază de ipsos pentru interior, destinat egalizării suprafețelor și obținerii de suprafețe netede pe pereți și plafoane. Se aplică în grosimi de 2-6 mm, fiind utilizabil atât ca glet de încărcare cât și ca glet de finisare.",
+  "specs": [
+    "Standard: SR EN 13279-1:2009",
+    "Clasificare: B1/20/2",
+    "Grosime aplicare: 2-6 mm",
+    "Timp de păstrare în vas: 60 min",
+    "Densitate: 920 kg/m³",
+    "Rezistența la încovoiere la 28 zile: > 1 N/mm²",
+    "Rezistența la compresiune la 28 zile: > 2 N/mm²",
+    "Timp de uscare: 24 ore / 3 mm grosime"
+  ],
+  "keyProperties": {
+    "Standard": "SR EN 13279-1:2009",
+    "Clasificare": "B1/20/2",
+    "Grosime minimă aplicare": "2 mm",
+    "Grosime maximă strat": "6 mm",
+    "Consum": "1 kg/m²/mm",
+    "Densitate": "920 kg/m³",
+    "Rezistența la încovoiere (28 zile)": "> 1 N/mm²",
+    "Rezistența la compresiune (28 zile)": "> 2 N/mm²",
+    "Timp de păstrare în vas": "60 min",
+    "Timp de uscare": "24 ore / 3 mm grosime"
+  },
+  "rawConsumptionFromPDF": "Consum: 1 kg/m²/mm | Acoperire: 20 m² /1 mm grosime | Necesar apă: aprox. 10 l/Sac | FinoGrande_20 kg | Grosime minimă de aplicare: 2 mm",
+  "consumption": {
+    "kgPerM2Standard": 1,
+    "kgPerM2PerMm": 1,
+    "thicknessStandardMm": 1,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 6,
+    "packageDescription": "sac 20 kg",
+    "packageUnit": "kg",
+    "packageSize": 20,
+    "m2PerPackage": 20,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "PDF: Consum 1 kg/m²/mm. Acoperire 20 m² la 1 mm grosime (sac 20 kg). La grosimea minimă de 2 mm: 2 kg/m², m²/sac = 20/2 = 10 m². La grosimea maximă de 6 mm: 6 kg/m², m²/sac = 20/6 = 3.33 m²."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": 30,
+    "thicknessMinMm": 2,
+    "thicknessMaxMm": 6,
+    "openTimeMinutes": 60,
+    "dryingDescription": "24 ore / 3 mm grosime, funcție de temperatură, umiditate și ventilația încăperii",
+    "substratePrep": "Suportul trebuie să fie curat, uscat, neînghețat, fără particule de praf, fără eflorescențe, rezistent și lipsit de părți care se pot desprinde. Pe beton lucios se aplică Baumit BetonKontakt sau Baumit SuperPrimer (uscare min. 12 ore). Pe suporturi cu absorbție ridicată (tencuieli poroase, BCA) se aplică Baumit Grund (diluție 1:2-1:3, uscare min. 12 ore). Tencuielile noi necesită min. 10 zile/cm grosime timp de uscare înainte de gletuire.",
+    "coatsRequired": null,
+    "tools": [
+      "Fier de glet",
+      "Mixer la turație redusă",
+      "PFT Ritmo Power Coat",
+      "Șmirghel granulație fină (≥120)"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "20 kg sac"
+    ],
+    "shelfLifeMonths": 9,
+    "storageNotes": "La loc uscat, pe palet de lemn infoliat, 9 luni de la data înscrisă pe ambalaj."
+  },
+  "compatibility": {
+    "compatible": [
+      "Baumit BetonKontakt",
+      "Baumit SuperPrimer",
+      "Baumit Grund",
+      "Baumit SperrGrund",
+      "Baumit Divina (vopsea interior)",
+      "Baumit FinoBello",
+      "Baumit FinoBrillant",
+      "Beton",
+      "Tencuieli de ipsos, ciment, var-ciment",
+      "Vopsele de dispersie rezistente",
+      "Tinciuri pe bază de ciment"
+    ],
+    "incompatible": [
+      "Lemn, plăci aglomerate de lemn",
+      "Plastic",
+      "Vopsele de ulei",
+      "Humă",
+      "Spoieli de var",
+      "Placaje ceramice pe suprafețele gletuite"
+    ]
+  },
+  "standards": [
+    "SR EN 13279-1:2009"
+  ],
+  "systemPromptSection": "Baumit FinoGrande este un glet pe bază de ipsos pentru interior, aplicabil pe pereți și plafoane în grosimi de 2-6 mm. Consumul este de 1 kg/m² per mm grosime. Un sac de 20 kg acoperă 20 m² la 1 mm grosime, 10 m² la 2 mm grosime sau aproximativ 3,33 m² la 6 mm grosime. Necesarul de apă este de aproximativ 10 litri per sac de 20 kg. Temperatura de aplicare trebuie să fie între 5°C și 30°C. Timpul de păstrare în vas este de 60 de minute din momentul amestecării cu apă. Uscarea durează 24 ore la 3 mm grosime, în funcție de temperatură, umiditate și ventilație. Pregătirea suportului: pe beton lucios se aplică Baumit BetonKontakt sau Baumit SuperPrimer (uscare min. 12 ore); pe suporturi cu absorbție ridicată (BCA, tencuieli poroase) se aplică Baumit Grund diluat 1:2-1:3 (uscare min. 12 ore). Tencuielile noi trebuie uscate minim 10 zile/cm grosime. Elementele din oțel trebuie protejate de contactul direct cu gletul din cauza acțiunii corozive. Nu se aplică pe lemn, plastic, vopsele de ulei, humă sau spoieli de var. Pe suprafețele gletuite nu se aplică placaje ceramice. După uscare se șlefuiește cu șmirghel de granulație ≥120. Ca finisaj se folosesc vopselele Baumit Divina. Pentru finisaje silicat/silicon/acrilic se amorsează cu Baumit SperrGrund. Rectificări fine se pot face cu Baumit FinoBello sau FinoBrillant."
+}

@@ -1,0 +1,63 @@
+// =============================================================================
+// layout/_header.scss
+// =============================================================================
+@use '../abstracts' as *;
+
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: $z-header;
+  @include flex-between;
+  padding: 0 $space-6;
+  height: $header-height;
+  background: rgba($color-concrete, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: $border-subtle;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+  }
+
+  &__logo-icon {
+    width: 28px;
+    height: 28px;
+    background: $color-gold;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    @include flex-center;
+    font-size: 0.65rem;
+    color: $color-concrete;
+  }
+
+  &__logo-text {
+    @include font-display($font-size-xl, $font-weight-extrabold);
+    span { color: $color-gold; }
+  }
+
+  &__nav {
+    display: none;
+    align-items: center;
+    gap: $space-6;
+    @include respond-to(md) { display: flex; }
+  }
+
+  &__nav-link {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+    color: $color-dust;
+    transition: color $transition-base;
+    &:hover { color: $color-lime; }
+  }
+
+  &__nav-cta {
+    background: $color-gold;
+    color: $color-concrete;
+    padding: $space-2 $space-4;
+    border-radius: $radius-md;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-semibold;
+    transition: $transition-base;
+    &:hover { background: $color-gold-hover; }
+  }
+}

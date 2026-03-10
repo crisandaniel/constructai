@@ -1,0 +1,79 @@
+{
+  "id": "baumit-grund",
+  "brand": "Baumit",
+  "name": "Baumit Grund",
+  "productCode": null,
+  "category": "Altele",
+  "description": "Amorsă concentrată fără solvenți, diluabilă cu apă, pentru reducerea și egalizarea absorbției suporturilor absorbante. Se utilizează înaintea aplicării tencuielilor minerale, șapelor autonivelante, adezivilor, maselor de nivelare și hidroizolațiilor Baumit.",
+  "specs": [
+    "Egalizator de absorbție și punte de aderență",
+    "Capacitate mare de penetrare în suport",
+    "Fără solvent",
+    "Permeabilă la vaporii de apă",
+    "EMICODE EC 1 PLUS (TVOC < 60 µg/m³)"
+  ],
+  "keyProperties": {
+    "Culoare": "albastru",
+    "Densitate": "1 kg/l",
+    "Valoare pH": "8",
+    "Timp de uscare": "min. 15 min funcție de suport",
+    "TVOC": "< 60 µg/m³ EMICODE EC 1 PLUS",
+    "Consum": "aprox. 0.05 - 0.15 kg/m²"
+  },
+  "rawConsumptionFromPDF": "Consum aprox. 0.05 - 0.15 kg/m²\nAcoperire: Grund_5 kg: aprox. 33 - 100 m²; Grund_25 kg: aprox. 160 - 500 m²\n\nTABEL DILUTIE:\nStrat suport | Acoperire ulterioara | Dilutie | Consum (kg/m2) | Timp de uscare\nCaramida, BCA | Tencuiala ipsos | 1:2-1:3 | 0,05 | min. 12 ore\nCaramida, BCA | Tencuiala var-ciment | 1:6 | 0,025 | min. 12 ore\nBeton, Sapa ciment, Sapa ipsos | Sape Autonivelante | nediluat | 0,15 | cca. 60 minute\nTencuieli ipsos, Tencuieli var-ciment, Tencuieli var, gipscarton, sape de ipsos | Adezivi si hidroizolatii Baumacol | nediluat | 0,15 | cca. 60 minute",
+  "consumption": {
+    "kgPerM2Standard": 0.15,
+    "kgPerM2PerMm": null,
+    "thicknessStandardMm": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "packageDescription": "bidon 5 kg / bidon 25 kg",
+    "packageUnit": "kg",
+    "packageSize": 25,
+    "m2PerPackage": 166.7,
+    "kgPerM3": null,
+    "unitsPerM2": null,
+    "kgPerUnit": null,
+    "conversionNote": "Consum variabil funcție de suport și diluție: 0.025 kg/m² (diluat 1:6, cărămidă+tencuială var-ciment), 0.05 kg/m² (diluat 1:2-1:3, cărămidă+tencuială ipsos), 0.15 kg/m² (nediluat, beton/șapă+șape autonivelante sau adezivi/hidroizolații). Bidon 25 kg nediluat: 25/0.15 ≈ 166.7 m²/bidon. Bidon 5 kg nediluat: 5/0.15 ≈ 33 m²/bidon. PDF confirmă acoperire 33-100 m² (5 kg) și 160-500 m² (25 kg)."
+  },
+  "application": {
+    "minTempC": 5,
+    "maxTempC": null,
+    "thicknessMinMm": null,
+    "thicknessMaxMm": null,
+    "openTimeMinutes": null,
+    "dryingDescription": "Min. 15 minute funcție de suport; nediluat pe beton/șapă: cca. 60 minute; diluat pe cărămidă/BCA: min. 12 ore",
+    "substratePrep": "Suportul trebuie să fie uscat, neînghețat, rezistent, stabil și curat – fără urme de praf, resturi neaderente, pete de ulei sau grăsimi. Șapele pe bază de sulfat de calciu se vor șlefui înainte de amorsare.",
+    "coatsRequired": 1,
+    "tools": [
+      "Pensula",
+      "Trafalet",
+      "Mixer la turație redusă",
+      "Stropire (funcție de suprafață)"
+    ]
+  },
+  "packaging": {
+    "sizes": [
+      "5 kg bidon",
+      "25 kg bidon"
+    ],
+    "shelfLifeMonths": 12,
+    "storageNotes": "La loc uscat, răcoros, ferit de îngheț, în ambalajul original, nedesfăcut."
+  },
+  "compatibility": {
+    "compatible": [
+      "Tencuieli minerale Baumit pe bază de var, var-ciment și ipsos",
+      "Șape autonivelante Baumit",
+      "Adezivi Baumacol",
+      "Hidroizolații Baumacol",
+      "Mase de nivelare Baumit"
+    ],
+    "incompatible": [
+      "Suporturi din plastic",
+      "Metal",
+      "Straturi de vopsea"
+    ]
+  },
+  "standards": [],
+  "systemPromptSection": "Baumit Grund este o amorsă concentrată fără solvenți, de culoare albastră, cu densitate 1 kg/l și pH 8, certificată EMICODE EC 1 PLUS. Se utilizează pentru reducerea și egalizarea absorbției suporturilor absorbante (cărămidă, BCA, beton, șape de ciment/ipsos, gips-carton) înaintea aplicării tencuielilor minerale, șapelor autonivelante, adezivilor și hidroizolațiilor Baumit.\n\nConsumul variază în funcție de suport și diluție: nediluat pe beton/șapă pentru șape autonivelante sau adezivi/hidroizolații Baumacol: 0,15 kg/m² (timp uscare cca. 60 minute); diluat 1:2-1:3 pe cărămidă/BCA pentru tencuială ipsos: 0,05 kg/m² (timp uscare min. 12 ore); diluat 1:6 pe cărămidă/BCA pentru tencuială var-ciment: 0,025 kg/m² (timp uscare min. 12 ore). Un bidon de 25 kg nediluat acoperă aprox. 160-500 m², iar un bidon de 5 kg acoperă aprox. 33-100 m².\n\nTemperatura minimă de aplicare este +5°C. Suportul trebuie să fie uscat, neînghețat, rezistent, stabil și curat. Șapele pe bază de sulfat de calciu se șlefuiesc obligatoriu înainte de amorsare. Se aplică prin pensulare, trafalet sau stropire. Nu se aplică pe suporturi din plastic, metal sau straturi de vopsea. Se amestecă cu mixer la turație redusă. Instrumentele se curăță imediat cu apă. Se asigură ventilație bună la interior. Produsul este compatibil cu toate tencuielile minerale Baumit, șapele autonivelante Baumit, adezivii și hidroizolațiile Baumacol."
+}
