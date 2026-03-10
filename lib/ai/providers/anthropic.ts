@@ -10,7 +10,8 @@ export class AnthropicProvider implements AIProvider {
 
   async stream(messages: ChatMessage[], systemPrompt: string): Promise<ReadableStream> {
     const stream = await this.client.messages.stream({
-      model: 'claude-opus-4-6',
+      // model: 'claude-opus-4-6',
+      model: 'claude-haiku-4-5-20251001',
       max_tokens: 1024,
       system: systemPrompt,
       messages: messages.map((m) => ({

@@ -1,18 +1,24 @@
 // lib/db/index.ts
-// Server-side only — folosește service_role key, nu expune în browser
+// Server-side only — uses service_role key, never expose to browser
 
-import { createClient } from '@supabase/supabase-js'
+import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 
-if (!process.env.SUPABASE_URL)         throw new Error('Missing SUPABASE_URL')
-if (!process.env.SUPABASE_SERVICE_KEY) throw new Error('Missing SUPABASE_SERVICE_KEY')
+// Client is created lazily so missing env vars don't crash the build
+let _client: SupabaseClient | null = null
 
-export const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_KEY,
-  { auth: { persistSession: false } }
-)
+function getClient(): SupabaseClient {
+  if (_client) return _client
+  if (!process.env.SUPABASE_URL)         throw new Error('Missing SUPABASE_URL')
+  if (!process.env.SUPABASE_SERVICE_KEY) throw new Error('Missing SUPABASE_SERVICE_KEY')
+  _client = createClient(
+    process.env.SUPABASE_URL,
+    process.env.SUPABASE_SERVICE_KEY,
+    { auth: { persistSession: false } }
+  )
+  return _client
+}
 
-// ── Tipuri ────────────────────────────────────────────────────────
+// ── Types ─────────────────────────────────────────────────────────
 
 export interface ConversationRow {
   id:            string
@@ -34,14 +40,16 @@ export interface MessageRow {
   created_at:      string
 }
 
-// ── Conversații ───────────────────────────────────────────────────
+// ── Conversations ─────────────────────────────────────────────────
 
 export async function upsertConversation(
   sessionId: string,
   locale: string,
   metadata?: Record<string, unknown>
 ): Promise<string | null> {
-  const { data: existing } = await supabase
+  const db = getClient()
+
+  const { data: existing } = await db
     .from('conversations')
     .select('id')
     .eq('session_id', sessionId)
@@ -52,7 +60,7 @@ export async function upsertConversation(
 
   if (existing) return existing.id
 
-  const { data, error } = await supabase
+  const { data, error } = await db
     .from('conversations')
     .insert({ session_id: sessionId, locale, metadata: metadata ?? {} })
     .select('id')
@@ -72,7 +80,9 @@ export async function saveMessage(
   content: string,
   opts?: { tokensUsed?: number; latencyMs?: number }
 ): Promise<void> {
-  const { error } = await supabase
+  const db = getClient()
+
+  const { error } = await db
     .from('messages')
     .insert({
       conversation_id: conversationId,
@@ -84,15 +94,15 @@ export async function saveMessage(
 
   if (error) { console.error('[db] saveMessage:', error.message); return }
 
-  // Incrementează message_count
-  const { data } = await supabase
+  // Increment message_count on the conversation
+  const { data } = await db
     .from('conversations')
     .select('message_count')
     .eq('id', conversationId)
     .single()
 
   if (data) {
-    await supabase
+    await db
       .from('conversations')
       .update({ message_count: (data.message_count ?? 0) + 1 })
       .eq('id', conversationId)
@@ -100,13 +110,13 @@ export async function saveMessage(
 }
 
 export async function closeConversation(conversationId: string): Promise<void> {
-  await supabase
+  await getClient()
     .from('conversations')
     .update({ ended_at: new Date().toISOString() })
     .eq('id', conversationId)
 }
 
-// ── Events UI ─────────────────────────────────────────────────────
+// ── Events ────────────────────────────────────────────────────────
 
 export type EventType =
   | 'filter_click'
@@ -122,21 +132,21 @@ export async function trackEvent(
   payload: Record<string, unknown> = {},
   locale = 'ro'
 ): Promise<void> {
-  const { error } = await supabase
+  const { error } = await getClient()
     .from('events')
     .insert({ session_id: sessionId, event_type: eventType, payload, locale })
 
   if (error) console.error('[db] trackEvent:', error.message)
 }
 
-// ── Erori ─────────────────────────────────────────────────────────
+// ── Errors ────────────────────────────────────────────────────────
 
 export async function logError(
   errorType: string,
   message: string,
   opts?: { sessionId?: string; stack?: string; context?: Record<string, unknown> }
 ): Promise<void> {
-  const { error } = await supabase
+  const { error } = await getClient()
     .from('error_logs')
     .insert({
       session_id: opts?.sessionId ?? null,
