@@ -5,7 +5,7 @@ const BASE_URL = 'https://constructai.ro'
 const locales  = ['ro', 'en']
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ['', '/asistent', '/materiale']
+  const staticPages = ['', '/asistent', '/materiale', '/calculator']
 
   const staticEntries = locales.flatMap((locale) =>
     staticPages.map((page) => ({

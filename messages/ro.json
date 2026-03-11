@@ -5,7 +5,10 @@
     "titleAsistent": "Asistent AI Construcții | ConstructAI",
     "descriptionAsistent": "Întreabă asistentul AI despre materiale de construcții — consum, dozaj, recomandări tehnice.",
     "titleMateriale": "Materiale de Construcții | ConstructAI",
-    "descriptionMateriale": "Fișe tehnice complete pentru adezivi, tencuieli, finisaje, beton și alte materiale de construcții."
+    "descriptionMateriale": "Fișe tehnice complete pentru adezivi, tencuieli, finisaje, beton și alte materiale de construcții.",
+    "titleCalculator": "Generator Deviz Construcții | ConstructAI",
+    "descriptionCalculator": "Calculează materiale și generează devize pentru tencuială, gresie, faianță, șapă și alte lucrări de construcții. Export PDF gratuit."
+
   },
   "nav": {
     "calculator": "Calculator",
