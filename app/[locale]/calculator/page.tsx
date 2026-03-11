@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useLocale } from 'next-intl'
 import { MATERIALS_KB } from '@/lib/materials-data'
 import { getPriceEstimate, MANOPERA_BY_WORK } from '@/lib/price-estimates'
+import { useAnalytics } from '@/hooks/useAnalytics'
 
 type WorkType = 'tencuiala' | 'glet' | 'lavabil' | 'faianta' | 'gresie' | 'sapa'
 
@@ -45,12 +46,20 @@ function calcSaci(cantitate: number, material: typeof MATERIALS_KB[0] | undefine
 function uid() { return Math.random().toString(36).slice(2, 9) }
 
 export default function CalculatorPage() {
-  const locale = useLocale()
+  const locale                          = useLocale()
+  const { track, sessionId }            = useAnalytics(locale)
   const [items, setItems]               = useState<WorkItem[]>([])
   const [clientName, setClientName]     = useState('')
   const [projectName, setProjectName]   = useState('')
   const [exporting, setExporting]       = useState(false)
   const [savedId, setSavedId]           = useState<string | null>(null)
+  const [trackedOpen, setTrackedOpen]   = useState(false)
+
+  // Track page open once
+  if (!trackedOpen && typeof window !== 'undefined') {
+    setTrackedOpen(true)
+    track('deviz_page_open', { locale })
+  }
 
   function addItem(type: WorkType) {
     const config   = WORK_TYPES.find(w => w.type === type)!
@@ -61,6 +70,7 @@ export default function CalculatorPage() {
     const saci = calcSaci(cant, first ?? undefined)
     setItems(prev => [...prev, { id: uid(), type, label: config.label, suprafata: sup, grosime: gros, materialId: first?.id ?? null, cantitate: cant, saci, pretSac: 0, pretManopera: 0 }])
     setSavedId(null)
+    track('deviz_work_added', { workType: type, materialId: first?.id ?? null })
   }
 
   function updateItem(id: string, patch: Partial<WorkItem>) {
@@ -73,7 +83,12 @@ export default function CalculatorPage() {
     setSavedId(null)
   }
 
-  function removeItem(id: string) { setItems(prev => prev.filter(i => i.id !== id)); setSavedId(null) }
+  function removeItem(id: string) {
+    const item = items.find(i => i.id === id)
+    setItems(prev => prev.filter(i => i.id !== id))
+    setSavedId(null)
+    track('deviz_work_removed', { workType: item?.type ?? 'unknown' })
+  }
 
   const totalMateriale = items.reduce((s, i) => s + i.saci * i.pretSac, 0)
   const totalManopera  = items.reduce((s, i) => s + i.suprafata * i.pretManopera, 0)
@@ -83,7 +98,11 @@ export default function CalculatorPage() {
     try {
       const res  = await fetch('/api/deviz/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ clientName, projectName, locale, items, totalMateriale, totalManopera, total }) })
       const data = await res.json()
-      if (data.id) { setSavedId(data.id); return data.id }
+      if (data.id) {
+        setSavedId(data.id)
+        track('deviz_saved', { devizId: data.id, total, itemCount: items.length, totalMateriale, totalManopera })
+        return data.id
+      }
       return null
     } catch { return null }
   }
@@ -92,6 +111,7 @@ export default function CalculatorPage() {
     setExporting(true)
     try {
       await saveDeviz()
+      track('deviz_exported', { total, itemCount: items.length, hasClient: !!clientName, hasProject: !!projectName })
       const res  = await fetch('/api/deviz/export', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items, clientName, projectName, totalMateriale, totalManopera, total }) })
       if (!res.ok) throw new Error()
       const html = await res.text()
@@ -166,7 +186,7 @@ export default function CalculatorPage() {
                   <div className="space-y-3">
                     <div className="flex flex-col gap-1">
                       <label className="text-xs text-dust">Material</label>
-                      <select value={item.materialId ?? ''} onChange={e => updateItem(item.id, { materialId: e.target.value || null })} className="calc__select">
+                      <select value={item.materialId ?? ''} onChange={e => { updateItem(item.id, { materialId: e.target.value || null }); track('deviz_material_changed', { workType: item.type, materialId: e.target.value }) }} className="calc__select">
                         <option value="">— Selectează material —</option>
                         {relevant.map(m => <option key={m.id} value={m.id}>{m.name}</option>)}
                       </select>
@@ -217,6 +237,7 @@ export default function CalculatorPage() {
                           value={item.pretSac || ''}
                           placeholder={priceHint ? `~${Math.round((priceHint.minRON + priceHint.maxRON) / 2)}` : '0'}
                           onChange={e => updateItem(item.id, { pretSac: parseFloat(e.target.value) || 0 })}
+                          onBlur={e => { if (e.target.value) track('deviz_price_entered', { workType: item.type, materialId: item.materialId, pretSac: parseFloat(e.target.value) }) }}
                           className="calc__input"
                         />
                         {priceHint && <span className="text-xs text-dust/60">estimat {priceHint.unit}</span>}
@@ -233,6 +254,7 @@ export default function CalculatorPage() {
                           value={item.pretManopera || ''}
                           placeholder={manoperaHint ? `~${Math.round((manoperaHint.minRON + manoperaHint.maxRON) / 2)}` : '0'}
                           onChange={e => updateItem(item.id, { pretManopera: parseFloat(e.target.value) || 0 })}
+                          onBlur={e => { if (e.target.value) track('deviz_manopera_entered', { workType: item.type, pretManopera: parseFloat(e.target.value) }) }}
                           className="calc__input"
                         />
                         {manoperaHint && <span className="text-xs text-dust/60">estimat RON/m²</span>}

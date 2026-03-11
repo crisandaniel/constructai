@@ -86,3 +86,14 @@ export DOCKER_BUILDKIT=1
 docker build -t constructai .
 docker compose up
 ```
+
+## Events
+Eveniment Când se declanșează
+deviz_page_open La intrarea pe pagina calculator
+deviz_work_added La click pe un tip de lucrare
+deviz_work_removed La click × Șterge
+deviz_material_changed La schimbarea materialului din dropdown
+deviz_price_entered La ieșirea din câmpul preț/sac (blur)
+deviz_manopera_entered La ieșirea din câmpul manoperă (blur)
+deviz_exported La click Exportă
+deviz_saved La salvarea cu succes în DB
