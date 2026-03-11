@@ -111,13 +111,17 @@ export default function CalculatorPage() {
       })
       if (!res.ok) throw new Error('Export failed')
       const html = await res.text()
-      // Open in new tab and trigger print dialog
-      const win = window.open('', '_blank')
-      if (win) {
-        win.document.write(html)
-        win.document.close()
-        setTimeout(() => { win.print() }, 500)
-      }
+      // Works on mobile: create blob URL and navigate to it
+      const blob = new Blob([html], { type: 'text/html;charset=utf-8' })
+      const url  = URL.createObjectURL(blob)
+      const a    = document.createElement('a')
+      a.href     = url
+      a.target   = '_blank'
+      a.rel      = 'noopener'
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      setTimeout(() => URL.revokeObjectURL(url), 10000)
     } catch (e) {
       alert('Eroare la export PDF')
     } finally {
