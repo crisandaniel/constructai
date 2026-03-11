@@ -117,8 +117,8 @@ ${lines}`
 
       addMessage('assistant', full)
       setStreamingText('')
-    } catch {
-      addMessage('assistant', t('errorConnect'))
+    } catch (err) {
+      addMessage('assistant', t('errorConnect') + ` - ${err}`)
     } finally {
       setLoading(false)
     }
