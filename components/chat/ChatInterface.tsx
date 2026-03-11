@@ -117,8 +117,19 @@ ${lines}`
 
       addMessage('assistant', full)
       setStreamingText('')
-    } catch (err) {
-      addMessage('assistant', t('errorConnect') + ` - ${err}`)
+    } catch (err: any) {
+      addMessage('assistant', t('errorConnect'))
+      // Log error to Supabase via API (logError is server-side only)
+      fetch('/api/log-error', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          errorType: 'chat_client_error',
+          message: err?.message || String(err),
+          sessionId,
+          context: { locale, msgCount: messages.length },
+        }),
+      }).catch(() => {}) // fire and forget
     } finally {
       setLoading(false)
     }
