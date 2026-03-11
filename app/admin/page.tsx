@@ -19,6 +19,18 @@ interface Conversation {
   message_count: number
 }
 
+interface Deviz {
+  id:             string
+  client_name:    string | null
+  project_name:   string | null
+  locale:         string
+  items:          any[]
+  total_mat:      number
+  total_manopera: number
+  total:          number
+  created_at:     string
+}
+
 interface Message {
   id: string
   role: 'user' | 'assistant'
@@ -39,6 +51,10 @@ export default function AdminPage() {
   const [totalConvs, setTotalConvs]     = useState(0)
   const [page, setPage]                 = useState(1)
   const [loading, setLoading]           = useState(false)
+  const [devize, setDevize]             = useState<Deviz[]>([])
+  const [totalDevize, setTotalDevize]   = useState(0)
+  const [devizePage, setDevizePage]     = useState(1)
+  const [selectedDeviz, setSelectedDeviz] = useState<Deviz | null>(null)
   const [error, setError]               = useState('')
 
   const headers = { Authorization: `Bearer ${password}` }
@@ -72,6 +88,19 @@ export default function AdminPage() {
     }
   }, [password])
 
+  const loadDevize = useCallback(async (p = 1) => {
+    setLoading(true)
+    try {
+      const res  = await fetch(`/api/admin/devize?page=${p}`, { headers })
+      const data = await res.json()
+      setDevize(data.devize || [])
+      setTotalDevize(data.total || 0)
+      setDevizePage(p)
+    } finally {
+      setLoading(false)
+    }
+  }, [password])
+
   async function loadMessages(convId: string) {
     setSelectedConv(convId)
     const res  = await fetch(`/api/admin/conversations/${convId}`, { headers })
@@ -81,7 +110,8 @@ export default function AdminPage() {
 
   useEffect(() => {
     if (authed && tab === 'conversations') loadConversations(1)
-  }, [authed, tab, loadConversations])
+    if (authed && tab === 'devize')        loadDevize(1)
+  }, [authed, tab, loadConversations, loadDevize])
 
   // Daily stats grouped by day
   const dailyMap: Record<string, number> = {}
@@ -155,13 +185,13 @@ export default function AdminPage() {
 
         {/* Tabs */}
         <div className="flex gap-2 mb-6 border-b border-subtle pb-3">
-          {(['stats', 'conversations', 'errors'] as const).map(t => (
+          {(['stats', 'conversations', 'devize', 'errors'] as const).map(t => (
             <button
               key={t}
               onClick={() => setTab(t)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition ${tab === t ? 'bg-gold text-concrete' : 'text-dust hover:text-sand'}`}
             >
-              {t === 'stats' ? 'Statistici' : t === 'conversations' ? 'Conversații' : 'Erori'}
+              {t === 'stats' ? 'Statistici' : t === 'conversations' ? 'Conversații' : t === 'devize' ? 'Devize' : 'Erori'}
             </button>
           ))}
         </div>
@@ -268,6 +298,69 @@ export default function AdminPage() {
                   </div>
                 ))}
                 {!selectedConv && <p className="text-dust text-sm p-4">Selectează o conversație din stânga.</p>}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Devize tab */}
+        {tab === 'devize' && (
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-xl border border-subtle bg-card overflow-hidden">
+              <div className="px-4 py-3 border-b border-subtle flex justify-between items-center">
+                <h2 className="text-xs font-bold text-dust uppercase tracking-widest">Devize ({totalDevize})</h2>
+                <div className="flex gap-2">
+                  <button onClick={() => loadDevize(devizePage - 1)} disabled={devizePage <= 1} className="text-xs text-dust hover:text-sand disabled:opacity-30">←</button>
+                  <span className="text-xs text-dust">{devizePage}</span>
+                  <button onClick={() => loadDevize(devizePage + 1)} disabled={devizePage * 20 >= totalDevize} className="text-xs text-dust hover:text-sand disabled:opacity-30">→</button>
+                </div>
+              </div>
+              <div className="divide-y divide-subtle max-h-[600px] overflow-y-auto">
+                {devize.map(d => (
+                  <button key={d.id} onClick={() => setSelectedDeviz(d)}
+                    className={`w-full text-left px-4 py-3 hover:bg-surface transition ${selectedDeviz?.id === d.id ? 'bg-surface border-l-2 border-gold' : ''}`}>
+                    <div className="flex justify-between">
+                      <span className="text-sm text-sand font-medium">{d.client_name || 'Anonim'}</span>
+                      <span className="text-xs text-gold font-bold">{Number(d.total).toFixed(0)} RON</span>
+                    </div>
+                    <div className="flex justify-between mt-1">
+                      <span className="text-xs text-dust truncate">{d.project_name || '—'}</span>
+                      <span className="text-xs text-dust">{new Date(d.created_at).toLocaleDateString('ro')}</span>
+                    </div>
+                  </button>
+                ))}
+                {!loading && devize.length === 0 && <p className="text-dust text-sm p-4">Nu există devize.</p>}
+              </div>
+            </div>
+
+            <div className="rounded-xl border border-subtle bg-card overflow-hidden">
+              <div className="px-4 py-3 border-b border-subtle">
+                <h2 className="text-xs font-bold text-dust uppercase tracking-widest">
+                  {selectedDeviz ? `${selectedDeviz.client_name || 'Anonim'} — ${Number(selectedDeviz.total).toFixed(0)} RON` : 'Selectează un deviz'}
+                </h2>
+              </div>
+              <div className="p-4 max-h-[600px] overflow-y-auto">
+                {selectedDeviz ? (
+                  <div className="space-y-3">
+                    <div className="grid grid-cols-2 gap-2 text-xs">
+                      <div><span className="text-dust">Materiale:</span> <span className="text-sand">{Number(selectedDeviz.total_mat).toFixed(0)} RON</span></div>
+                      <div><span className="text-dust">Manoperă:</span> <span className="text-sand">{Number(selectedDeviz.total_manopera).toFixed(0)} RON</span></div>
+                      <div><span className="text-dust">Lucrări:</span> <span className="text-sand">{selectedDeviz.items.length}</span></div>
+                      <div><span className="text-dust">Locale:</span> <span className="text-sand">{selectedDeviz.locale.toUpperCase()}</span></div>
+                    </div>
+                    <div className="divide-y divide-subtle border border-subtle rounded-lg overflow-hidden">
+                      {selectedDeviz.items.map((item: any, i: number) => (
+                        <div key={i} className="px-3 py-2">
+                          <div className="flex justify-between">
+                            <span className="text-sm text-sand">{item.label}</span>
+                            <span className="text-xs text-gold">{(item.saci * item.pretSac + item.suprafata * item.pretManopera).toFixed(0)} RON</span>
+                          </div>
+                          <div className="text-xs text-dust mt-0.5">{item.suprafata} m² · {item.saci} saci · {item.pretSac > 0 ? item.pretSac + ' RON/sac' : ''} {item.pretManopera > 0 ? '· ' + item.pretManopera + ' RON/m² manoperă' : ''}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ) : <p className="text-dust text-sm">Selectează un deviz din stânga.</p>}
               </div>
             </div>
           </div>
