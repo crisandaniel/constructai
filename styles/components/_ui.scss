@@ -119,6 +119,20 @@
     gap: $space-2;
     margin-bottom: $space-3;
   }
+
+  &__specs--hover {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin-bottom: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, margin-bottom 0.3s ease;
+  }
+
+  &:hover &__specs--hover {
+    max-height: 200px;
+    opacity: 1;
+    margin-bottom: $space-3;
+  }
   &__link {
     display: block;
     width: 100%;

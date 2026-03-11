@@ -38,23 +38,32 @@ export default async function MaterialePage({ params: { locale } }: Props) {
               <div key={m.id} className="material-card rounded-xl border border-subtle">
                 <div className="material-card__name">{m.name}</div>
                 <p className="material-card__description">{m.description}</p>
-                <div className="space-y-1.5 mb-4">
+                {/* <div className="space-y-1.5 mb-4">
                   {Object.entries(m.keyProperties).map(([k, v]) => (
                     <div key={k} className="flex justify-between text-xs">
                       <span className="text-dust">{k}</span>
                       <span className="text-sand font-medium">{v}</span>
                     </div>
                   ))}
-                </div>
-                <div className="material-card__specs">
+                </div> */}
+                <div className="material-card__specs material-card__specs--hover">
                   {m.specs.map((s) => <span key={s} className="spec-tag">{s}</span>)}
                 </div>
-                <Link
-                  href={`/${locale}/asistent?q=${encodeURIComponent(t('askFull', { name: m.name }))}`}
-                  className="material-card__link mt-4"
-                >
-                  {t('title')} →
-                </Link>
+                <div className="flex flex-col gap-2 mt-4">
+                  <Link
+                    href={`/${locale}/materiale/${m.id}`}
+                    className="material-card__link"
+                  >
+                    Fișă tehnică completă →
+                  </Link>
+                  <Link
+                    href={`/${locale}/asistent?q=${encodeURIComponent(t('askFull', { name: m.name }))}`}
+                    className="material-card__link"
+                    style={{ opacity: 0.7 }}
+                  >
+                    🤖 Întreabă AI →
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
