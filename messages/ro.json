@@ -8,7 +8,6 @@
     "descriptionMateriale": "Fișe tehnice complete pentru adezivi, tencuieli, finisaje, beton și alte materiale de construcții.",
     "titleCalculator": "Generator Deviz Construcții | ConstructAI",
     "descriptionCalculator": "Calculează materiale și generează devize pentru tencuială, gresie, faianță, șapă și alte lucrări de construcții. Export PDF gratuit."
-
   },
   "nav": {
     "calculator": "Calculator",
@@ -22,7 +21,7 @@
     "titleHighlight": "materialele",
     "description": "Agentul nostru AI a fost instruit cu fișe tehnice de la peste 200 de materiale de construcții. Descrie lucrarea și primești imediat o estimare precisă.",
     "ctaPrimary": "Consultă Agentul AI",
-    "ctaSecondary": "Calculator Rapid"
+    "ctaSecondary": "Generator Deviz"
   },
   "stats": {
     "materials": "Fișe tehnice materiale",
@@ -174,14 +173,13 @@
     "welcome": "Bună ziua! Sunt **ConstructAI**, instruit cu fișe tehnice de la principalele materiale de construcții din România. 🏗️\n\nVă pot ajuta cu:\n- **Estimarea cantităților** de materiale pentru orice lucrare\n- **Informații tehnice** — dozaje, rezistențe, consumuri\n- **Recomandări** pentru tipuri de lucrări\n- **Comparații** între produse similare\n\nDescriați-mi lucrarea pe care doriți să o realizați!",
     "newChat": "Conversație nouă! Cu ce vă pot ajuta? 🏗️",
     "errorConnect": "⚠️ Eroare la conectare. Verificați cheia API și reîncercați.",
-    "errorRateLimit": "⚠️ Prea multe intrebari intr-un timp prea scurt. Creatorul meu plateste pentru aceste intrebari. Pana cand nu fac bani voi fi limitat.",
     "suggestions": [
-      "🏗️ Despre ce materiale ai informatii?",
       "🧱 Câtă cărămidă pentru 20m² perete?",
       "📐 Câtă șapă pentru 60m² pardoseală?",
       "🎨 Consum tencuială per mp?",
       "🛖 Polistiren pentru casă 120m²?"
-    ]
+    ],
+    "errorRateLimit": "⚠️ Prea multe intrebari intr-un timp prea scurt. Creatorul meu plateste pentru aceste intrebari. Pana cand nu fac bani voi fi limitat."
   },
   "materials": {
     "title": "Materiale de construcții",

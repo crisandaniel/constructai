@@ -33,7 +33,7 @@ export default async function HomePage({ params: { locale } }: Props) {
           <p className="text-dust text-base md:text-lg leading-relaxed mb-6 md:mb-8 max-w-md">{t('description')}</p>
           <div className="flex gap-3 flex-wrap">
             <Link href={`/${locale}/asistent`} className="btn btn--primary">{t('ctaPrimary')}</Link>
-            <Link href={`/${locale}/asistent`} className="btn btn--secondary">{t('ctaSecondary')}</Link>
+            <Link href={`/${locale}/calculator`} className="btn btn--secondary">{t('ctaSecondary')}</Link>
           </div>
         </div>
 

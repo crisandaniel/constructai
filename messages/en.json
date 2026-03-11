@@ -21,7 +21,7 @@
     "titleHighlight": "materials",
     "description": "Our AI agent has been trained on technical data sheets from over 200 construction materials. Describe your project and get an accurate estimate instantly.",
     "ctaPrimary": "Consult AI Agent",
-    "ctaSecondary": "Quick Calculator"
+    "ctaSecondary": "Estimate Calculator"
   },
   "stats": {
     "materials": "Technical data sheets",
@@ -173,14 +173,13 @@
     "welcome": "Hello! I am **ConstructAI**, trained on technical data sheets from the main construction materials. 🏗️\n\nI can help you with:\n- **Quantity estimates** for any construction project\n- **Technical specs** — dosage, strength, consumption rates\n- **Recommendations** for different work types\n- **Product comparisons**\n\nDescribe the project you want to complete!",
     "newChat": "New conversation! How can I help? 🏗️",
     "errorConnect": "⚠️ Connection error. Check your API key and try again.",
-    "errorRateLimit": "⚠️ Too many questions in a short time. My creator pays for these answers. Until I don't make some money this feature will be limited.",
     "suggestions": [
-      "🏗️ Which materials do you know about?",
       "🧱 How many bricks for a 20m² wall?",
       "📐 How much screed for 60m² floor?",
       "🎨 Plaster consumption per m²?",
       "🛖 EPS insulation for a 120m² house?"
-    ]
+    ],
+    "errorRateLimit": "⚠️ Prea multe intrebari intr-un timp prea scurt. Creatorul meu plateste pentru aceste intrebari. Pana cand nu fac bani voi fi limitat."
   },
   "materials": {
     "title": "Construction materials",
