@@ -2,6 +2,21 @@ import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 import { MATERIALS_KB } from '@/lib/materials-data'
 
+// Disable static prerendering — page depends on runtime data
+export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const t = await getTranslations({ locale, namespace: 'meta' })
+  return {
+    title:       t('titleMateriale'),
+    description: t('descriptionMateriale'),
+    openGraph: {
+      title:       t('titleMateriale'),
+      description: t('descriptionMateriale'),
+    },
+  }
+}
+
 interface Props {
   params: { locale: string }
 }
