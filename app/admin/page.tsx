@@ -43,7 +43,7 @@ interface Message {
 export default function AdminPage() {
   const [password, setPassword]         = useState('')
   const [authed, setAuthed]             = useState(false)
-  const [tab, setTab]                   = useState<'stats' | 'conversations' | 'errors'>('stats')
+  const [tab, setTab]                   = useState<'stats' | 'conversations' | 'devize' | 'errors'>('stats')
   const [stats, setStats]               = useState<Stats | null>(null)
   const [conversations, setConversations] = useState<Conversation[]>([])
   const [selectedConv, setSelectedConv] = useState<string | null>(null)
