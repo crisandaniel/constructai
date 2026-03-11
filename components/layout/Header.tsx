@@ -36,7 +36,7 @@ export function Header() {
       </Link>
 
       <nav className="header__nav">
-        <Link href={`${base}/asistent`} className="header__nav-link">{t('calculator')}</Link>
+        <Link href={`${base}/calculator`} className="header__nav-link">{t('calculator')}</Link>
         <Link href={`${base}/materiale`} className="header__nav-link">{t('materials')}</Link>
         <Link href={`${base}/asistent`}  className="header__nav-link">{t('assistant')}</Link>
 

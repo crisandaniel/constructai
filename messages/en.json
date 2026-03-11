@@ -5,7 +5,9 @@
     "titleAsistent": "AI Construction Assistant | ConstructAI",
     "descriptionAsistent": "Ask the AI assistant about construction materials — consumption, dosage, technical recommendations.",
     "titleMateriale": "Construction Materials | ConstructAI",
-    "descriptionMateriale": "Complete technical data sheets for adhesives, plasters, finishes, concrete and other construction materials."
+    "descriptionMateriale": "Complete technical data sheets for adhesives, plasters, finishes, concrete and other construction materials.",
+    "titleCalculator": "Construction Quote Generator | ConstructAI",
+    "descriptionCalculator": "Calculate materials and generate quotes for plastering, tiles, flooring and other construction works. Free PDF export."
   },
   "nav": {
     "calculator": "Calculator",
