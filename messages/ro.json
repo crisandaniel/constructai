@@ -167,6 +167,7 @@
     "welcome": "Bună ziua! Sunt **ConstructAI**, instruit cu fișe tehnice de la principalele materiale de construcții din România. 🏗️\n\nVă pot ajuta cu:\n- **Estimarea cantităților** de materiale pentru orice lucrare\n- **Informații tehnice** — dozaje, rezistențe, consumuri\n- **Recomandări** pentru tipuri de lucrări\n- **Comparații** între produse similare\n\nDescriați-mi lucrarea pe care doriți să o realizați!",
     "newChat": "Conversație nouă! Cu ce vă pot ajuta? 🏗️",
     "errorConnect": "⚠️ Eroare la conectare. Verificați cheia API și reîncercați.",
+    "errorRateLimit": "⚠️ Prea multe intrebari intr-un timp prea scurt. Creatorul meu plateste pentru aceste intrebari. Pana cand nu fac bani voi fi limitat.",
     "suggestions": [
       "🏗️ Despre ce materiale ai informatii?",
       "🧱 Câtă cărămidă pentru 20m² perete?",

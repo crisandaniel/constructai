@@ -95,7 +95,21 @@ ${lines}`
         body: JSON.stringify({ messages: history, sessionId, locale }),
       })
 
-      if (!res.ok) throw new Error('API error')
+      if (res.status === 429) {
+        addMessage('assistant', t('errorRateLimit'))
+        fetch('/api/log-error', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            errorType: 'rate_limited',
+            message: '429 Too Many Requests from Cloudflare',
+            sessionId,
+            context: { locale },
+          }),
+        }).catch(() => {})
+        return
+      }
+      if (!res.ok) throw new Error(`API error ${res.status}`)
 
       const reader = res.body!.getReader()
       const decoder = new TextDecoder()
