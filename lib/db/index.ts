@@ -125,6 +125,15 @@ export type EventType =
   | 'material_click'
   | 'locale_change'
   | 'chat_open'
+  // Calculator / Deviz
+  | 'deviz_page_open'
+  | 'deviz_work_added'
+  | 'deviz_work_removed'
+  | 'deviz_material_changed'
+  | 'deviz_price_entered'
+  | 'deviz_manopera_entered'
+  | 'deviz_exported'
+  | 'deviz_saved'
 
 export async function trackEvent(
   sessionId: string,
