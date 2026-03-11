@@ -1,18 +1,22 @@
 import createMiddleware from 'next-intl/middleware'
+import { NextResponse, type NextRequest } from 'next/server'
 import { locales, defaultLocale } from './i18n'
 
-// Handles locale routing:
-// / → /ro (redirect to default locale)
-// /en/asistent → serves English version
-// Manual selector in header changes locale via cookie
-export default createMiddleware({
+const intlMiddleware = createMiddleware({
   locales,
   defaultLocale,
-  // Keep locale prefix for all locales so URLs are explicit
   localePrefix: 'always',
 })
 
+export default function middleware(req: NextRequest) {
+  // Skip intl middleware for /admin — it's not locale-aware
+  if (req.nextUrl.pathname.startsWith('/admin')) {
+    return NextResponse.next()
+  }
+
+  return intlMiddleware(req)
+}
+
 export const config = {
-  // Match all paths except API routes, static files, and Next.js internals
   matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
 }

@@ -6,7 +6,7 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 // Client is created lazily so missing env vars don't crash the build
 let _client: SupabaseClient | null = null
 
-function getClient(): SupabaseClient {
+export function getClient(): SupabaseClient {
   if (_client) return _client
   if (!process.env.SUPABASE_URL)         throw new Error('Missing SUPABASE_URL')
   if (!process.env.SUPABASE_SERVICE_KEY) throw new Error('Missing SUPABASE_SERVICE_KEY')
