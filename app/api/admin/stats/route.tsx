@@ -44,5 +44,11 @@ export async function GET(req: Request) {
     .from('messages')
     .select('*', { count: 'exact', head: true })
 
-  return Response.json({ dailyConvs, topMessages, errors, summary: { totalConvs, totalMessages } })
+  // Top events last 30 days
+  const { data: topEvents } = await db
+    .from('events')
+    .select('event_type')
+    .gte('created_at', new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString())
+
+  return Response.json({ dailyConvs, topMessages, errors, topEvents, summary: { totalConvs, totalMessages } })
 }

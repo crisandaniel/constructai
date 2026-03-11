@@ -7,6 +7,7 @@ const ADMIN_PASSWORD_KEY = 'admin_password'
 interface Stats {
   dailyConvs: { started_at: string; message_count: number }[]
   topMessages: { content: string }[]
+  topEvents:   { event_type: string }[]
   errors: { error_type: string; message: string; created_at: string; context: any }[]
   summary: { totalConvs: number; totalMessages: number }
 }
@@ -130,6 +131,13 @@ export default function AdminPage() {
   })
   const topQuestions = Object.entries(msgFreq).sort((a, b) => b[1] - a[1]).slice(0, 10)
 
+  // Top events
+  const eventsFreq: Record<string, number> = {}
+  stats?.topEvents?.forEach(e => {
+    eventsFreq[e.event_type] = (eventsFreq[e.event_type] || 0) + 1
+  })
+  const topEventsList = Object.entries(eventsFreq).sort((a, b) => b[1] - a[1])
+
   if (!authed) return (
     <div className="min-h-screen flex items-center justify-center bg-concrete px-4">
       <div className="w-full max-w-sm rounded-2xl border border-subtle bg-card p-8">
@@ -218,6 +226,20 @@ export default function AdminPage() {
                 {dailyEntries.length === 0 && (
                   <p className="text-dust text-sm">Nu există date încă.</p>
                 )}
+              </div>
+            </div>
+
+            {/* Top events */}
+            <div className="rounded-xl border border-subtle bg-card p-6">
+              <h2 className="text-sm font-bold text-dust uppercase tracking-widest mb-4">Top Events (30 zile)</h2>
+              <div className="space-y-2">
+                {topEventsList.map(([type, count]) => (
+                  <div key={type} className="flex items-center gap-3">
+                    <span className="text-gold font-bold text-sm w-8 text-right">{count}×</span>
+                    <span className="text-sand text-sm font-mono">{type}</span>
+                  </div>
+                ))}
+                {topEventsList.length === 0 && <p className="text-dust text-sm">Nu există events încă.</p>}
               </div>
             </div>
 
