@@ -88,3 +88,22 @@ ALTER TABLE conversations DISABLE ROW LEVEL SECURITY;
 ALTER TABLE messages      DISABLE ROW LEVEL SECURITY;
 ALTER TABLE events        DISABLE ROW LEVEL SECURITY;
 ALTER TABLE error_logs    DISABLE ROW LEVEL SECURITY;
+
+-- ── Devize ────────────────────────────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS devize (
+  id             UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+  session_id     TEXT,
+  client_name    TEXT,
+  project_name   TEXT,
+  locale         TEXT        NOT NULL DEFAULT 'ro',
+  items          JSONB       NOT NULL DEFAULT '[]',
+  total_mat      NUMERIC(10,2) NOT NULL DEFAULT 0,
+  total_manopera NUMERIC(10,2) NOT NULL DEFAULT 0,
+  total          NUMERIC(10,2) NOT NULL DEFAULT 0,
+  created_at     TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_devize_session   ON devize(session_id);
+CREATE INDEX idx_devize_created   ON devize(created_at DESC);
+
+ALTER TABLE devize DISABLE ROW LEVEL SECURITY;
