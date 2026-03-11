@@ -20,6 +20,15 @@ interface Conversation {
   message_count: number
 }
 
+interface Feedback {
+  id:         string
+  message:    string
+  email:      string | null
+  page:       string | null
+  locale:     string
+  created_at: string
+}
+
 interface Deviz {
   id:             string
   client_name:    string | null
@@ -44,7 +53,7 @@ interface Message {
 export default function AdminPage() {
   const [password, setPassword]         = useState('')
   const [authed, setAuthed]             = useState(false)
-  const [tab, setTab]                   = useState<'stats' | 'conversations' | 'devize' | 'errors'>('stats')
+  const [tab, setTab]                   = useState<'stats' | 'conversations' | 'devize' | 'feedback' | 'errors'>('stats')
   const [stats, setStats]               = useState<Stats | null>(null)
   const [conversations, setConversations] = useState<Conversation[]>([])
   const [selectedConv, setSelectedConv] = useState<string | null>(null)
@@ -54,6 +63,8 @@ export default function AdminPage() {
   const [loading, setLoading]           = useState(false)
   const [devize, setDevize]             = useState<Deviz[]>([])
   const [totalDevize, setTotalDevize]   = useState(0)
+  const [feedback, setFeedback]         = useState<Feedback[]>([])
+  const [totalFeedback, setTotalFeedback] = useState(0)
   const [devizePage, setDevizePage]     = useState(1)
   const [selectedDeviz, setSelectedDeviz] = useState<Deviz | null>(null)
   const [error, setError]               = useState('')
@@ -89,6 +100,18 @@ export default function AdminPage() {
     }
   }, [password])
 
+  const loadFeedback = useCallback(async () => {
+    setLoading(true)
+    try {
+      const res  = await fetch('/api/admin/feedback', { headers })
+      const data = await res.json()
+      setFeedback(data.feedback || [])
+      setTotalFeedback(data.total || 0)
+    } finally {
+      setLoading(false)
+    }
+  }, [password])
+
   const loadDevize = useCallback(async (p = 1) => {
     setLoading(true)
     try {
@@ -112,7 +135,8 @@ export default function AdminPage() {
   useEffect(() => {
     if (authed && tab === 'conversations') loadConversations(1)
     if (authed && tab === 'devize')        loadDevize(1)
-  }, [authed, tab, loadConversations, loadDevize])
+    if (authed && tab === 'feedback')      loadFeedback()
+  }, [authed, tab, loadConversations, loadDevize, loadFeedback])
 
   // Daily stats grouped by day
   const dailyMap: Record<string, number> = {}
@@ -193,13 +217,13 @@ export default function AdminPage() {
 
         {/* Tabs */}
         <div className="flex gap-2 mb-6 border-b border-subtle pb-3">
-          {(['stats', 'conversations', 'devize', 'errors'] as const).map(t => (
+          {(['stats', 'conversations', 'devize', 'feedback', 'errors'] as const).map(t => (
             <button
               key={t}
               onClick={() => setTab(t)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition ${tab === t ? 'bg-gold text-concrete' : 'text-dust hover:text-sand'}`}
             >
-              {t === 'stats' ? 'Statistici' : t === 'conversations' ? 'Conversații' : t === 'devize' ? 'Devize' : 'Erori'}
+              {t === 'stats' ? 'Statistici' : t === 'conversations' ? 'Conversații' : t === 'devize' ? 'Devize' : t === 'feedback' ? 'Sugestii' : 'Erori'}
             </button>
           ))}
         </div>
@@ -384,6 +408,31 @@ export default function AdminPage() {
                   </div>
                 ) : <p className="text-dust text-sm">Selectează un deviz din stânga.</p>}
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Feedback tab */}
+        {tab === 'feedback' && (
+          <div className="rounded-xl border border-subtle bg-card overflow-hidden">
+            <div className="px-4 py-3 border-b border-subtle">
+              <h2 className="text-xs font-bold text-dust uppercase tracking-widest">Sugestii ({totalFeedback})</h2>
+            </div>
+            <div className="divide-y divide-subtle">
+              {feedback.map(f => (
+                <div key={f.id} className="px-4 py-4">
+                  <div className="flex justify-between items-start mb-2">
+                    <div className="flex gap-3 items-center">
+                      {f.email && <span className="text-xs text-gold">{f.email}</span>}
+                      {f.page  && <span className="text-xs text-dust font-mono">{f.page}</span>}
+                      <span className="text-xs text-dust">{f.locale.toUpperCase()}</span>
+                    </div>
+                    <span className="text-xs text-dust">{new Date(f.created_at).toLocaleString('ro')}</span>
+                  </div>
+                  <p className="text-sm text-sand leading-relaxed">{f.message}</p>
+                </div>
+              ))}
+              {!loading && feedback.length === 0 && <p className="text-dust text-sm p-4">Nu există sugestii încă.</p>}
             </div>
           </div>
         )}

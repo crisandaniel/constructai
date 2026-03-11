@@ -107,3 +107,16 @@ CREATE INDEX idx_devize_session   ON devize(session_id);
 CREATE INDEX idx_devize_created   ON devize(created_at DESC);
 
 ALTER TABLE devize DISABLE ROW LEVEL SECURITY;
+
+-- ── Feedback / Sugestii ───────────────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS feedback (
+  id         UUID        PRIMARY KEY DEFAULT gen_random_uuid(),
+  message    TEXT        NOT NULL,
+  email      TEXT,
+  page       TEXT,
+  locale     TEXT        NOT NULL DEFAULT 'ro',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX idx_feedback_created ON feedback(created_at DESC);
+ALTER TABLE feedback DISABLE ROW LEVEL SECURITY;
