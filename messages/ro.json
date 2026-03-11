@@ -1,7 +1,11 @@
 {
   "meta": {
-    "title": "ConstructAI — Asistent Inteligent pentru Materiale de Construcții",
-    "description": "Calculează materialele pentru orice lucrare de construcție. AI instruit cu fișe tehnice."
+    "title": "ConstructAI — Asistent AI pentru Materiale de Construcții",
+    "description": "Calculează materialele pentru orice lucrare. AI instruit cu fișe tehnice de la 200+ produse de construcții din România.",
+    "titleAsistent": "Asistent AI Construcții | ConstructAI",
+    "descriptionAsistent": "Întreabă asistentul AI despre materiale de construcții — consum, dozaj, recomandări tehnice.",
+    "titleMateriale": "Materiale de Construcții | ConstructAI",
+    "descriptionMateriale": "Fișe tehnice complete pentru adezivi, tencuieli, finisaje, beton și alte materiale de construcții."
   },
   "nav": {
     "calculator": "Calculator",

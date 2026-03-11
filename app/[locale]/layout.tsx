@@ -15,14 +15,44 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params: { locale } }: Props) {
   const t = await getTranslations({ locale, namespace: 'meta' })
-  return { title: t('title'), description: t('description') }
+  const url = `https://constructai.ro/${locale}`
+
+  return {
+    title: {
+      default:  t('title'),
+      template: '%s | ConstructAI',
+    },
+    description: t('description'),
+    metadataBase: new URL('https://constructai.ro'),
+    alternates: {
+      canonical: url,
+      languages: {
+        'ro': '/ro',
+        'en': '/en',
+      },
+    },
+    openGraph: {
+      title:       t('title'),
+      description: t('description'),
+      url,
+      siteName:    'ConstructAI',
+      locale:      locale === 'ro' ? 'ro_RO' : 'en_US',
+      type:        'website',
+    },
+    twitter: {
+      card:        'summary_large_image',
+      title:       t('title'),
+      description: t('description'),
+    },
+    robots: {
+      index:  true,
+      follow: true,
+    },
+  }
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {
-  // Validate that the locale is supported
   if (!locales.includes(locale as Locale)) notFound()
-
-  // Load messages for this locale and pass to client components
   const messages = await getMessages()
 
   return (
