@@ -48,14 +48,14 @@ export function MaterialsGrid({ materials, locale, labels }: Props) {
         {filtered.map(m => (
           <Link
             key={m.id}
-            href={`/${locale}/asistent?q=${encodeURIComponent(m.name)}`}
+            href={locale === "ro" ? `/materiale/${m.id}` : `/en/materiale/${m.id}`}
             className="material-card block"
             onClick={() => track('material_click', { id: m.id, name: m.name })}
           >
             <div className="material-card__category">{m.category}</div>
             <div className="material-card__name">{m.name}</div>
             <p className="material-card__description">{m.description}</p>
-            <span className="material-card__link">{labels.askAI}</span>
+            <span className="material-card__link">{labels.askAI} →</span>
           </Link>
         ))}
       </div>

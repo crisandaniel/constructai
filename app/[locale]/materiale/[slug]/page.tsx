@@ -36,9 +36,9 @@ export default async function MaterialPage({ params: { locale, slug } }: Props) 
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-xs text-dust mb-8">
-        <Link href={`/${locale}`} className="hover:text-sand transition-colors">Acasă</Link>
+        <Link href={locale === "ro" ? "/" : "/en"} className="hover:text-sand transition-colors">Acasă</Link>
         <span>›</span>
-        <Link href={`/${locale}/materiale`} className="hover:text-sand transition-colors">Materiale</Link>
+        <Link href={locale === "ro" ? "/materiale" : "/en/materiale"} className="hover:text-sand transition-colors">Materiale</Link>
         <span>›</span>
         <span className="text-sand">{material.name}</span>
       </nav>
@@ -131,7 +131,7 @@ export default async function MaterialPage({ params: { locale, slug } }: Props) 
         <Link href={askUrl} className="btn btn--primary">
           🤖 Întreabă AI despre acest material
         </Link>
-        <Link href={`/${locale}/materiale`} className="btn btn--secondary">
+        <Link href={locale === "ro" ? "/materiale" : "/en/materiale"} className="btn btn--secondary">
           ← Înapoi la materiale
         </Link>
       </div>

@@ -51,13 +51,13 @@ export default async function MaterialePage({ params: { locale } }: Props) {
                 </div>
                 <div className="flex flex-col gap-2 mt-4">
                   <Link
-                    href={`/${locale}/materiale/${m.id}`}
+                    href={locale === "ro" ? `/materiale/${m.id}` : `/en/materiale/${m.id}`}
                     className="material-card__link"
                   >
                     Fișă tehnică completă →
                   </Link>
                   <Link
-                    href={`/${locale}/asistent?q=${encodeURIComponent(t('askFull', { name: m.name }))}`}
+                    href={locale === "ro" ? `/asistent?q=${encodeURIComponent(t('askFull', { name: m.name }))}` : `/en/asistent?q=${encodeURIComponent(t('askFull', { name: m.name }))}`}
                     className="material-card__link"
                     style={{ opacity: 0.7 }}
                   >

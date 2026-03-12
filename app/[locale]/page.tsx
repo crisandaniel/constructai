@@ -32,8 +32,8 @@ export default async function HomePage({ params: { locale } }: Props) {
           </h1>
           <p className="text-dust text-base md:text-lg leading-relaxed mb-6 md:mb-8 max-w-md">{t('description')}</p>
           <div className="flex gap-3 flex-wrap">
-            <Link href={`/${locale}/asistent`} className="btn btn--primary">{t('ctaPrimary')}</Link>
-            <Link href={`/${locale}/calculator`} className="btn btn--secondary">{t('ctaSecondary')}</Link>
+            <Link href={locale === "ro" ? "/asistent" : "/en/asistent"} className="btn btn--primary">{t('ctaPrimary')}</Link>
+            <Link href={locale === "ro" ? "/asistent" : "/en/asistent"} className="btn btn--secondary">{t('ctaSecondary')}</Link>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ export default async function HomePage({ params: { locale } }: Props) {
         <div className="max-w-app mx-auto px-4 md:px-6 py-12 md:py-20 text-center">
           <h2 className="font-syne font-extrabold text-2xl md:text-4xl mb-4">{tCta('title')}</h2>
           <p className="text-dust mb-8 max-w-md mx-auto">{tCta('description')}</p>
-          <Link href={`/${locale}/asistent`} className="btn btn--primary inline-flex">
+          <Link href={locale === "ro" ? "/asistent" : "/en/asistent"} className="btn btn--primary inline-flex">
             {tCta('button')}
           </Link>
         </div>
