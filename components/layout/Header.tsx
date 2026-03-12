@@ -3,10 +3,26 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { useLocale, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { locales, type Locale } from '@/i18n'
 
 const LOCALE_LABELS: Record<Locale, string> = { ro: 'RO', en: 'EN' }
+
+function getLocaleFromPath(pathname: string): Locale {
+  const seg = pathname.split('/')[1]
+  return locales.includes(seg as Locale) ? (seg as Locale) : 'ro'
+}
+
+function getBarePath(pathname: string): string {
+  const segments = pathname.split('/')
+  // ['', 'en', 'calculator'] → /calculator
+  // ['', 'calculator']       → /calculator
+  if (locales.includes(segments[1] as Locale)) {
+    const rest = segments.slice(2).join('/')
+    return rest ? '/' + rest : '/'
+  }
+  return pathname
+}
 
 function FeedbackModal({ onClose, locale }: { onClose: () => void; locale: string }) {
   const [message, setMessage] = useState('')
@@ -31,7 +47,6 @@ function FeedbackModal({ onClose, locale }: { onClose: () => void; locale: strin
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4" onClick={onClose}>
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
       <div className="relative w-full max-w-md rounded-2xl border border-subtle bg-card p-6 shadow-2xl" onClick={e => e.stopPropagation()}>
-
         <div className="flex items-start justify-between mb-4">
           <div>
             <h2 className="font-syne font-bold text-lg">💡 Sugestii</h2>
@@ -39,7 +54,6 @@ function FeedbackModal({ onClose, locale }: { onClose: () => void; locale: strin
           </div>
           <button onClick={onClose} className="text-dust hover:text-sand text-xl leading-none">×</button>
         </div>
-
         {status === 'done' ? (
           <div className="text-center py-6">
             <div className="text-4xl mb-3">🙏</div>
@@ -77,24 +91,24 @@ function FeedbackModal({ onClose, locale }: { onClose: () => void; locale: strin
 }
 
 export function Header() {
-  const t        = useTranslations('nav')
-  const locale   = useLocale() as Locale
-  const pathname = usePathname()
-  const router   = useRouter()
+  const t            = useTranslations('nav')
+  const pathname     = usePathname()
+  const router       = useRouter()
+  const locale       = getLocaleFromPath(pathname)
   const [showFeedback, setShowFeedback] = useState(false)
 
   function switchLocale(next: Locale) {
-    const segments = pathname.split('/')
-    segments[1] = next
-    router.push(segments.join('/'))
+    const barePath = getBarePath(pathname)
+    const target   = next === 'ro' ? barePath : `/${next}${barePath === '/' ? '' : barePath}`
+    router.push(target)
   }
 
-  const base = `/${locale}`
+  const base = locale === 'ro' ? '' : `/${locale}`
 
   return (
     <>
       <header className="header">
-        <Link href={base} className="header__logo">
+        <Link href={base || '/'} className="header__logo">
           <div className="header__logo-icon">⬡</div>
           <span className="header__logo-text">Construct<span>AI</span></span>
         </Link>

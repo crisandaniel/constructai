@@ -5,15 +5,14 @@ import { locales, defaultLocale } from './i18n'
 const intlMiddleware = createMiddleware({
   locales,
   defaultLocale,
-  localePrefix: 'always',
+  localePrefix: 'as-needed',
+  localeDetection: false, // always use defaultLocale (ro) unless /en prefix
 })
 
 export default function middleware(req: NextRequest) {
-  // Skip intl middleware for /admin — it's not locale-aware
   if (req.nextUrl.pathname.startsWith('/admin')) {
     return NextResponse.next()
   }
-
   return intlMiddleware(req)
 }
 
