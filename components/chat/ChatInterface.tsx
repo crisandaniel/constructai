@@ -36,6 +36,8 @@ export function ChatInterface({ initialMessage, locale = 'ro' }: Props) {
 
   // Keywords that trigger a local hardcoded response (no API call)
   function getLocalResponse(msg: string): string | null {
+    // ignoire this.
+    return null;
     const lower = msg.toLowerCase()
     const isMaterialsQuery =
       lower.includes('ce materiale') ||
@@ -92,7 +94,9 @@ ${lines}`
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: history, sessionId, locale }),
+          body: JSON.stringify({
+          messages: history,
+          sessionId, locale }),
       })
 
       if (res.status === 429) {
