@@ -59,12 +59,12 @@ Termenul de căutare trebuie să fie CATEGORIA produsului + BRANDUL, NU numele c
 Formula: CATEGORIE+BRAND (ex: lavabil+baumit, adeziv+mapei, glet+knauf, amorsa+ceresit)
 
 Exemple:
-- "Baumit Nanopore Interior" (lavabil) → termen: `lavabil+baumit`
-- "Ceresit CT 17" (amorsă) → termen: `amorsa+ceresit`
-- "Mapei Keraflex" (adeziv gresie) → termen: `adeziv+mapei`
-- "Knauf Rotband" (tencuială) → termen: `tencuiala+knauf`
-- "Ceresit CE 40" (chit rosturi) → termen: `chit+rosturi+ceresit`
-- "Weber.tec 822" (hidroizolație) → termen: `hidroizolatie+weber`
+- "Baumit Nanopore Interior" (lavabil) → termen: lavabil+baumit
+- "Ceresit CT 17" (amorsă) → termen: amorsa+ceresit
+- "Mapei Keraflex" (adeziv gresie) → termen: adeziv+mapei
+- "Knauf Rotband" (tencuială) → termen: tencuiala+knauf
+- "Ceresit CE 40" (chit rosturi) → termen: chit+rosturi+ceresit
+- "Weber.tec 822" (hidroizolație) → termen: hidroizolatie+weber
 
 Exemplu complet pentru "Baumit Nanopore Interior":
 🛒 **Baumit Nanopore Interior** — s-ar putea să găsești la [Dedeman](https://www.dedeman.ro/ro/catalogsearch/result/v2?q=lavabil+baumit), [Leroy Merlin](https://www.leroymerlin.ro/produse/search/lavabil%20baumit), [Hornbach](https://www.hornbach.ro/s/lavabil+baumit), [Brico Depot](https://www.bricodepot.ro/cauta/?q=lavabil+baumit)
