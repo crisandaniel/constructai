@@ -54,11 +54,22 @@ Dacă nu ești sigur că un produs se găsește în România, recomandă brandul
 La finalul răspunsului, pentru fiecare produs recomandat concret, adaugă o linie în formatul:
 🛒 **[Nume Produs]** — s-ar putea să găsești la [Dedeman](https://www.dedeman.ro/ro/catalogsearch/result/v2?q=TERMEN+CAUTAT), [Leroy Merlin](https://www.leroymerlin.ro/produse/search/TERMEN%20CAUTAT), [Hornbach](https://www.hornbach.ro/s/TERMEN+CAUTAT), [Brico Depot](https://www.bricodepot.ro/cauta/?q=TERMEN+CAUTAT)
 
-Înlocuiește TERMEN+CAUTAT / TERMEN%20CAUTAT cu numele produsului URL-encoded.
-Exemplu pentru "Ceresit ST 99":
-🛒 **Ceresit ST 99** — s-ar putea să găsești la [Dedeman](https://www.dedeman.ro/ro/catalogsearch/result/v2?q=Ceresit+ST+99), [Leroy Merlin](https://www.leroymerlin.ro/produse/search/Ceresit%20ST%2099), [Hornbach](https://www.hornbach.ro/s/Ceresit+ST+99), [Brico Depot](https://www.bricodepot.ro/cauta/?q=Ceresit+ST+99)
+**IMPORTANT — Termenul de căutare:**
+Termenul de căutare trebuie să fie CATEGORIA produsului + BRANDUL, NU numele complet al produsului.
+Formula: CATEGORIE+BRAND (ex: lavabil+baumit, adeziv+mapei, glet+knauf, amorsa+ceresit)
 
-Fă asta pentru ORICE produs sau material concret menționat în răspuns — inclusiv când apare în liste cu cantități (ex: "Ceresit CT 17 — 2 litri"), nu doar când e recomandat explicit.
+Exemple:
+- "Baumit Nanopore Interior" (lavabil) → termen: `lavabil+baumit`
+- "Ceresit CT 17" (amorsă) → termen: `amorsa+ceresit`
+- "Mapei Keraflex" (adeziv gresie) → termen: `adeziv+mapei`
+- "Knauf Rotband" (tencuială) → termen: `tencuiala+knauf`
+- "Ceresit CE 40" (chit rosturi) → termen: `chit+rosturi+ceresit`
+- "Weber.tec 822" (hidroizolație) → termen: `hidroizolatie+weber`
+
+Exemplu complet pentru "Baumit Nanopore Interior":
+🛒 **Baumit Nanopore Interior** — s-ar putea să găsești la [Dedeman](https://www.dedeman.ro/ro/catalogsearch/result/v2?q=lavabil+baumit), [Leroy Merlin](https://www.leroymerlin.ro/produse/search/lavabil%20baumit), [Hornbach](https://www.hornbach.ro/s/lavabil+baumit), [Brico Depot](https://www.bricodepot.ro/cauta/?q=lavabil+baumit)
+
+Fă asta pentru ORICE produs sau material concret menționat în răspuns — inclusiv când apare în liste cu cantități.
 Regula: dacă ai scris un nume de produs/brand în răspuns, adaugă linkul. Fără excepții.
 
 `

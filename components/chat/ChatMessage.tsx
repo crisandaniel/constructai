@@ -65,7 +65,7 @@ function renderMarkdown(text: string): string {
     .replace(/^- (.*)/gm,      '<li>$1</li>')
     .replace(/(<li>.*?<\/li>\n?)+/gs, (m) => `<ul>${m}</ul>`)
     .replace(/\n\n/g,           '</p><p>')
-    // .replace(/\n/g,             '<br>')
+    .replace(/\n/g,             '<br>')
 }
 
 interface ChatMessageProps {
