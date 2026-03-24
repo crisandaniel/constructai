@@ -1,25 +1,30 @@
 export const runtime = 'nodejs'
 
+interface SubMaterial {
+  id:         string
+  name:       string
+  cantitate:  number
+  unitate:    string
+  pretUnitar: number
+  custom:     boolean
+}
+
 interface WorkItem {
   id:           string
   type:         string
   label:        string
   suprafata:    number
-  grosime:      number
-  materialId:   string | null
-  cantitate:    number
-  saci:         number
-  pretSac:      number
+  materials:    SubMaterial[]
   pretManopera: number
 }
 
 interface DevizPayload {
-  items:           WorkItem[]
-  clientName:      string
-  projectName:     string
-  totalMateriale:  number
-  totalManopera:   number
-  total:           number
+  items:          WorkItem[]
+  clientName:     string
+  projectName:    string
+  totalMateriale: number
+  totalManopera:  number
+  total:          number
 }
 
 export async function POST(req: Request) {
@@ -27,22 +32,42 @@ export async function POST(req: Request) {
   const date = new Date().toLocaleDateString('ro-RO', { day: '2-digit', month: '2-digit', year: 'numeric' })
 
   const rowsHTML = payload.items.map((item, i) => {
-    const totalItem = (item.saci * item.pretSac + item.suprafata * item.pretManopera).toFixed(0)
+    const totMat = item.materials.reduce((s, m) => s + m.cantitate * m.pretUnitar, 0)
+    const totMan = item.suprafata * item.pretManopera
+    const totItem = totMat + totMan
+
+    const materialeRows = item.materials
+      .filter(m => m.name)
+      .map(m => {
+        const total = m.cantitate * m.pretUnitar
+        return `
+          <tr class="mat-row">
+            <td></td>
+            <td class="mat-name-cell">↳ ${m.name}</td>
+            <td class="center">${m.cantitate > 0 ? m.cantitate : '—'} ${m.cantitate > 0 ? m.unitate : ''}</td>
+            <td class="right">${m.pretUnitar > 0 ? m.pretUnitar.toFixed(2) + ' RON' : '—'}</td>
+            <td class="right">${total > 0 ? total.toFixed(0) + ' RON' : '—'}</td>
+          </tr>`
+      }).join('')
+
     return `
       <tr class="item-row">
         <td class="nr">${i + 1}</td>
-        <td class="desc">
-          <strong>${item.label}</strong>
-          ${item.materialId ? `<span class="mat-name">${item.materialId}</span>` : ''}
-        </td>
+        <td class="desc"><strong>${item.label}</strong></td>
         <td class="center">${item.suprafata} m&sup2;</td>
-        <td class="center">${item.grosime > 0 ? item.grosime + ' mm' : '&mdash;'}</td>
-        <td class="center">${item.cantitate.toFixed(1)} kg</td>
-        <td class="center">${item.saci}</td>
-        <td class="right">${item.pretSac > 0 ? item.pretSac + ' RON' : '&mdash;'}</td>
         <td class="right">${item.pretManopera > 0 ? item.pretManopera + ' RON/m&sup2;' : '&mdash;'}</td>
-        <td class="right total-col">${totalItem !== '0' ? totalItem + ' RON' : '&mdash;'}</td>
-      </tr>`
+        <td class="right total-col">${totItem > 0 ? totItem.toFixed(0) + ' RON' : '&mdash;'}</td>
+      </tr>
+      ${materialeRows}
+      ${totMan > 0 ? `
+      <tr class="mat-row manopera-row">
+        <td></td>
+        <td class="mat-name-cell">↳ Manoperă (${item.suprafata} m² × ${item.pretManopera} RON/m²)</td>
+        <td class="center">${item.suprafata} m&sup2;</td>
+        <td class="right">${item.pretManopera} RON/m&sup2;</td>
+        <td class="right">${totMan.toFixed(0)} RON</td>
+      </tr>` : ''}
+      <tr class="spacer-row"><td colspan="5"></td></tr>`
   }).join('')
 
   const html = `<!DOCTYPE html>
@@ -69,14 +94,18 @@ export async function POST(req: Request) {
   thead th { padding:8px 10px; text-align:left; font-size:8px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; }
   thead th.center { text-align:center; }
   thead th.right { text-align:right; }
-  .item-row td { padding:9px 10px; border-bottom:1px solid #f0ece0; vertical-align:top; }
-  .item-row:nth-child(even) td { background:#fdfcf8; }
+  .item-row td { padding:9px 10px; background:#fdfcf8; border-top:2px solid #e8e4d8; vertical-align:top; }
   .item-row td.nr { color:#888; font-size:10px; width:28px; }
-  .item-row td.desc strong { display:block; font-weight:600; }
-  .item-row td.desc .mat-name { display:block; font-size:9px; color:#888; margin-top:2px; }
+  .item-row td.desc strong { font-weight:700; font-size:12px; }
   .item-row td.center { text-align:center; }
   .item-row td.right { text-align:right; }
   .item-row td.total-col { font-weight:700; color:#c9a227; }
+  .mat-row td { padding:5px 10px 5px 20px; border-bottom:1px solid #f5f2e8; vertical-align:top; font-size:10px; color:#555; }
+  .mat-row td.mat-name-cell { color:#444; }
+  .mat-row td.center { text-align:center; }
+  .mat-row td.right { text-align:right; }
+  .manopera-row td { color:#888; font-style:italic; }
+  .spacer-row td { padding:4px; }
   .totals { margin-left:auto; width:280px; }
   .total-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #f0ece0; font-size:11px; }
   .total-row.grand { font-size:14px; font-weight:900; color:#c9a227; border-top:2px solid #c9a227; border-bottom:none; padding-top:10px; margin-top:4px; }
@@ -112,19 +141,28 @@ export async function POST(req: Request) {
 <table>
   <thead>
     <tr>
-      <th>Nr.</th><th>Descriere lucrare</th>
-      <th class="center">Suprafata</th><th class="center">Grosime</th>
-      <th class="center">Cantitate</th><th class="center">Saci</th>
-      <th class="right">Pret/sac</th><th class="right">Manopera</th>
-      <th class="right">Total</th>
+      <th style="width:28px">Nr.</th>
+      <th>Descriere lucrare / Material</th>
+      <th class="center" style="width:90px">Cantitate</th>
+      <th class="right" style="width:110px">Pret unitar</th>
+      <th class="right" style="width:100px">Total</th>
     </tr>
   </thead>
   <tbody>${rowsHTML}</tbody>
 </table>
 <div class="totals">
-  <div class="total-row"><span class="total-label">Total materiale</span><span class="total-value">${payload.totalMateriale.toFixed(0)} RON</span></div>
-  <div class="total-row"><span class="total-label">Total manopera</span><span class="total-value">${payload.totalManopera.toFixed(0)} RON</span></div>
-  <div class="total-row grand"><span>TOTAL GENERAL</span><span>${payload.total.toFixed(0)} RON</span></div>
+  <div class="total-row">
+    <span class="total-label">Total materiale</span>
+    <span class="total-value">${payload.totalMateriale.toFixed(0)} RON</span>
+  </div>
+  <div class="total-row">
+    <span class="total-label">Total manopera</span>
+    <span class="total-value">${payload.totalManopera.toFixed(0)} RON</span>
+  </div>
+  <div class="total-row grand">
+    <span>TOTAL GENERAL</span>
+    <span>${payload.total.toFixed(0)} RON</span>
+  </div>
 </div>
 <div class="footer">
   <div class="footer-note">* Deviz generat automat. Valorile sunt estimative si pot varia in functie de conditiile de pe santier.</div>
