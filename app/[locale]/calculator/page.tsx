@@ -10,7 +10,8 @@ import { useAnalytics } from '@/hooks/useAnalytics'
 
 type WorkType =
   | 'tencuiala' | 'glet' | 'lavabil' | 'faianta' | 'gresie' | 'sapa'
-  | 'hidroizolatie' | 'placa_beton' | 'zidarie' | 'acoperis' | 'custom'
+  | 'hidroizolatie' | 'placa_beton' | 'zidarie' | 'acoperis'
+  | 'electric' | 'sanitare' | 'termice' | 'izolatie_ext' | 'rigips' | 'tamplarie' | 'custom'
 
 interface SubMaterial {
   id:         string
@@ -152,6 +153,86 @@ const WORK_CONFIGS: WorkConfig[] = [
       { name: 'Vată minerală termoizol.',cantitate: 0, unitate: 'mp',   pretUnitar: 0, custom: false },
       { name: 'Coamă / Jgheab',         cantitate: 0, unitate: 'ml',   pretUnitar: 0, custom: false },
       { name: 'Cuie / Șuruburi',        cantitate: 0, unitate: 'kg',   pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'electric',
+    label: 'Instalații electrice',
+    icon:  '⚡',
+    defaultMaterials: [
+      { name: 'Cablu electric (NYM/CYY)', cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Tuburi protecție (PVC)',   cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Doze de derivație',        cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Prize / Întrerupătoare',   cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Tablou electric / sigur.', cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Dibluri / Accesorii fix.', cantitate: 0, unitate: 'set', pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'sanitare',
+    label: 'Instalații sanitare',
+    icon:  '🚿',
+    defaultMaterials: [
+      { name: 'Țeavă PPR / multicurent',  cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Fitinguri (coturi, muf.)', cantitate: 0, unitate: 'set', pretUnitar: 0, custom: false },
+      { name: 'Baterie / Robinet',        cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Vas WC + rezervor',        cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Lavoar / Cadă / Cabină',   cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Sifon / Canalizare PVC',   cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Izolație termică țeavă',   cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'termice',
+    label: 'Instalații termice',
+    icon:  '🔥',
+    defaultMaterials: [
+      { name: 'Centrală termică',         cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Calorifer / Panou rad.',   cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Țeavă cupru / multicur.',  cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Colectoare distribuție',   cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Termostat / Cap term.',    cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Izolație termică țeavă',   cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'izolatie_ext',
+    label: 'Izolație exterioară (polistiren)',
+    icon:  '🧊',
+    defaultMaterials: [
+      { name: 'Polistiren expandat / XPS',cantitate: 0, unitate: 'mp',   pretUnitar: 0, custom: false },
+      { name: 'Adeziv polistiren',        cantitate: 0, unitate: 'saci', pretUnitar: 0, custom: false },
+      { name: 'Dibluri fixare',           cantitate: 0, unitate: 'buc',  pretUnitar: 0, custom: false },
+      { name: 'Plasă fibră de sticlă',    cantitate: 0, unitate: 'mp',   pretUnitar: 0, custom: false },
+      { name: 'Tinci / Grunduit exterior',cantitate: 0, unitate: 'saci', pretUnitar: 0, custom: false },
+      { name: 'Tencuială decorativă',     cantitate: 0, unitate: 'saci', pretUnitar: 0, custom: false },
+      { name: 'Profile colț / soclu',     cantitate: 0, unitate: 'ml',   pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'rigips',
+    label: 'Rigips / Placare',
+    icon:  '📋',
+    defaultMaterials: [
+      { name: 'Placă gipscarton',         cantitate: 0, unitate: 'mp',   pretUnitar: 0, custom: false },
+      { name: 'Profil metalic (C/U)',     cantitate: 0, unitate: 'ml',   pretUnitar: 0, custom: false },
+      { name: 'Șuruburi autoperf.',       cantitate: 0, unitate: 'buc',  pretUnitar: 0, custom: false },
+      { name: 'Bandă armare rosturi',     cantitate: 0, unitate: 'ml',   pretUnitar: 0, custom: false },
+      { name: 'Chit îmbinare rosturi',    cantitate: 0, unitate: 'saci', pretUnitar: 0, custom: false },
+      { name: 'Vată minerală (umplut.)',  cantitate: 0, unitate: 'mp',   pretUnitar: 0, custom: false },
+    ],
+  },
+  {
+    type:  'tamplarie',
+    label: 'Tâmplărie / Uși / Ferestre',
+    icon:  '🚪',
+    defaultMaterials: [
+      { name: 'Ferestre PVC / Aluminiu',  cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Ușă interior',             cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Ușă exterior / intrare',   cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Glaf interior / exterior', cantitate: 0, unitate: 'ml',  pretUnitar: 0, custom: false },
+      { name: 'Spumă poliuretanică',      cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
+      { name: 'Chit / Silicon etanș.',    cantitate: 0, unitate: 'buc', pretUnitar: 0, custom: false },
     ],
   },
   {
