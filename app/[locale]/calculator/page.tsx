@@ -437,7 +437,7 @@ export default function CalculatorPage() {
       {/* Butoane adăugare lucrare */}
       <div className="mb-6">
         <p className="text-xs text-dust uppercase tracking-widest font-bold mb-3">Adaugă lucrare</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 overflow-x-auto pb-1">
           {WORK_CONFIGS.map(w => (
             <button
               key={w.type}
@@ -470,7 +470,7 @@ export default function CalculatorPage() {
               <div key={item.id} className="rounded-xl border border-subtle bg-card overflow-hidden">
 
                 {/* Header lucrare */}
-                <div className="flex items-center justify-between px-5 py-3 border-b border-subtle bg-surface">
+                <div className="flex items-center justify-between px-3 py-3 md:px-5 border-b border-subtle bg-surface">
                   <div className="flex items-center gap-2">
                     <span>{config.icon}</span>
                     {item.type === 'custom' ? (
@@ -479,7 +479,7 @@ export default function CalculatorPage() {
                         value={item.label}
                         onChange={e => updateItemField(item.id, { label: e.target.value })}
                         placeholder="Nume lucrare..."
-                        className="calc__input font-syne font-bold text-sm w-48"
+                        className="calc__input font-syne font-bold text-sm w-36 md:w-48"
                         onClick={e => e.stopPropagation()}
                       />
                     ) : (
@@ -497,7 +497,7 @@ export default function CalculatorPage() {
                   </div>
                 </div>
 
-                <div className="p-5 space-y-6">
+                <div className="p-3 md:p-5 space-y-6">
 
                   {/* Suprafață */}
                   <div className="flex items-center gap-4">
@@ -511,15 +511,17 @@ export default function CalculatorPage() {
                         className="calc__input"
                       />
                     </div>
-                    <p className="text-xs text-dust/60 pt-4">
+                    <p className="hidden md:block text-xs text-dust/60 pt-4">
                       Suprafața se aplică pentru calculul manoperei. Cantitățile de materiale le introduci manual.
                     </p>
                   </div>
 
-                  {/* Tabel materiale */}
+                  {/* Materiale */}
                   <div>
                     <p className="text-xs text-dust font-medium uppercase tracking-widest mb-2">Materiale</p>
-                    <div className="rounded-lg border border-subtle overflow-hidden">
+
+                    {/* Desktop: tabel */}
+                    <div className="hidden md:block rounded-lg border border-subtle overflow-hidden">
                       <table className="w-full text-sm">
                         <thead>
                           <tr className="bg-surface text-xs text-dust border-b border-subtle">
@@ -532,80 +534,77 @@ export default function CalculatorPage() {
                           </tr>
                         </thead>
                         <tbody>
-                          {item.materials.map((mat, mIdx) => (
+                          {item.materials.map((mat) => (
                             <tr key={mat.id} className={`border-b border-subtle last:border-0 ${mat.custom ? 'bg-gold/5' : ''}`}>
-                              {/* Nume */}
                               <td className="px-3 py-2">
                                 {mat.custom ? (
-                                  <input
-                                    type="text"
-                                    value={mat.name}
-                                    onChange={e => updateMaterial(item.id, mat.id, { name: e.target.value })}
-                                    placeholder="Nume material..."
-                                    className="calc__input text-xs w-full"
-                                  />
+                                  <input type="text" value={mat.name} onChange={e => updateMaterial(item.id, mat.id, { name: e.target.value })} placeholder="Nume material..." className="calc__input text-xs w-full" />
                                 ) : (
                                   <span className="text-sand">{mat.name}</span>
                                 )}
                               </td>
-                              {/* Cantitate */}
                               <td className="px-3 py-2">
-                                <input
-                                  type="number"
-                                  min={0}
-                                  step={0.01}
-                                  value={mat.cantitate || ''}
-                                  placeholder="0"
-                                  onChange={e => updateMaterial(item.id, mat.id, { cantitate: parseFloat(e.target.value) || 0 })}
-                                  className="calc__input text-right text-xs w-full"
-                                />
+                                <input type="number" min={0} step={0.01} value={mat.cantitate || ''} placeholder="0" onChange={e => updateMaterial(item.id, mat.id, { cantitate: parseFloat(e.target.value) || 0 })} className="calc__input text-right text-xs w-full" />
                               </td>
-                              {/* U.M. */}
                               <td className="px-3 py-2">
-                                <select
-                                  value={mat.unitate}
-                                  onChange={e => updateMaterial(item.id, mat.id, { unitate: e.target.value })}
-                                  className="calc__select text-xs w-full"
-                                >
+                                <select value={mat.unitate} onChange={e => updateMaterial(item.id, mat.id, { unitate: e.target.value })} className="calc__select text-xs w-full">
                                   {UNITATI.map(u => <option key={u} value={u}>{u}</option>)}
                                 </select>
                               </td>
-                              {/* Preț/unitate */}
                               <td className="px-3 py-2">
-                                <input
-                                  type="number"
-                                  min={0}
-                                  step={0.01}
-                                  value={mat.pretUnitar || ''}
-                                  placeholder="0 RON"
-                                  onChange={e => updateMaterial(item.id, mat.id, { pretUnitar: parseFloat(e.target.value) || 0 })}
-                                  className="calc__input text-right text-xs w-full"
-                                />
+                                <input type="number" min={0} step={0.01} value={mat.pretUnitar || ''} placeholder="0 RON" onChange={e => updateMaterial(item.id, mat.id, { pretUnitar: parseFloat(e.target.value) || 0 })} className="calc__input text-right text-xs w-full" />
                               </td>
-                              {/* Total linie */}
                               <td className="px-3 py-2 text-right">
                                 {mat.cantitate > 0 && mat.pretUnitar > 0 ? (
-                                  <span className="text-sand font-mono text-xs">
-                                    {(mat.cantitate * mat.pretUnitar).toFixed(0)} RON
-                                  </span>
+                                  <span className="text-sand font-mono text-xs">{(mat.cantitate * mat.pretUnitar).toFixed(0)} RON</span>
                                 ) : (
                                   <span className="text-dust/30 text-xs">—</span>
                                 )}
                               </td>
-                              {/* Șterge */}
                               <td className="px-2 py-2">
-                                <button
-                                  onClick={() => removeMaterial(item.id, mat.id)}
-                                  className="text-dust/40 hover:text-red-400 transition text-xs leading-none"
-                                  title="Șterge material"
-                                >
-                                  ×
-                                </button>
+                                <button onClick={() => removeMaterial(item.id, mat.id)} className="text-dust/40 hover:text-red-400 transition text-xs leading-none" title="Șterge material">×</button>
                               </td>
                             </tr>
                           ))}
                         </tbody>
                       </table>
+                    </div>
+
+                    {/* Mobil: carduri stacked */}
+                    <div className="md:hidden space-y-2">
+                      {item.materials.map((mat) => (
+                        <div key={mat.id} className={`rounded-lg border border-subtle p-3 space-y-2 ${mat.custom ? 'bg-gold/5' : 'bg-surface'}`}>
+                          <div className="flex items-center justify-between gap-2">
+                            {mat.custom ? (
+                              <input type="text" value={mat.name} onChange={e => updateMaterial(item.id, mat.id, { name: e.target.value })} placeholder="Nume material..." className="calc__input text-xs flex-1" />
+                            ) : (
+                              <span className="text-sand text-sm font-medium flex-1">{mat.name}</span>
+                            )}
+                            <button onClick={() => removeMaterial(item.id, mat.id)} className="text-dust/40 hover:text-red-400 transition text-base leading-none px-1" title="Șterge">×</button>
+                          </div>
+                          <div className="grid grid-cols-3 gap-2">
+                            <div className="flex flex-col gap-1">
+                              <label className="text-xs text-dust">Cantitate</label>
+                              <input type="number" min={0} step={0.01} value={mat.cantitate || ''} placeholder="0" onChange={e => updateMaterial(item.id, mat.id, { cantitate: parseFloat(e.target.value) || 0 })} className="calc__input text-xs text-right" />
+                            </div>
+                            <div className="flex flex-col gap-1">
+                              <label className="text-xs text-dust">U.M.</label>
+                              <select value={mat.unitate} onChange={e => updateMaterial(item.id, mat.id, { unitate: e.target.value })} className="calc__select text-xs">
+                                {UNITATI.map(u => <option key={u} value={u}>{u}</option>)}
+                              </select>
+                            </div>
+                            <div className="flex flex-col gap-1">
+                              <label className="text-xs text-dust">Preț/u.</label>
+                              <input type="number" min={0} step={0.01} value={mat.pretUnitar || ''} placeholder="0" onChange={e => updateMaterial(item.id, mat.id, { pretUnitar: parseFloat(e.target.value) || 0 })} className="calc__input text-xs text-right" />
+                            </div>
+                          </div>
+                          {mat.cantitate > 0 && mat.pretUnitar > 0 && (
+                            <div className="flex justify-end">
+                              <span className="text-xs font-mono text-gold font-bold">{(mat.cantitate * mat.pretUnitar).toFixed(0)} RON</span>
+                            </div>
+                          )}
+                        </div>
+                      ))}
                     </div>
 
                     {/* Buton adăugare material custom */}
@@ -619,8 +618,8 @@ export default function CalculatorPage() {
 
                   {/* Manoperă — câmp total pe lucrare */}
                   <div className="rounded-lg border border-subtle bg-surface p-4">
-                    <div className="flex items-start justify-between gap-6 flex-wrap">
-                      <div className="flex flex-col gap-1 w-40">
+                    <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-6">
+                      <div className="flex flex-col gap-1 w-full md:w-40">
                         <label className="text-xs text-dust font-medium">Manoperă (RON/m²)</label>
                         <input
                           type="number"
@@ -637,7 +636,7 @@ export default function CalculatorPage() {
 
                       {/* Sumar item */}
                       {(totMat > 0 || totMan > 0) && (
-                        <div className="rounded-lg border border-gold/30 bg-gold/5 px-4 py-3 space-y-1 min-w-[180px]">
+                        <div className="rounded-lg border border-gold/30 bg-gold/5 px-4 py-3 space-y-1 w-full md:min-w-[180px]">
                           {totMat > 0 && (
                             <div className="flex justify-between text-sm">
                               <span className="text-dust">Materiale</span>
