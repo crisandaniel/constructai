@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { locales, type Locale } from '@/i18n'
 import { Header } from '@/components/layout/Header'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { WhatsAppFloat } from '@/components/whatsappfloat/WhatsAppFloat'
+
 
 interface Props {
   children: React.ReactNode
@@ -61,6 +63,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
       <GoogleAnalytics />
       <Header />
       <main className="pt-16 relative z-10 min-h-screen">{children}</main>
+      <WhatsAppFloat />
     </NextIntlClientProvider>
   )
 }
